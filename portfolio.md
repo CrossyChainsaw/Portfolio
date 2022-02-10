@@ -2,17 +2,17 @@
 
 ## Table of contents
  - IP Learning Outcomes
-   - [Outcome 1: Web application](#Outcome-1-You-design-and-build-user-friendly-full-stack-web-applications)
-   - [Outcome 2: Tooling and methodology](#Outcome-2-Tooling-and-methodology)
-   - [Outcome 3: Design and implement (release process)](#Outcome-3-Design-and-implement-release-process)
-   - [Outcome 4: Professional manner](#Outcome-4-Professional-manner)
+   - [Outcome 1: Web application](#outcome-1-web-application)
+   - [Outcome 2: Software quality](#outcome-2-software-quality)
+   - [Outcome 4: CI/CD(release process)](#outcome-4-cicd)
+   - [Outcome 8: Professional](#outcome-8-professional)
  - GP Learning Outcomes
-   - [Outcome 1: Agile method](#Outcome-1-Agile-method)
-   - [Outcome 2: Business processes](#Outcome-2-Business-processes)
-   - [Outcome 3: Requirements and design](#Outcome-3-Requirements-and-design)
-   - [Outcome 4: Cultural differences and ethics](#Outcome-4-Cultural-differences-and-ethics)
-   - [Outcome 5: Professional](#Outcome-5-Professional)
-   - [Outcome 6: Web application](#Outcome-6-Web-application)
+   - [Outcome 1: Web application](#outcome-1-web-application)
+   - [Outcome 3: Agile method](#outcome-3-agile-method)
+   - [Outcome 5: Cultural differences and ethics](#outcome-5-cultural-differences-and-ethics)
+   - [Outcome 6: Requirements and Design](#outcome-6-requirements-and-design)
+   - [Outcome 7: Business processes](#outcome-7-business-processes)
+   - [Outcome 8: Professional](#outcome-8-professional)
 
 # IP Learning Outcomes
 I will explain per learning outcome how I realized it.
