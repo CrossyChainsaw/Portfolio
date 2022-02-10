@@ -18,7 +18,7 @@
  - [Reflection](#reflection)
 
 # GP Learning Outcomes
-I will explain per learning outcome how I realized it.
+I will explain per learning outcome how my work contributes to the corresponding learning outcome
 
 ## Outcome 1: Web application (Group)
 You design and build user-friendly, full-stack web applications.
