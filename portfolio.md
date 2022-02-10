@@ -1,4 +1,4 @@
-# Portfolio Semester 3
+# Portfolio Semester 3 - Kaan Gögcay
 
 ## Table of contents
  - IP Learning Outcomes
