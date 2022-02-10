@@ -2,17 +2,17 @@
 
 ## Table of contents
  - IP Learning Outcomes
-   - [Outcome 1: Web application (Individual)](#outcome-1-web-application-(Individual))
+   - [Outcome 1: Web application (Individual)](#outcome-1-web-application-Individual)
    - [Outcome 2: Software quality](#outcome-2-software-quality)
    - [Outcome 4: CI/CD](#outcome-4-cicd)
-   - [Outcome 8: Professional (Individual)](#outcome-8-professional-(Individual))
+   - [Outcome 8: Professional (Individual)](#outcome-8-professional-Individual)
  - GP Learning Outcomes
-   - [Outcome 1: Web application (Group)](#outcome-1-web-application-(Group))
+   - [Outcome 1: Web application (Group)](#outcome-1-web-application-Group)
    - [Outcome 3: Agile method](#outcome-3-agile-method)
    - [Outcome 5: Cultural differences and ethics](#outcome-5-cultural-differences-and-ethics)
    - [Outcome 6: Requirements and Design](#outcome-6-requirements-and-design)
    - [Outcome 7: Business processes](#outcome-7-business-processes)
-   - [Outcome 8: Professional (Group)](#outcome-8-professional-(Group))
+   - [Outcome 8: Professional (Group)](#outcome-8-professional-Group)
 
 # IP Learning Outcomes
 I will explain per learning outcome how I realized it.
