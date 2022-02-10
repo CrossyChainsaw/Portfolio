@@ -15,6 +15,7 @@
    - [Outcome 2: Software quality](#outcome-2-software-quality)
    - [Outcome 4: CI/CD](#outcome-4-cicd)
    - [Outcome 8: Professional (Individual)](#outcome-8-professional-Individual)
+ - [Reflection](reflection)
 
 # GP Learning Outcomes
 I will explain per learning outcome how I realized it.
@@ -52,3 +53,5 @@ You design and implement a (semi)automated software release process that matches
 ## Outcome 8: Professional (Individual)
 You act in a professional manner during software development and learning.
 
+## Reflection
+// not finished yet
