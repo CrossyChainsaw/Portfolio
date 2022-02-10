@@ -1,6 +1,6 @@
 # Portfolio Semester 3 - Kaan Gögcay
 
-![yoyo](https://github.com/[KaanGogcay]/[Portfolio]/[attachements]/blob/[branch]/KaanGögcay.png?raw=true)
+![Beautiful image of me :)](https://github.com/KaanGogcay/Portfolio/blob/master/attachements/KaanG%C3%B6gcay.png?raw=true)
 
 ## Table of contents
  - GP Learning Outcomes
