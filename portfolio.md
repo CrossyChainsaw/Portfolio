@@ -1,5 +1,7 @@
 # Portfolio Semester 3 - Kaan Gögcay
 
+![yoyo](https://github.com/[KaanGogcay]/[Portfolio]/[attachements]/blob/[branch]/KaanGögcay.png?raw=true)
+
 ## Table of contents
  - GP Learning Outcomes
    - [Outcome 1: Web application (Group)](#outcome-1-web-application-Group)
