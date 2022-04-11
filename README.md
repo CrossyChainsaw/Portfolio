@@ -1,6 +1,6 @@
 # Portfolio Semester 3 - Kaan Gögcay
 
-[![playlist of videos from JavaBrains](https://github.com/KaanGogcay/Portfolio/blob/master/attachments/MicroService.png?raw=true)](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=1&ab_channel=JavaBrains)
+[![playlist of videos from JavaBrains](https://github.com/CrossyChainsaw/Portfolio/blob/master/attachments/microService.png)](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=1&ab_channel=JavaBrains)
 
 ![Beautiful image of me :)](https://github.com/KaanGogcay/Portfolio/blob/master/attachments/KaanG%C3%B6gcay.png?raw=true)
 
