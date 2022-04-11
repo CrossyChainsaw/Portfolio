@@ -1,7 +1,5 @@
 # Portfolio Semester 3 - Kaan Gögcay
 
-[![playlist of videos from JavaBrains](https://github.com/CrossyChainsaw/Portfolio/blob/master/attachments/microService.png)](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=1&ab_channel=JavaBrains)
-
 ![Beautiful image of me :)](https://github.com/KaanGogcay/Portfolio/blob/master/attachments/KaanG%C3%B6gcay.png?raw=true)
 
 ## Table of contents
@@ -55,7 +53,10 @@ You design and implement a (semi)automated software release process that matches
 ## Outcome 8: Professional (Individual)
 You act in a professional manner during software development and learning.
 
-Starting this semester i had never worked with java before, so i had no idea how everything worked and what to do. The teachers had recommended to follow a [playlist of videos from JavaBrains](#https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&ab_channel=JavaBrains). They explained how to setup 3 microservices in java and how to make them communicate with each other. this playlist was very helpful to understand microservices and it helped me get into java.
+Starting this semester i had never worked with java before, so i had no idea how everything worked and what to do. The teachers had recommended to follow a playlist of videos from JavaBrains. They explained how to setup 3 microservices in java and how to make them communicate with each other. this playlist was very helpful to understand microservices and it helped me get into java.
+
+[![playlist of videos from JavaBrains](https://github.com/CrossyChainsaw/Portfolio/blob/master/attachments/microService.png)](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=1&ab_channel=JavaBrains)
+*JavaBrains microservice playlist* 
 
 This semester we have to work with javascript, but since i've also never really worked with javascript, it would be a big challenge. For our group project we decided to use the React framework. i didn't wanna learn 2 frontend frameworks so i decided to use it for my individual project aswel. Instead of javascript we used typescript in our group project, so i decided to use typescript in my individual project aswel for the same reason. typescript isn't like the languages i'm used to. It was so hard for me to learn, everytime if i tried to do something it failed. When i got stuck at the same spot for too long i'd ask my classmate Mike van den Hoef. He was always willing to help me with React typescript.
 
