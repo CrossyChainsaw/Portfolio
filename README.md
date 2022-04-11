@@ -1,6 +1,6 @@
 # Portfolio Semester 3 - Kaan Gögcay
 
-[![playlist of videos from JavaBrains](http://img.youtube.com/vi/y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&ab_channel=JavaBrains/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![playlist of videos from JavaBrains](http://img.youtube.com/vi/y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&ab_channel=JavaBrains/0.jpg)](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=1&ab_channel=JavaBrains)
 
 ![Beautiful image of me :)](https://github.com/KaanGogcay/Portfolio/blob/master/attachements/KaanG%C3%B6gcay.png?raw=true)
 
