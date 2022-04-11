@@ -1,5 +1,7 @@
 # Portfolio Semester 3 - Kaan Gögcay
 
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
 ![Beautiful image of me :)](https://github.com/KaanGogcay/Portfolio/blob/master/attachements/KaanG%C3%B6gcay.png?raw=true)
 
 ## Table of contents
