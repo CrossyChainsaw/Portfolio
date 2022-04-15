@@ -45,6 +45,8 @@ Starting this semester i had never worked with java before, so i had no idea how
 
 [![playlist of videos from JavaBrains](https://github.com/CrossyChainsaw/Portfolio/blob/master/attachments/microService.png)](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=1&ab_channel=JavaBrains)
 *JavaBrains microservice playlist* 
+[![W3schools](https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s176-c-k-c0x00ffffff-no-rj)](https://www.w3schools.com/typescript/index.php)
+*W3schools TypeScript tutorial*
 
 Making a start with React TypeScript was very hard, without any experience i hopped in vscode and tried to do anything. This didn't work out at all. everything i tried failed. My classmate [Mike van den Hoef](https://github.com/Headoros) was always willing to help me but still, it wouldn't work out this way. I decided to plan a TypeScript spike. In this spike i gathered information from the [W3schools TypeScript tutorial](https://www.w3schools.com/typescript/index.php) and at the same time i practised everything i was learning in a test project. 
 
