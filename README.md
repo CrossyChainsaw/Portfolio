@@ -1,6 +1,6 @@
 # Portfolio Semester 3 - Kaan Gögcay
 
-![Beautiful image of me :)](https://github.com/KaanGogcay/Portfolio/blob/master/attachments/KaanG%C3%B6gcay.png?raw=true)
+![Beautiful image of me :)](https://github.com/KaanGogcay/Portfolio/blob/master/Assets/img/KaanG%C3%B6gcay.png?raw=true)
 
 ## Table of contents
  - Learning Outcomes
@@ -43,7 +43,7 @@ I will explain per learning outcome how my work contributes to the corresponding
 
 Starting this semester i had never worked with java before, so i had no idea how everything worked and what to do. The teachers had recommended to follow a [playlist of videos from JavaBrains](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=2). They explained how to setup 3 microservices in java and how to make them communicate with each other. this playlist was very helpful to understand microservices and it helped me get into java.
 
-[![playlist of videos from JavaBrains](https://github.com/CrossyChainsaw/Portfolio/blob/master/attachments/microService.png)](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=1&ab_channel=JavaBrains)
+[![playlist of videos from JavaBrains](https://github.com/CrossyChainsaw/Portfolio/blob/master/Assets/img/microService.png)](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=1&ab_channel=JavaBrains)
 *JavaBrains microservice playlist* 
 [![W3schools](https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s176-c-k-c0x00ffffff-no-rj)](https://www.w3schools.com/typescript/index.php)
 *W3schools TypeScript tutorial*
