@@ -57,7 +57,7 @@ I also planned a React spike, same concept as above, I just try to gather as muc
 
 [![W3schools](https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s176-c-k-c0x00ffffff-no-rj)](https://www.w3schools.com/REACT/default.asp)
 *W3schools React tutorial*
-[![TheCodingDen](https://github.com/CrossyChainsaw/Portfolio/blob/master/Assets/img/microService.png)](https://discord.com/invite/code)
+[![TheCodingDen](https://github.com/CrossyChainsaw/Portfolio/blob/master/Assets/img/TheCodingDen.png)](https://discord.com/invite/code)
 *The Coding Den Discord*
 
 ### The Coding Den
