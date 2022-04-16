@@ -21,7 +21,7 @@ I will explain per learning outcome how my work contributes to the corresponding
 *You design and build user-friendly, full-stack web applications.*
 
 ### C-Models
-I started off making an architecture for my web application. This gives me a good summary of what i should make.
+I started off making an architecture for my web application. This gives me a good summary of what my application will look like.
 
 ![C-Models](https://github.com/CrossyChainsaw/Portfolio/blob/master/Assets/img/C-Models.png)
 
