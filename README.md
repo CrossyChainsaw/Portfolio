@@ -48,6 +48,8 @@ Starting this semester i had never worked with java before, so i had no idea how
 [![W3schools](https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s176-c-k-c0x00ffffff-no-rj)](https://www.w3schools.com/typescript/index.php)
 *W3schools TypeScript tutorial*
 
-Making a start with React TypeScript was very hard, without any experience i hopped in vscode and tried to do anything. This didn't work out at all. everything i tried failed. My classmate [Mike van den Hoef](https://github.com/Headoros) was always willing to help me but still, it wouldn't work out this way. I decided to plan a TypeScript spike. In this spike i gathered information from the [W3schools TypeScript tutorial](https://www.w3schools.com/typescript/index.php) and at the same time i practised everything i was learning in a test project. TypeScript is such an awesome languange.
+Making a start with React TypeScript was very hard, without any experience I hopped in vscode and tried to do anything. This didn't work out at all. everything i tried failed. My classmate [Mike van den Hoef](https://github.com/Headoros) was always willing to help me but still, It wouldn't work out this way. I decided to plan a TypeScript spike. In this spike I gathered information from the [W3schools TypeScript tutorial](https://www.w3schools.com/typescript/index.php) and at the same time i practised everything I was learning in a test project. TypeScript is such an awesome languange.
+
+I also planned a React spike, same concept as above, I just try to gather as much information about React and try to implement it. I really like this type of learning and it always works out for me. For React I used the [W3schools React tutorial](https://www.w3schools.com/REACT/default.asp). In my opinion W3schools has the best tutorials to learn the basics.
 
 ## Reflection
