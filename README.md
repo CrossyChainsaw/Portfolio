@@ -55,4 +55,7 @@ Making a start with React TypeScript was very hard, without any experience I hop
 ### React
 I also planned a React spike, same concept as above, I just try to gather as much information about React and try to implement it. I really like this type of learning and it always works out for me. For React I used the [W3schools React tutorial](https://www.w3schools.com/REACT/default.asp). In my opinion W3schools has the best tutorials to learn the basics.
 
+### The Coding Den
+Always if i get stuck with a coding problem, I try to google it myself first. But if I really can't find an answer I ask help in a discord called [The Coding Den](https://discord.gg/code). In this discord you can ask question about basically any coding language. It always has been really usefull for me so, big shoutout to them :)
+
 ## Reflection
