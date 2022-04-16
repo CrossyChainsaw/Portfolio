@@ -20,6 +20,14 @@ I will explain per learning outcome how my work contributes to the corresponding
 ## Outcome 1: Web application
 *You design and build user-friendly, full-stack web applications.*
 
+### C-Models
+I started off making an architecture for my web application. 
+
+![C1-Model](https://github.com/CrossyChainsaw/Portfolio/blob/master/Assets/img/C1-Model.png)
+*C1-Model*
+![C2-Model](https://github.com/CrossyChainsaw/Portfolio/blob/master/Assets/img/C2-Model.png)
+*C2-Model*
+
 ## Outcome 2: Software quality
 *You use software tooling and methodology that continuously monitors and improve the software quality during software development.*
 
