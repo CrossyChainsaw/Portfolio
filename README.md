@@ -36,17 +36,28 @@ Next I chose a user story and implemented it into the application. If the user s
 ## Outcome 3: Agile method
 *You choose and implement the most suitable agile software development method for your software project.*
 
+(vertel iets over jira en groepsproject)
+(vertel iets over github en individual)
+
 ## Outcome 4: CI/CD
 *You design and implement a (semi)automated software release process that matches the needs of the project context.*
+
+(vertel iets over ci/cd... duhh)
 
 ## Outcome 5: Cultural differences and ethics
 *You recognize and take into account cultural differences between project stakeholders and ethical aspects in software development.*
 
+(?)
+
 ## Outcome 6: Requirements and Design
 *You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques.*
 
+(ehhh misschien user stories weer hier?)
+
 ## Outcome 7: Business processes
 *You analyze and describe simple business processes that are related to your project.*
+
+(i dont have one rn)
 
 ## Outcome 8: Professional
 *You act in a professional manner during software development and learning.*
