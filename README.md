@@ -20,15 +20,7 @@ I will explain per learning outcome how my work contributes to the corresponding
 ## Outcome 1: Web application
 *You design and build user-friendly, full-stack web applications.*
 
-### C-Models
-I started off making an architecture for my web application. This gives me a good summary of what my application will look like.
-
-![C-Models](https://github.com/CrossyChainsaw/Portfolio/blob/master/Assets/img/C-Models.png)
-
-*C1-Model and C2-Model*
-
-### User Stories
-Next I chose a user story and implemented it into the application. If the user story was entirely completed I continued with another one. Like this I tried to realise as many user stories as possible.
+I am making a online 'hangman-like' game. I'm making the frontend in React TypeScript, and of course (since I'm the WinForms master) I'm making the backend in WinForms C#. I gave ASP.NET a chance but it all looked way too complicated, and always if I try to find online support about ASP.NET for some reason it doesn't help me. So I decided to go for WinForms. On WinForms I ALWAYS accomplish what I want to do. And also, I always have so much fun in WinForms so seems like a good choice to me.
 
 ## Outcome 2: Software quality
 *You use software tooling and methodology that continuously monitors and improve the software quality during software development.*
@@ -36,8 +28,8 @@ Next I chose a user story and implemented it into the application. If the user s
 ## Outcome 3: Agile method
 *You choose and implement the most suitable agile software development method for your software project.*
 
-(vertel iets over jira en groepsproject)
-(vertel iets over github en individual)
+(vertel iets over jira scrum en groepsproject)
+(vertel iets over github waterfal en individual)
 
 ## Outcome 4: CI/CD
 *You design and implement a (semi)automated software release process that matches the needs of the project context.*
@@ -52,6 +44,16 @@ Next I chose a user story and implemented it into the application. If the user s
 ## Outcome 6: Requirements and Design
 *You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques.*
 
+### User Stories
+Next I chose a user story and implemented it into the application. If the user story was entirely completed I continued with another one. Like this I tried to realise as many user stories as possible.
+
+### C-Models
+I started off making an architecture for my web application. This gives me a good summary of what my application will look like.
+
+![C-Models](https://github.com/CrossyChainsaw/Portfolio/blob/master/Assets/img/C-Models.png)
+
+*C1-Model and C2-Model*
+
 (ehhh misschien user stories weer hier?)
 
 ## Outcome 7: Business processes
@@ -63,7 +65,7 @@ Next I chose a user story and implemented it into the application. If the user s
 *You act in a professional manner during software development and learning.*
 
 ### Java
-Starting this semester i had never worked with java before, so i had no idea how everything worked and what to do. The teachers had recommended to follow a [playlist of videos from JavaBrains](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=2). They explained how to setup 3 microservices in java and how to make them communicate with each other. this playlist was very helpful to understand microservices and it helped me get into java.
+I had never worked with java before, so it might be pretty useful to work once with Java aswel. The teachers had recommended me to follow a [playlist of videos from JavaBrains](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=2). They explain how to setup 3 microservices in java and how to make them communicate with each other. this playlist was very helpful to understand microservices and it helped me get into java.
 
 [![playlist of videos from JavaBrains](https://github.com/CrossyChainsaw/Portfolio/blob/master/Assets/img/microService.png)](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=1&ab_channel=JavaBrains)
 *JavaBrains microservice playlist* 
