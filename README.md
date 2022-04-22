@@ -52,7 +52,7 @@ I started off making an architecture for my web application. This gives me a goo
 
 ![C-Models](https://github.com/CrossyChainsaw/Portfolio/blob/master/Assets/img/C-Models.png)
 
-*C1-Model and C2-Model*
+*C1-Model and C2-Model (C2 is outdated)*
 
 (ehhh misschien user stories weer hier?)
 
