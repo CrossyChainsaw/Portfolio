@@ -25,6 +25,8 @@ I am making a online 'hangman-like' game. I'm making the frontend in React TypeS
 ## Outcome 2: Software quality
 *You use software tooling and methodology that continuously monitors and improve the software quality during software development.*
 
+I looked into this outcome and saw lots of unknown testing methods and code reviews. So I decided to put a focus on this learning outcome. I looked up everything one by one and wrote it out for myself. Its all in this document, I know it's not much but it's enough for me to understand so. [DOCUMENT] 
+
 ## Outcome 3: Agile method
 *You choose and implement the most suitable agile software development method for your software project.*
 
