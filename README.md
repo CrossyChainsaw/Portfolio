@@ -14,6 +14,8 @@
    - [Outcome 8: Professional](#outcome-8-professional)
  - [Reflection](#reflection)
 
+(vertel ergens iets over api discod bot brawlhalla)
+
 # Learning Outcomes
 I will explain per learning outcome how my work contributes to the corresponding learning outcome
 
