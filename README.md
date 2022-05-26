@@ -28,13 +28,19 @@ I am making a online 'hangman-like' game. I'm making the frontend in React TypeS
 ## Outcome 2: Software quality
 *You use software tooling and methodology that continuously monitors and improve the software quality during software development.*
 
-I looked into this outcome and saw lots of unknown testing methods and code reviews. So I decided to put a focus on this learning outcome. I looked up everything one by one and wrote it out for myself. Its all in this document, I know it's not much but it's enough for me to understand so. [DOCUMENT] 
+I looked into this outcome and saw lots of unknown testing methods and code reviews. So I decided to look it all up and write very basic tests to refresh/learn the testing methods. After writing basic unit/integration/regression tests, I decided to write tests that are useful for my application.
+
+### Code Quality Analysis
+Visual Studio itself provides a funtionality where you can automatically check the names of your variable, types, methods and so on. I used the [default coding conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) from microsoft in my project. Usually I try to check all these names myself to create a nice overview. By implementing Code Quality Analysis it all happens automatically. Making this happens automically ensures that nothing gets looked over.
 
 ## Outcome 3: Agile method
 *You choose and implement the most suitable agile software development method for your software project.*
 
-(vertel iets over jira scrum en groepsproject)
-(vertel iets over github waterfal en individual)
+### Group Project
+In our group project we used the scrum method, we cycled with the scrummaster role so everyone knows what it feels to be scrummaster. We worked in sprints of 3 weeks. idrk what else to tell
+
+### Individual Project
+In my individual project I always like to do something simular to the waterfall method. I just start working on my project till it's done, easy as that. No specific planning or anything else. Till now this worked perfectly fine so I will probably keep using this method for a while.
 
 ## Outcome 4: CI/CD
 *You design and implement a (semi)automated software release process that matches the needs of the project context.*
