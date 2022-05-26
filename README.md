@@ -1,6 +1,7 @@
 # Portfolio Semester 3 - Kaan Gögcay
 
-![Beautiful image of me :)](https://github.com/KaanGogcay/Portfolio/blob/master/Assets/img/KaanG%C3%B6gcay.png?raw=true)
+maybe put image of webapp here
+![Beautiful image of me :)]()
 
 ## Table of contents
  - Learning Outcomes
