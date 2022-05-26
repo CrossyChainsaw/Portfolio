@@ -90,4 +90,13 @@ I also planned a React spike, same concept as above, I just try to gather as muc
 ### The Coding Den
 Always if i get stuck with a coding problem, I try to google it myself first. But if I really can't find an answer I ask help in a discord called [The Coding Den](https://discord.gg/code). In this discord you can ask question about basically any coding language. It always has been really usefull for me so, big shoutout to them :)
 
+## Researches
+I'm going to research the topic Machine Learning for my project since i'd like to create a very smart enemy in my webgame, also usually AI isn't used in games so it would also be pretty unique. School heavily recommends using the DOT-Framework. But the DOT-Framework looks so vague to me, and since it's not so well known i can't find too much information about it. So i'm gonna just try to research something my own way and ask feedback every now and then to see if i'm going in the right direction.
+
+### Machine Learning
+beepboop
+
+
+(heel portfolio omgooien en gwn een leuke presentatie van mn werk maken ipv sorteren op leeruitkomsten)
+
 ## Reflection
