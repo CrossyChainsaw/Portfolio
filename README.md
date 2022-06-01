@@ -1,76 +1,28 @@
 # Portfolio Semester 3 - Kaan Gögcay
 
-maybe put image of webapp here
-![Beautiful image of me :)]()
+image of all products
 
 ## Table of contents
- - Learning Outcomes
-   - [Outcome 1: Web application](#outcome-1-web-application)
-   - [Outcome 2: Software quality](#outcome-2-software-quality)
-   - [Outcome 3: Agile method](#outcome-3-agile-method)
-   - [Outcome 4: CI/CD](#outcome-4-cicd)
-   - [Outcome 5: Cultural differences and ethics](#outcome-5-cultural-differences-and-ethics)
-   - [Outcome 6: Requirements and Design](#outcome-6-requirements-and-design)
-   - [Outcome 7: Business processes](#outcome-7-business-processes)
-   - [Outcome 8: Professional](#outcome-8-professional)
- - [Reflection](#reflection)
+ - Products
+   - [Reverse Hangman Online](#reverse-hangman-online)
+   - [Restaurant Ordering System](#restaurant-ordering-system)
+   - [Ranknir](#ranknir)
+ - Research
+   - [How do I create a challenging bot for my game?]
+   - [How secure is a Webgame?] 
 
 (vertel ergens iets over api discod bot brawlhalla)
 
-# Learning Outcomes
-I will explain per learning outcome how my work contributes to the corresponding learning outcome
+# Products
 
-## Outcome 1: Web application
-*You design and build user-friendly, full-stack web applications.*
+## Reverse Hangman Online
+IP
 
-I am making a online 'hangman-like' game. I'm making the frontend in React TypeScript, and of course (since I'm the WinForms master) I'm making the backend in WinForms C#. I gave ASP.NET a chance but it all looked way too complicated, and always if I try to find online support about ASP.NET for some reason it doesn't help me. So I decided to go for WinForms. On WinForms I ALWAYS accomplish what I want to do. And also, I always have so much fun in WinForms so seems like a good choice to me.
+## Restaurant Ordering System
+GP
 
-## Outcome 2: Software quality
-*You use software tooling and methodology that continuously monitors and improve the software quality during software development.*
-
-I looked into this outcome and saw lots of unknown testing methods and code reviews. So I decided to look it all up and write very basic tests to refresh/learn the testing methods. After writing basic unit/integration/regression tests, I decided to write tests that are useful for my application.
-
-### Code Quality Analysis
-Visual Studio itself provides a funtionality where you can automatically check the names of your variable, types, methods and so on. I used the [default coding conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) from microsoft in my project. Usually I try to check all these names myself to create a nice overview. By implementing Code Quality Analysis it all happens automatically. Making this happens automically ensures that nothing gets looked over.
-
-## Outcome 3: Agile method
-*You choose and implement the most suitable agile software development method for your software project.*
-
-### Group Project
-In our group project we used the scrum method, we cycled with the scrummaster role so everyone knows what it feels to be scrummaster. We worked in sprints of 3 weeks. idrk what else to tell
-
-### Individual Project
-In my individual project I always like to do something simular to the waterfall method. I just start working on my project till it's done, easy as that. No specific planning or anything else. Till now this worked perfectly fine so I will probably keep using this method for a while.
-
-## Outcome 4: CI/CD
-*You design and implement a (semi)automated software release process that matches the needs of the project context.*
-
-(vertel iets over ci/cd... duhh)
-
-## Outcome 5: Cultural differences and ethics
-*You recognize and take into account cultural differences between project stakeholders and ethical aspects in software development.*
-
-(?)
-
-## Outcome 6: Requirements and Design
-*You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques.*
-
-### User Stories
-Next I chose a user story and implemented it into the application. If the user story was entirely completed I continued with another one. Like this I tried to realise as many user stories as possible.
-
-### C-Models
-I started off making an architecture for my web application. This gives me a good summary of what my application will look like.
-
-![C-Models](https://github.com/CrossyChainsaw/Portfolio/blob/master/Assets/img/C-Models.png)
-
-*C1-Model and C2-Model (C2 is outdated)*
-
-(ehhh misschien user stories weer hier?)
-
-## Outcome 7: Business processes
-*You analyze and describe simple business processes that are related to your project.*
-
-(i dont have one rn)
+## Ranknir
+FUN
 
 ## Outcome 8: Professional
 *You act in a professional manner during software development and learning.*
@@ -96,14 +48,3 @@ I also planned a React spike, same concept as above, I just try to gather as muc
 
 ### The Coding Den
 Always if i get stuck with a coding problem, I try to google it myself first. But if I really can't find an answer I ask help in a discord called [The Coding Den](https://discord.gg/code). In this discord you can ask question about basically any coding language. It always has been really usefull for me so, big shoutout to them :)
-
-## Researches
-I'm going to research the topic Machine Learning for my project since i'd like to create a very smart enemy in my webgame, also usually AI isn't used in games so it would also be pretty unique. School heavily recommends using the DOT-Framework. But the DOT-Framework looks so vague to me, and since it's not so well known i can't find too much information about it. So i'm gonna just try to research something my own way and ask feedback every now and then to see if i'm going in the right direction.
-
-### Machine Learning
-beepboop
-
-
-(heel portfolio omgooien en gwn een leuke presentatie van mn werk maken ipv sorteren op leeruitkomsten)
-
-## Reflection
