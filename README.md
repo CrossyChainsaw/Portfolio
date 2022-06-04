@@ -9,8 +9,8 @@ image of all products
    - [Restaurant Ordering System](#restaurant-ordering-system)
    - [Ranknir](#ranknir)
  - [Research](#research)
-   - [How do I create a challenging bot for my game?]
-   - [Which database fits my application the best?] 
+   - [How do I create a fair but challenging bot for my game?](#how-do-i-create-a-fair-but-challenging-bot-for-my-game)
+   - [Which database fits my application the best?](#which-database-fits-my-application-the-best)
 
 # Preface
 Whilest reading you might encounter certain terms like IP, GP and S3, these refer to the terms Individual Project, Group Project and Semester 3 respectively. I'll start with showing all products I made this semester and then we will go into the researches I did. Nothing else to add, have fun reading.
@@ -34,3 +34,9 @@ GP
 Ranknir is a discord bot I coded for fun in my spare time this semester. I've made lots of side projects this semester, but since I really like this one a lot I've put it here. Read more about Ranknir in it's documentation. 
 
 [Ranknir Documentation](https://github.com/CrossyChainsaw/Ranknir)
+
+# Research
+
+## How do I create a fair but challenging bot for my game?
+
+## Which database fits my application the best?
