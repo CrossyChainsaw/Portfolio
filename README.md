@@ -3,48 +3,33 @@
 image of all products
 
 ## Table of contents
- - Products
+ - [Preface](#preface)
+ - [Products](#products)
    - [Reverse Hangman Online](#reverse-hangman-online)
    - [Restaurant Ordering System](#restaurant-ordering-system)
    - [Ranknir](#ranknir)
- - Research
+ - [Research](#research)
    - [How do I create a challenging bot for my game?]
-   - [How secure is a Webgame?] 
+   - [Which database fits my application the best?] 
 
-(vertel ergens iets over api discod bot brawlhalla)
+# Preface
+Whilest reading you might encounter certain terms like IP, GP and S3, these refer to the terms Individual Project, Group Project and Semester 3 respectively. I'll start with showing all products I made this semester and then we will go into the researches I did. Nothing else to add, have fun reading.
 
 # Products
+This semester I had to realise all the learning outcomes of semester 3. Per product I will explain how i realised the corresponding learning outcome. Here's a list with all the learning outcomes. I'll also include a list of requirements I have to realise this semester in my individual project.
+
+[Learning Outcomes S3](https://fhict.instructure.com/courses/12078/outcomes)
+[List of requirements Individual Project](https://fhict.instructure.com/courses/12078/pages/what-should-be-covered-in-my-individual-project?module_item_id=749928)
 
 ## Reverse Hangman Online
-IP
+Reverse Hangman Online is a game I made for my individual project. Everything about Reverse Hangman Online can be found in it's documentation.
+
+[Reverse Hangman Online Documentation](https://github.com/Epic-Chainsaw-Massacre)
 
 ## Restaurant Ordering System
 GP
 
 ## Ranknir
-FUN
+Ranknir is a discord bot I coded for fun in my spare time this semester. I've made lots of side projects this semester, but since I really like this one a lot I've put it here. Read more about Ranknir in it's documentation. 
 
-## Outcome 8: Professional
-*You act in a professional manner during software development and learning.*
-
-### Java
-I had never worked with java before, so it might be pretty useful to work once with Java aswel. The teachers had recommended me to follow a [playlist of videos from JavaBrains](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=2). They explain how to setup 3 microservices in java and how to make them communicate with each other. this playlist was very helpful to understand microservices and it helped me get into java.
-
-[![playlist of videos from JavaBrains](https://github.com/CrossyChainsaw/Portfolio/blob/master/Assets/img/microService.png)](https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&index=1&ab_channel=JavaBrains)
-*JavaBrains microservice playlist* 
-[![W3schools](https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s176-c-k-c0x00ffffff-no-rj)](https://www.w3schools.com/typescript/index.php)
-*W3schools TypeScript tutorial*
-
-### TypeScript
-Making a start with React TypeScript was very hard, without any experience I hopped in vscode and tried to do anything. This didn't work out at all. Everything I tried failed. My classmate [Mike van den Hoef](https://github.com/Headoros) was always willing to help me but still, It wouldn't work out this way. I decided to plan a TypeScript spike. In this spike I gathered information from the [W3schools TypeScript tutorial](https://www.w3schools.com/typescript/index.php) and at the same time i practised everything I was learning in a test project. TypeScript is such an awesome languange.
-
-### React
-I also planned a React spike, same concept as above, I just try to gather as much information about React and try to implement it. I really like this type of learning and it always works out for me. For React I used the [W3schools React tutorial](https://www.w3schools.com/REACT/default.asp). In my opinion W3schools has the best tutorials to learn the basics.
-
-[![W3schools](https://yt3.ggpht.com/dW6to0x5Crmeh7yi-YPLcQRqVrBtx2BSh8eoKTJbE8NbjloQ0sqlmdszIlxokJU_97-ndOt_=s176-c-k-c0x00ffffff-no-rj)](https://www.w3schools.com/REACT/default.asp)
-*W3schools React tutorial*
-[![TheCodingDen](https://github.com/CrossyChainsaw/Portfolio/blob/master/Assets/img/TheCodingDen.png)](https://discord.com/invite/code)
-*The Coding Den Discord*
-
-### The Coding Den
-Always if i get stuck with a coding problem, I try to google it myself first. But if I really can't find an answer I ask help in a discord called [The Coding Den](https://discord.gg/code). In this discord you can ask question about basically any coding language. It always has been really usefull for me so, big shoutout to them :)
+[Ranknir Documentation](https://github.com/CrossyChainsaw/Ranknir)
