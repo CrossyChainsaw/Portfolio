@@ -19,6 +19,7 @@ Whilest reading you might encounter certain terms like IP, GP and S3, these refe
 This semester I had to realise all the learning outcomes of semester 3. Per product I will explain how i realised the corresponding learning outcome. Here's a list with all the learning outcomes. I'll also include a list of requirements I have to realise this semester in my individual project.
 
 [Learning Outcomes S3](https://fhict.instructure.com/courses/12078/outcomes)
+
 [List of requirements Individual Project](https://fhict.instructure.com/courses/12078/pages/what-should-be-covered-in-my-individual-project?module_item_id=749928)
 
 ## Reverse Hangman Online
