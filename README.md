@@ -31,6 +31,7 @@ Reverse Hangman Online is a game I made for my individual project. Everything ab
 GP
 
 ## Ranknir
+miss ook iets over battle sim?
 Ranknir is a discord bot I coded for fun in my spare time this semester. I've made lots of side projects this semester, but since I really like this one a lot I've put it here. Read more about Ranknir in it's documentation. 
 
 [Ranknir Documentation](https://github.com/CrossyChainsaw/Ranknir)
