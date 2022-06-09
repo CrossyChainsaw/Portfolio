@@ -6,6 +6,7 @@ image of all products
  - [Preface](#preface)
  - [Products](#products)
    - [Reverse Hangman Online](#reverse-hangman-online)
+     - [Learning Outcome 1](#learning-outcome-1)
    - [Restaurant Ordering System](#restaurant-ordering-system)
    - [Ranknir](#ranknir)
  - [Research](#research)
@@ -22,16 +23,36 @@ This semester I had to realise all the learning outcomes of semester 3. Per prod
 
 [List of requirements Individual Project](https://fhict.instructure.com/courses/12078/pages/what-should-be-covered-in-my-individual-project?module_item_id=749928)
 
-## Reverse Hangman Online
-Reverse Hangman Online is a game I made for my individual project. Everything about Reverse Hangman Online can be found in it's documentation.
+# Reverse Hangman Online
+Reverse Hangman Online is a game I made for my individual project. I will explain per learning outcome how I realised it with my individual project. Everthing about Reverse Hangman Online itself can be found in its documentation.
 
 [Reverse Hangman Online Documentation](https://github.com/Epic-Chainsaw-Massacre)
 
-## Restaurant Ordering System
+## Learning Outcome 1
+*You design and build user-friendly, full-stack web applications.*
+
+*clarification*
+*Tooling and methodology: Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews.*
+
+Reverse Hangman Online is my full-stack web application.
+
+### Front-end
+The front-end has been made in React-TypeScript
+
+### Back-end
+The back-end has partially been made in C# .Net and partially in Java Spring
+
+### UX-Testing
+I sadly haven't been able to do user experience testing since my application wasn't done yet. So I couldn't let someone test it. Parts of my application were done quite early but the game itself wasn't.
+
+## Learning Outcome 2
+*You use software tooling and methodology that continuously monitors and improve the software quality during software development.*
+
+
+# Restaurant Ordering System
 GP
 
-## Ranknir
-miss ook iets over battle sim?
+# Ranknir
 Ranknir is a discord bot I coded for fun in my spare time this semester. I've made lots of side projects this semester, but since I really like this one a lot I've put it here. Read more about Ranknir in it's documentation. 
 
 [Ranknir Documentation](https://github.com/CrossyChainsaw/Ranknir)
