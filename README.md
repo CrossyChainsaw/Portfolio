@@ -9,7 +9,6 @@ image of all products
      - [Learning Outcome 1](#learning-outcome-1)
      - [Learning Outcome 2](#learning-outcome-2)
    - [Restaurant Ordering System](#restaurant-ordering-system)
-   - [Ranknir](#ranknir)
  - [Research](#research)
    - [How do I create a fair but challenging bot for my game?](#how-do-i-create-a-fair-but-challenging-bot-for-my-game)
    - [Which database fits my application the best?](#which-database-fits-my-application-the-best)
@@ -69,11 +68,6 @@ blank
 
 # Restaurant Ordering System
 GP
-
-# Ranknir
-Ranknir is a discord bot I coded for fun in my spare time this semester. I've made lots of side projects this semester, but since I really like this one a lot I've put it here. Read more about Ranknir in it's documentation. 
-
-[Ranknir Documentation](https://github.com/CrossyChainsaw/Ranknir)
 
 # Research
 
