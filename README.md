@@ -31,8 +31,9 @@ Reverse Hangman Online is a game I made for my individual project. I will explai
 ## Learning Outcome 1
 *You design and build user-friendly, full-stack web applications.*
 
-*clarification*
-*Tooling and methodology: Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews.*
+Clarification
+
+Tooling and methodology: Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews.
 
 Reverse Hangman Online is my full-stack web application.
 
