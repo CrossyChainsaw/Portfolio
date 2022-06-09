@@ -40,8 +40,11 @@ Ranknir is a discord bot I coded for fun in my spare time this semester. I've ma
 
 ## Which database fits my application the best?
 For this research I made use of the DOT framework.
+
 What: I want to research which database fit my application the best.
+
 Why: Instead of choosing a random database, I'd like to know which database fits my application the best. Because if you realize you chose the wrong database in the middle of the project it might cost a lot of time, effort and money(for a company, I'm just a student).
+
 How: Find multiple articles about how to choose the right database for your application, validate them, and use them for my project.
 
 
