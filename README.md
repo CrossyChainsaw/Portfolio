@@ -100,7 +100,17 @@ blank v
 [FeedPulse PDF Report](#blank)
 
 # Restaurant Ordering System
-GP
+The Restaurant Ordering System was my group project this semester. I made it together with [Mike van den Hoef](https://github.com/Headoros)
+
+## Learning Outcome 1
+*You design and build **user-friendly**, **full-stack** web applications.*
+
+Clarification:
+
+**User friendly**: You apply basic User experience testing and development techniques.
+
+**Full-stack**: You design and build a full stack application using commonly accepted front end (Javascript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
+
 
 # Research
 
