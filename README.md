@@ -6,11 +6,17 @@ image of all products
  - [Preface](#preface)
  - [Products](#products)
    - [Reverse Hangman Online](#reverse-hangman-online)
-     - [Learning Outcome 1](#learning-outcome-1)
-     - [Learning Outcome 2](#learning-outcome-2)
-     - [Learning Outcome 4](#learning-outcome-4)
-     - [Learning Outcome 8](#learning-outcome-8)
+     - [Learning Outcome 1: Web Application (IP)](#learning-outcome-1-web-application-ip)
+     - [Learning Outcome 2: Software Quality](#learning-outcome-2-software-quality)
+     - [Learning Outcome 4: CI/CD](#learning-outcome-4-cicd)
+     - [Learning Outcome 8: Professional (IP)](#learning-outcome-8-professional-ip)
    - [Restaurant Ordering System](#restaurant-ordering-system)
+     - [Learning Outcome 1](#learning-outcome-1-gp)
+     - [Learning Outcome 3](#learning-outcome-3)
+     - [Learning Outcome 5](#learning-outcome-5)
+     - [Learning Outcome 6](#learning-outcome-6)
+     - [Learning Outcome 7](#learning-outcome-7)
+     - [Learning Outcome 8](#learning-outcome-8-gp)
  - [Research](#research)
    - [How do I create a fair but challenging bot for my game?](#how-do-i-create-a-fair-but-challenging-bot-for-my-game)
    - [Which database fits my application the best?](#which-database-fits-my-application-the-best)
@@ -30,7 +36,7 @@ Reverse Hangman Online is a game I made for my individual project. I will explai
 
 [Reverse Hangman Online Documentation](https://github.com/Epic-Chainsaw-Massacre)
 
-## Learning Outcome 1
+## Learning Outcome 1: Web Application (IP)
 *You design and build **user-friendly**, **full-stack** web applications.*
 
 Clarification:
@@ -52,7 +58,7 @@ The back-end has partially been made in C# .Net and partially in Java Spring.
 ### UX-Testing
 I sadly haven't been able to do user experience testing since my application wasn't done yet. So I couldn't let someone test it. Parts of my application were done quite early but the game itself wasn't.
 
-## Learning Outcome 2
+## Learning Outcome 2: Software Quality
 *You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.*
 
 Clarification:
@@ -68,7 +74,7 @@ blank
 ### Code Reviews
 blank
 
-## Learning Outcome 4
+## Learning Outcome 4: CI/CD
 *You **design and implement** a (semi)automated software release process that matches the needs of the project context.*
 
 Clarification:
@@ -85,7 +91,7 @@ In my front-end and my back-end I've setup a ci pipeline. The pipeline build my 
 ### Continous Deployment
 blank
 
-## Learning Outcome 8
+## Learning Outcome 8: Professional (IP)
 *You act in a **professional manner** during software development and learning.*
 
 Clarification:
@@ -105,7 +111,7 @@ The Restaurant Ordering System was my group project this semester. I made it tog
 blank v
 [Restaurant Ordering System](#blank)
 
-## Learning Outcome 1
+## Learning Outcome 1 (GP)
 *You design and build **user-friendly**, **full-stack** web applications.*
 
 Clarification:
@@ -115,10 +121,10 @@ Clarification:
 **Full-stack**: You design and build a full stack application using commonly accepted front end (Javascript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
 
 ### Front-end
-The front-end has been mainly made by Me, Mike, Tim and David. We coded it in React-TypeScript. Me and David worked on the same repo, Tim had its own and Mike also had its own. We had different repositories since we used a microservice structure.
+The front-ends has been mainly made by Me, Mike, Tim and David. We coded it in React-TypeScript. Me and David worked on the same repo, Tim had its own and Mike also had its own. We had different repositories since we used a microservice structure.
 
 ### Back-end
-The application has multiple backends. Everyone in our project worked on the backends. The only language we used in our backend is Java. Me and David worked on the same backend. After a while when me and David got some processes working between the front-end and back-end we decided that I would mainly focus on the front-end and he would focus on the back-end, since it was pretty annoying to both work on both. But on the other hand, since we've setup everything together we both exactly knew how each others' application worked.
+The application has multiple backends. The backends have been made by Me, Mike, David and Cas. The only language we used in our backend is Java. Me and David worked on the same backend. After a while when me and David got some processes working between the front-end and back-end we decided that I would mainly focus on the front-end and he would focus on the back-end, since it was pretty annoying to both work on both. But on the other hand, since we've setup everything together we both exactly knew how each others' application worked.
 
 # Research
 
