@@ -11,12 +11,12 @@ image of all products
      - [Learning Outcome 4: CI/CD](#learning-outcome-4-cicd)
      - [Learning Outcome 8: Professional (IP)](#learning-outcome-8-professional-ip)
    - [Restaurant Ordering System](#restaurant-ordering-system)
-     - [Learning Outcome 1](#learning-outcome-1-gp)
-     - [Learning Outcome 3](#learning-outcome-3)
-     - [Learning Outcome 5](#learning-outcome-5)
-     - [Learning Outcome 6](#learning-outcome-6)
-     - [Learning Outcome 7](#learning-outcome-7)
-     - [Learning Outcome 8](#learning-outcome-8-gp)
+     - [Learning Outcome 1: Web Application (GP)](#learning-outcome-1-web-application-gp)
+     - [Learning Outcome 3: Agile Method](#learning-outcome-3-agile-method)
+     - [Learning Outcome 5: Cultural Differences and Ethics](#learning-outcome-5-cultural-differences-and-ethics)
+     - [Learning Outcome 6: Requirements and Design](#learning-outcome-6-requirements-and-design)
+     - [Learning Outcome 7: Business processes](#learning-outcome-7-business-processes)
+     - [Learning Outcome 8: Professional (GP)](#learning-outcome-8-professional-gp)
  - [Research](#research)
    - [How do I create a fair but challenging bot for my game?](#how-do-i-create-a-fair-but-challenging-bot-for-my-game)
    - [Which database fits my application the best?](#which-database-fits-my-application-the-best)
@@ -108,10 +108,9 @@ blank v
 # Restaurant Ordering System
 The Restaurant Ordering System was my group project this semester. I made it together with [Mike van den Hoef](https://github.com/Headoros), [Tim Meijvogel](https://github.com/Timsel1), [Cas Esselink](https://github.com/CasEsselink) and [David Chang](https://github.com/Davidchang24). Everything about our Group Project can be found at it's documentation
 
-blank v
-[Restaurant Ordering System](#blank)
+[Restaurant Ordering System Documentation](https://github.com/fontys-group3)
 
-## Learning Outcome 1 (GP)
+## Learning Outcome 1: Web Application (GP)
 *You design and build **user-friendly**, **full-stack** web applications.*
 
 Clarification:
@@ -125,6 +124,63 @@ The front-ends has been mainly made by Me, Mike, Tim and David. We coded it in R
 
 ### Back-end
 The application has multiple backends. The backends have been made by Me, Mike, David and Cas. The only language we used in our backend is Java. Me and David worked on the same backend. After a while when me and David got some processes working between the front-end and back-end we decided that I would mainly focus on the front-end and he would focus on the back-end, since it was pretty annoying to both work on both. But on the other hand, since we've setup everything together we both exactly knew how each others' application worked.
+
+### UX-Testing
+We haven't done UX-Testing in our group project.
+
+## Learning Outcome 3: Agile Method (GP)
+*You can implement the software process for your project according to a given agile software development method.*
+
+Clarification:
+
+**Agile** method: You are aware of most popular agile methods and their underlying agile principles. You are able to implement the process of your software project according to a chosen methodology.
+
+### Scrum
+For our group project we used the agile method scrum. This means we have one scrummaster every sprint. The scrummaster would lead the standups and standdowns. Furthermore the scrummaster in our project didn't have too much meaning. For example, usually the contact person in the group is the scrummaster. But we found it easier to make that role static and give it to a groupmember (me). It kinda felt like we were all the scrummaster, this way of working didn't really give any problems.
+
+## Cultural Differences and Ethics
+*You **recognize** and **take into account** cultural differences when working with multi-site teams and are aware of ethical aspects in software development.*
+
+Clarification:
+
+**Recognize**:  Recognition is based on theoretically substantiated awareness of cultural differences and ethical aspects in software engineering.
+
+**Take into account**: Adapt your communication, working, and behavior styles to work with other developers from different cultures; 
+Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work.  
+
+### Coding Together
+We didn't have very strict coding standards in our team. We did have one rule and that is to code everything in english. 
+
+If multiple people worked on one repository we made branches and push the branches to github. finally we merge them to the master. Working like this we avoid pushing our code to the master branch which could be very fatal.
+
+## Learning Outcome 6: Requirements and Design
+*You translate (non-functional) requirements to extend existing (architectural) designs and can validate them using **multiple types of test techniques**.*
+
+Clarification:
+
+**Multiple types of test techniques**: You apply user acceptance testing and stakeholder feedback to validate the quality of the requirements. You evaluate the quality of the design (e.g., by testing or prototyping) taking into account the formulated quality properties like security and performance.
+
+### Tests
+blank
+
+## Learning Outcome 7: Business processes
+*You can explain **simple** business processes and **relate** them to the development of your software project.*
+
+Clarification:
+
+**Simple**: predominantly sequential processes with one or two alternative paths.
+
+**Relate**: understanding the relationships between the process and software.
+
+### Blank
+blank
+
+## Learning Outcome 8: Professional (GP)
+blank
+
+### blank
+blank
+
 
 # Research
 
