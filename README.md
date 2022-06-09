@@ -39,7 +39,7 @@ Ranknir is a discord bot I coded for fun in my spare time this semester. I've ma
 # Research
 
 ## Which database fits my application the best?
-For this research I made use of the DOT framework.
+For this research I made use of the [DOT framework](https://ictresearchmethods.nl/The_DOT_Framework).
 
 **What**: I want to research which database fit my application the best.
 
