@@ -176,11 +176,51 @@ Clarification:
 blank
 
 ## Learning Outcome 8: Professional (GP)
-blank
+*You act in a **professional manner** during software development and learning.*
 
-### blank
-blank
+Clarification:
 
+**Professional manner**: You develop software as a team effort according to a prescribed software methodology and following team agreements. You are able to track your work progress and communicate your progress with the team. You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions. You choose and substantiate solutions for a given problem.
+
+### Team Communication
+Inside our group we used Teams and Discord to communicate. We started off in Teams, but after a while we only used the Teams for files and we permanently switched to Discord. In our group project we had a few set of rules about presence.
+
+*Rules of Presence*
+![image](https://user-images.githubusercontent.com/74303221/172949644-04301849-de14-4ae8-b7b8-f988d8f2ef1b.png)
+
+For the English readers, this says. *Be present at 09:00, after 09:10 you will be considered as late, if you know you will be late let us know 1 day before. If you don't let us know anything, you are late and you don't have a valid reason to be late, we give you a strike. All the rules that apply to being to late also apply to not showing up at all. If you get you're third strike we inform the teacher about your presence. 
+
+Always if i knew i would be late i let my group know but to prove it here are some messages of me letting my group know i will be too late.
+
+![image](https://user-images.githubusercontent.com/74303221/172952242-3fc00baa-3ed7-4e82-8ae6-3f1f81da832b.png)
+![image](https://user-images.githubusercontent.com/74303221/172952188-a35c89c3-2e90-468e-9be0-0e4e525bf3b3.png)
+![image](https://user-images.githubusercontent.com/74303221/172952157-a3bf6c8e-2f65-412a-8499-e911c2bad0e0.png)
+![image](https://user-images.githubusercontent.com/74303221/172952128-d5dea735-1c1e-4233-a8c6-55e5a5ed2a42.png)
+![image](https://user-images.githubusercontent.com/74303221/172952108-61ab7cb4-30cf-45f9-82ee-94bb2c2578d0.png)
+
+Again for the English readers, these are just messages like, *I will be x minutes later, I gotta go to the family doctor, I had a bloody nose so I will be later.*
+
+### Communication with the Stakeholders
+Not only is the communication in our group solid, but also the communication between us and the stakeholders. As soon as something unexpected happens we've let them know, for example. When a group member decided to stop we've let them know as soon as possible ans also sended them the current state of our user stories.
+
+![image](https://user-images.githubusercontent.com/74303221/172954296-68a9f5d1-df14-4668-9c32-50241f31f021.png)
+
+### What are the others doing?
+On our jira board i could always see what the others were doing for the project. In the folliwing picture i can see that Cas is currently working on 2 user stories and Tim is working on a task. Mike isn't assigned to an user story or task yet. I assume he finished his most recent user story recently. Since everyone is always working on something.
+
+![image](https://user-images.githubusercontent.com/74303221/172953466-a102c551-0f8c-4077-8ba9-071b1cd4685b.png)
+
+### Ask for feedback
+After every sprint delivery we got feedback from the stakeholders and from the teacher. But this is only once every 3 weeks. We also often mailed our stakeholders to ask for feedback on user stories we were still working on. Here follows some proof.
+
+![image](https://user-images.githubusercontent.com/74303221/172954438-de04f77b-ffb3-468c-ad17-51a4dbe20fcc.png)
+
+![image](https://user-images.githubusercontent.com/74303221/172954933-1a472fc4-1d5f-41b8-9ab4-215f73518b2b.png)
+
+### Technical Decisions
+For our technical decisions I strongly recommend to visit our applications documentation.
+
+[Restaurant Order System Documentation](https://github.com/fontys-group3)
 
 # Research
 
