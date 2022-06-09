@@ -7,6 +7,7 @@ image of all products
  - [Products](#products)
    - [Reverse Hangman Online](#reverse-hangman-online)
      - [Learning Outcome 1](#learning-outcome-1)
+     - [Learning Outcome 2](#learning-outcome-2)
    - [Restaurant Ordering System](#restaurant-ordering-system)
    - [Ranknir](#ranknir)
  - [Research](#research)
@@ -29,26 +30,42 @@ Reverse Hangman Online is a game I made for my individual project. I will explai
 [Reverse Hangman Online Documentation](https://github.com/Epic-Chainsaw-Massacre)
 
 ## Learning Outcome 1
-*You design and build user-friendly, full-stack web applications.*
+*You design and build **user-friendly**, **full-stack** web applications.*
 
-Clarification
+Clarification:
 
-Tooling and methodology: Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews.
+**User friendly**: You apply basic User experience testing and development techniques.
 
-Reverse Hangman Online is my full-stack web application.
+**Full-stack**: You design and build a full stack application using commonly accepted front end (Javascript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
 
 ### Front-end
-The front-end has been made in React-TypeScript
+The front-end has been made in React-TypeScript.
+
+[Reverse-Hangman-Online-Frontend](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend)
 
 ### Back-end
-The back-end has partially been made in C# .Net and partially in Java Spring
+The back-end has partially been made in C# .Net and partially in Java Spring.
+
+[Reverse-Hangman-Online-Backend](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend)
 
 ### UX-Testing
 I sadly haven't been able to do user experience testing since my application wasn't done yet. So I couldn't let someone test it. Parts of my application were done quite early but the game itself wasn't.
 
 ## Learning Outcome 2
-*You use software tooling and methodology that continuously monitors and improve the software quality during software development.*
+*You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.*
 
+Clarification:
+
+**Tooling and methodology**: Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews.
+
+### Testing
+blank
+
+### Static Code Analysis
+blank
+
+### Code Reviews
+blank
 
 # Restaurant Ordering System
 GP
