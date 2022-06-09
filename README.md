@@ -100,7 +100,10 @@ blank v
 [FeedPulse PDF Report](#blank)
 
 # Restaurant Ordering System
-The Restaurant Ordering System was my group project this semester. I made it together with [Mike van den Hoef](https://github.com/Headoros)
+The Restaurant Ordering System was my group project this semester. I made it together with [Mike van den Hoef](https://github.com/Headoros), [Tim Meijvogel](https://github.com/Timsel1), [Cas Esselink](https://github.com/CasEsselink) and [David Chang](https://github.com/Davidchang24). Everything about our Group Project can be found at it's documentation
+
+blank v
+[Restaurant Ordering System](#blank)
 
 ## Learning Outcome 1
 *You design and build **user-friendly**, **full-stack** web applications.*
@@ -111,6 +114,11 @@ Clarification:
 
 **Full-stack**: You design and build a full stack application using commonly accepted front end (Javascript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
 
+### Front-end
+The front-end has been mainly made by Me, Mike, Tim and David. We coded it in React-TypeScript. Me and David worked on the same repo, Tim had its own and Mike also had its own. We had different repositories since we used a microservice structure.
+
+### Back-end
+The application has multiple backends. Everyone in our project worked on the backends. The only language we used in our backend is Java. Me and David worked on the same backend. After a while when me and David got some processes working between the front-end and back-end we decided that I would mainly focus on the front-end and he would focus on the back-end, since it was pretty annoying to both work on both. But on the other hand, since we've setup everything together we both exactly knew how each others' application worked.
 
 # Research
 
