@@ -8,6 +8,8 @@ image of all products
    - [Reverse Hangman Online](#reverse-hangman-online)
      - [Learning Outcome 1](#learning-outcome-1)
      - [Learning Outcome 2](#learning-outcome-2)
+     - [Learning Outcome 4](#learning-outcome-4)
+     - [Learning Outcome 8](#learning-outcome-8)
    - [Restaurant Ordering System](#restaurant-ordering-system)
  - [Research](#research)
    - [How do I create a fair but challenging bot for my game?](#how-do-i-create-a-fair-but-challenging-bot-for-my-game)
@@ -64,6 +66,23 @@ blank
 blank
 
 ### Code Reviews
+blank
+
+## Learning Outcome 4
+*You **design and implement** a (semi)automated software release process that matches the needs of the project context.*
+
+Clarification:
+
+**Design and implement**: You design a release process and implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker).
+
+### Continous Integration
+In my front-end and my back-end I've setup a ci pipeline. The pipeline build my application and runs all the unit tests I've written. I did all of this using the github actions section. Github actions provides lots of templates which make it very easy to setup a pipeline. For my front-end and back-end I used a Node.js and a .NET template respectively. 
+
+[Reverse Hangman Online Frontend CI](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/actions/workflows/node.js.yml)
+
+[Reverse Hangman Online Backend CI](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/actions/workflows/dotnet.yml)
+
+### Continous Deployment
 blank
 
 # Restaurant Ordering System
