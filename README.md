@@ -38,6 +38,6 @@ Ranknir is a discord bot I coded for fun in my spare time this semester. I've ma
 
 # Research
 
-## How do I create a fair but challenging bot for my game?
+## x?
 
 ## Which database fits my application the best?
