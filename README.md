@@ -85,6 +85,20 @@ In my front-end and my back-end I've setup a ci pipeline. The pipeline build my 
 ### Continous Deployment
 blank
 
+## Learning Outcome 8
+*You act in a **professional manner** during software development and learning.*
+
+Clarification:
+
+**Professional manner**: You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions.
+You choose and substantiate solutions for a given problem.
+
+### Feedback
+This semester started off with [Leon van Bokhorst](https://github.com/leonvanbokhorst). I asked him weekly feedback, sadly you won't be able to find it all back in my FeedPulse PDF Report, since sometimes my teacher forgot to open a feedpulse session. Leon has motivated me a lot troughout the semester, and definitely turned this boring documentation focussed semester into a fun semester. Later in the semester, the last 3 weeks, i got 2 new teachers, [Jean-Paul Ligthart](https://github.com/jpligthart) and [Timo Hermans](https://github.com/timohermans). I also tried to speak both of them once a week.
+
+blank v
+[FeedPulse PDF Report](#blank)
+
 # Restaurant Ordering System
 GP
 
