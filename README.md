@@ -22,7 +22,7 @@ image of all products
    - [Which database fits my application the best?](#which-database-fits-my-application-the-best)
 
 # Preface
-Whilest reading you might encounter certain terms like IP, GP and S3, these refer to the terms Individual Project, Group Project and Semester 3 respectively. I'll start with showing all products I made this semester and then we'll go into the researches I did. Nothing else to add, have fun reading.
+Whilst reading you might encounter certain terms like IP, GP and S3, these refer to the terms Individual Project, Group Project and Semester 3 respectively. I'll start with showing all products I made this semester and then we'll go into the researches I did. Nothing else to add, have fun reading.
 
 # Products
 This semester I had to realise all the learning outcomes of semester 3. Per product I will explain how i realised the corresponding learning outcome. Here's a list with all the learning outcomes. I'll also include a list of requirements I have to realise this semester in my individual project.
@@ -32,7 +32,7 @@ This semester I had to realise all the learning outcomes of semester 3. Per prod
 [List of requirements Individual Project](https://fhict.instructure.com/courses/12078/pages/what-should-be-covered-in-my-individual-project?module_item_id=749928)
 
 # Reverse Hangman Online
-Reverse Hangman Online is a game I made for my individual project. I will explain per learning outcome how I realised it with my individual project. Everthing about Reverse Hangman Online itself can be found in its documentation.
+Reverse Hangman Online is a game I made for my individual project. I will explain per learning outcome how I realised it with my individual project. Everything about Reverse Hangman Online itself can be found in its documentation.
 
 [Reverse Hangman Online Documentation](https://github.com/Epic-Chainsaw-Massacre)
 
@@ -43,7 +43,7 @@ Clarification:
 
 **User friendly**: You apply basic User experience testing and development techniques.
 
-**Full-stack**: You design and build a full stack application using commonly accepted front end (Javascript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
+**Full-stack**: You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
 
 ### Front-end
 The front-end has been made in React-TypeScript.
@@ -51,7 +51,7 @@ The front-end has been made in React-TypeScript.
 [Reverse-Hangman-Online-Frontend](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend)
 
 ### Back-end
-The back-end has partially been made in C# .Net and partially in Java Spring.
+The back-end has partially been made in C# .NET and partially in Java Spring.
 
 [Reverse-Hangman-Online-Backend](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend)
 
@@ -81,14 +81,14 @@ Clarification:
 
 **Design and implement**: You design a release process and implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker).
 
-### Continous Integration
-In my front-end and my back-end I've setup a ci pipeline. The pipeline build my application and runs all the unit tests I've written. I did all of this using the github actions section. Github actions provides lots of templates which make it very easy to setup a pipeline. For my front-end and back-end I used a Node.js and a .NET template respectively. 
+### Continuous Integration
+In my front-end and my back-end I've setup a ci pipeline. The pipeline build my application and runs all the unit tests I've written. I did all of this using the GitHub actions section. GitHub actions provides lots of templates which make it very easy to setup a pipeline. For my front-end and back-end I used a Node.js and a .NET template respectively. 
 
 [Reverse Hangman Online Frontend CI](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/actions/workflows/node.js.yml)
 
 [Reverse Hangman Online Backend CI](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/actions/workflows/dotnet.yml)
 
-### Continous Deployment
+### Continuous Deployment
 blank
 
 ## Learning Outcome 8: Professional (IP)
@@ -100,7 +100,7 @@ Clarification:
 You choose and substantiate solutions for a given problem.
 
 ### Feedback
-This semester started off with [Leon van Bokhorst](https://github.com/leonvanbokhorst). I asked him weekly feedback, sadly you won't be able to find it all back in my FeedPulse PDF Report, since sometimes my teacher forgot to open a feedpulse session. Leon has motivated me a lot troughout the semester, and definitely turned this boring documentation focussed semester into a fun semester. Later in the semester, the last 3 weeks, i got 2 new teachers, [Jean-Paul Ligthart](https://github.com/jpligthart) and [Timo Hermans](https://github.com/timohermans). I also tried to speak both of them once a week.
+This semester started off with [Leon van Bokhorst](https://github.com/leonvanbokhorst). I asked him weekly feedback, sadly you won't be able to find it all back in my FeedPulse PDF Report, since sometimes my teacher forgot to open a feedpulse session. Leon has motivated me a lot throughout the semester, and definitely turned this boring documentation focussed semester into a fun semester. Later in the semester, the last 3 weeks, i got 2 new teachers, [Jean-Paul Ligthart](https://github.com/jpligthart) and [Timo Hermans](https://github.com/timohermans). I also tried to speak both of them once a week.
 
 blank v
 [FeedPulse PDF Report](#blank)
@@ -117,7 +117,7 @@ Clarification:
 
 **User friendly**: You apply basic User experience testing and development techniques.
 
-**Full-stack**: You design and build a full stack application using commonly accepted front end (Javascript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
+**Full-stack**: You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
 
 ### Front-end
 The front-ends has been mainly made by Me, Mike, Tim and David. We coded it in React-TypeScript. Me and David worked on the same repo, Tim had its own and Mike also had its own. We had different repositories since we used a microservice structure.
@@ -136,7 +136,7 @@ Clarification:
 **Agile** method: You are aware of most popular agile methods and their underlying agile principles. You are able to implement the process of your software project according to a chosen methodology.
 
 ### Scrum
-For our group project we used the agile method scrum. This means we have one scrummaster every sprint. The scrummaster would lead the standups and standdowns. Furthermore the scrummaster in our project didn't have too much meaning. For example, usually the contact person in the group is the scrummaster. But we found it easier to make that role static and give it to a groupmember (me). It kinda felt like we were all the scrummaster, this way of working didn't really give any problems.
+For our group project we used the agile method scrum. This means we have one scrum master every sprint. The scrum master would lead the stand-ups and standdowns. Furthermore, the scrum master in our project didn't have too much meaning. For example, usually the contact person in the group is the scrum master. But we found it easier to make that role static and give it to a group member (me). It kind of felt like we were all the scrum master, this way of working didn't really give any problems. 
 
 ## Learning Outcome 5: Cultural Differences and Ethics
 *You **recognize** and **take into account** cultural differences when working with multi-site teams and are aware of ethical aspects in software development.*
@@ -145,13 +145,13 @@ Clarification:
 
 **Recognize**:  Recognition is based on theoretically substantiated awareness of cultural differences and ethical aspects in software engineering.
 
-**Take into account**: Adapt your communication, working, and behavior styles to work with other developers from different cultures; 
+**Take into account**: Adapt your communication, working, and behaviour styles to work with other developers from different cultures; 
 Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work.  
 
 ### Coding Together
-We didn't have very strict coding standards in our team. We did have one rule and that is to code everything in english. 
+We didn't have very strict coding standards in our team. We did have one rule and that is to code everything in English. 
 
-If multiple people worked on one repository we made branches and push the branches to github. finally we merge them to the master. Working like this we avoid pushing our code to the master branch which could be very fatal.
+If multiple people worked on one repository we made branches and push the branches to GitHub. finally we merge them to the master. Working like this we avoid pushing our code to the master branch which could be very fatal.
 
 ## Learning Outcome 6: Requirements and Design
 *You translate (non-functional) requirements to extend existing (architectural) designs and can validate them using **multiple types of test techniques**.*
@@ -163,14 +163,14 @@ Clarification:
 ### Quality Requirements
 Before we started coding, we showed our user stories to the stakeholders. When they agreed to the user stories we started working on them. In a sprint delivery we didn't only deliver all our products but also did we show our stakeholder which user stories we would work on next sprint. This is very good to do since if they don't like a part of a user story or the priority of a user story they tell it us. Sadly we don't have footage of the stakeholders giving us feedback, but we do have the minutes of every meeting. Here are some example of feedback we wrote down during meetings/sprint deliveries.
 
-In blue you can see their feedback on all our user stories. Since it's a lot i'll translate a few. *add the user story that adds the functionality to place an order*, *user story 12 'actions' isn't clear for us, and what do you guys consider as a mistake?*, *in lots of user stories you guys use the format 'bla bla because bla bla' , you guys can leave away the because if it's not necesary.* 
+In blue you can see their feedback on all our user stories. Since it's a lot I'll translate a few. *add the user story that adds the functionality to place an order*, *user story 12 'actions' isn't clear for us, and what do you guys consider as a mistake?*, *in lots of user stories you guys use the format 'As a User ... because ...' , you guys can leave away the 'because' if it's not necessary.* 
 ![image](https://user-images.githubusercontent.com/74303221/173034408-4500e704-bafe-476f-a42b-fa1a3fadbe93.png)
 
-In blue it says, *It's not important to focus on the paying process*, underneath the blue sentence they gave us advice on fuctionalities they would like to see instead, for example, *Make it impossible for outsiders to reach our website*, *saving a session to the backend*, *show all orders in the managment portal* and *completing an order*.
+In blue it says, *It's not important to focus on the paying process*, underneath the blue sentence they gave us advice on functionalities they would like to see instead, for example, *Make it impossible for outsiders to reach our website*, *saving a session to the backend*, *show all orders in the management portal* and *completing an order*.
 ![image](https://user-images.githubusercontent.com/74303221/173032795-1fd22516-dc6e-421c-824a-2c7d2a544552.png)
 
 ### Security and Performance
-We had a few security issues in our project. For example, its possible to place an order, eat your food, remove your cookies on the browser. and it doesn't say you have to pay anymore. Our solution for this would be to save the cookies in the backend. At this moment we only save it in the frontend. Another security flaw is that it's possible to place an order while you aren't even near the restaurant. We wanted to solve this problem by making it impossible to reach the url if you are on a different IP, but that required wifi. And using a restaurant wifi isn't the most user friendly solution. so for this flaw we didn't find an solution yet. Sadly we ran out of time to build the functionalities.
+We had a few security issues in our project. For example, its possible to place an order, eat your food, remove your cookies on the browser. and it doesn't say you have to pay anymore. Our solution for this would be to save the cookies in the backend. At this moment we only save it in the frontend. Another security flaw is that it's possible to place an order while you aren't even near the restaurant. We wanted to solve this problem by making it impossible to reach the URL if you are on a different IP, but that required WI-FI. And using a restaurant WI-FI isn't the most user friendly solution. so for this flaw we didn't find an solution yet. Sadly we ran out of time to build the functionalities.
 
 ## Learning Outcome 7: Business processes
 *You can explain **simple** business processes and **relate** them to the development of your software project.*
@@ -184,23 +184,23 @@ Clarification:
 ### Ordering Process
 In our business process we visualized the entire process of making an order digital and analog. You see 3 phases in this process, these are placing the order, prepare the order and finishing the order. Let's go through 2 quick examples. 
 
-### Analog
+### Non-Digital
 John enters the restaurant and takes a seat. Now the ordering process takes place. In the order process John orders a burger and a coke. The waiter writes it all down and brings the order to the kitchen and bar. This is where the preparing phase starts. The kitchen makes a burger and the bar prepares a coke. When everything is prepared, the waiter takes it to John's table. If John is done dining, the ending phase starts. In this phase the cashier types in the amount of money John has to pay. John pays for the food. If John gave too much money he also gets his change from the cashier. Now the cashier asks John if he wants the receipt. John decides he wants the receipt, and leaves the restaurant.
 
 ### Digital
 John enters the restaurant and takes a seat and scans the QR code to open up the menu. Here the process of ordering will start. John clicks on a burger and a coke, and places the order. Now the preparing phase starts. Kitchen and bar employee claim the burger and the coke in their interface respectively. When both are ready to serve, they drag the order to done in their interface. Then the waiter gets the order and serves it out to John. If John is done eating, the ending phase starts. He gets an invoice to his phone, after paying he can choose if he wants the receipt and he's free to go.
 
 ### Key Differences
-Lets go through the biggest differences between analog versus digital together. 
+Let's go through the biggest differences between non-digital and digital together. 
 
 #### Ordering
-When ordering analog the waiter can accidentally write down an order wrong just because he misunderstood the customer. When done digitally, the cusomter chooses what he wants to eat using software. Before ordering you can double check everything what you've selected. After placing the order the waiter brings it to the kitchen and bar, this could also go wrong in multiple ways. The waiter might have to help a customer on its way to the kitchen or the bar. also can he mix up what has to go to the bar and what has to go to the kitchen. Digitally this all goes automatic.
+When ordering non-digital the waiter can accidentally write down an order wrong just because he misunderstood the customer. When done digitally, the customer chooses what he wants to eat using software. Before ordering you can double check everything what you've selected. After placing the order the waiter brings it to the kitchen and bar, this could also go wrong in multiple ways. The waiter might have to help a customer on its way to the kitchen or the bar. also can he mix up what has to go to the bar and what has to go to the kitchen. Digitally this all goes automatic.
 
 #### Preparing the order
-In an analog situation, the order comes in and the employee takes the order and prepares it. This is very simular to how it would go digitally. When using our software you replace the paper with technology.
+In an non-digital situation, the order comes in and the employee takes the order and prepares it. This is very similar to how it would go digitally. When using our software you replace the paper with technology.
 
-#### Payement
-In an analog situation you have to go to the checkout. Here they get your bill, and type it in on the cash register. Digitally you can just stay on your place, pay and leave. The cashier could possibly give you the wrong bill giving a bad cumstomer experience. When paying digital, this can't occur.
+#### Payment
+In an non-digital situation you have to go to the checkout. Here they get your bill, and type it in on the cash register. Digitally you can just stay on your place, pay and leave. The cashier could possibly give you the wrong bill giving a bad customer experience. When paying digital, this can't occur.
 
 *Business process for making an order*
 ![image](https://user-images.githubusercontent.com/74303221/173024638-a51d2346-4b31-43a5-b7ad-1ce023b01e67.png)
@@ -214,7 +214,7 @@ Clarification:
 **Professional manner**: You develop software as a team effort according to a prescribed software methodology and following team agreements. You are able to track your work progress and communicate your progress with the team. You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions. You choose and substantiate solutions for a given problem.
 
 ### Team Communication
-Inside our group we used Teams and Discord to communicate. We started off in Teams, but after a while we only used the Teams for files and we permanently switched to Discord. In our group project we had a few set of rules about presence.
+Inside our group we used Teams and Discord to communicate. We started off in Teams, but after a while we only used the Teams for files and we permanently switched to Discord. In our group project we had a set of rules about presence.
 
 *Rules of Presence*
 ![image](https://user-images.githubusercontent.com/74303221/172949644-04301849-de14-4ae8-b7b8-f988d8f2ef1b.png)
@@ -229,15 +229,15 @@ Always if i knew i would be late i let my group know but to prove it here are so
 ![image](https://user-images.githubusercontent.com/74303221/172952128-d5dea735-1c1e-4233-a8c6-55e5a5ed2a42.png)
 ![image](https://user-images.githubusercontent.com/74303221/172952108-61ab7cb4-30cf-45f9-82ee-94bb2c2578d0.png)
 
-Again for the English readers, these are just messages like, *I will be x minutes later, I gotta go to the family doctor, I had a bloody nose so I will be later.*
+Again for the English readers, these are just messages like, *I will be x minutes later, I got to go to the family doctor, I had a bloody nose so I will be later.*
 
 ### Communication with the Stakeholders
-Not only is the communication in our group solid, but also the communication between us and the stakeholders. As soon as something unexpected happens we've let them know, for example. When a group member decided to stop we've let them know as soon as possible ans also sended them the current state of our user stories.
+Not only is the communication in our group solid, but also the communication between us and the stakeholders. As soon as something unexpected happens we've let them know, for example. When a group member decided to stop we've let them know as soon as possible and also sent them the current state of our user stories.
 
 ![image](https://user-images.githubusercontent.com/74303221/172954296-68a9f5d1-df14-4668-9c32-50241f31f021.png)
 
 ### What are the others doing?
-On our jira board i could always see what the others were doing for the project. In the folliwing picture i can see that Cas is currently working on 2 user stories and Tim is working on a task. Mike isn't assigned to an user story or task yet. I assume he finished his most recent user story recently. Since everyone is always working on something.
+On our Jira board I could always see what the others were doing for the project. In the following picture I can see that Cas is currently working on 2 user stories and Tim is working on a task. Mike isn't assigned to an user story or task yet. I assume he finished his most recent user story recently. Since everyone is always working on something.
 
 ![image](https://user-images.githubusercontent.com/74303221/172953466-a102c551-0f8c-4077-8ba9-071b1cd4685b.png)
 
