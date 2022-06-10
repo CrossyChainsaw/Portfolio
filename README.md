@@ -172,8 +172,26 @@ Clarification:
 
 **Relate**: understanding the relationships between the process and software.
 
-### Blank
-blank
+### Ordering Process
+In our business process we visualized the entire process of making an order digital and analog. You see 3 phases in this process, these are placing the order, prepare the order and finishing the order. Let's go through 2 quick examples. 
+
+### Analog
+John enters the restaurant and takes a seat. Now the ordering process takes place. In the order process John orders a burger and a coke. The waiter writes it all down and brings the order to the kitchen and bar. This is where the preparing phase starts. The kitchen makes a burger and the bar prepares a coke. When everything is prepared, the waiter takes it to John's table. If John is done dining, the ending phase starts. In this phase the cashier types in the amount of money John has to pay. John pays for the food. If John gave too much money he also gets his change from the cashier. Now the cashier asks John if he wants the receipt. John decides he wants the receipt, and leaves the restaurant.
+
+### Digital
+John enters the restaurant and takes a seat and scans the QR code to open up the menu. Here the process of ordering will start. John clicks on a burger and a coke, and places the order. Now the preparing phase starts. Kitchen and bar employee claim the burger and the coke in their interface respectively. When both are ready to serve, they drag the order to done in their interface. Then the waiter gets the order and serves it out to John. If John is done eating, the ending phase starts. He gets an invoice to his phone, after paying he can choose if he wants the receipt and he's free to go.
+
+### Key Differences
+Lets go through the biggest differences between analog versus digital together. 
+
+#### Ordering
+When ordering analog the waiter can accidentally write down an order wrong just because he misunderstood the customer. When done digitally, the cusomter chooses what he wants to eat using software. Before ordering you can double check everything what you've selected. After placing the order the waiter brings it to the kitchen and bar, this could also go wrong in multiple ways. The waiter might have to help a customer on its way to the kitchen or the bar. also can he mix up what has to go to the bar and what has to go to the kitchen. Digitally this all goes automatic.
+
+
+
+*Business process for making an order*
+![image](https://user-images.githubusercontent.com/74303221/173024638-a51d2346-4b31-43a5-b7ad-1ce023b01e67.png)
+
 
 ## Learning Outcome 8: Professional (GP)
 *You act in a **professional manner** during software development and learning.*
