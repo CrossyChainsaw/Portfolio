@@ -110,7 +110,7 @@ The Restaurant Ordering System was my group project this semester. I made it tog
 
 [Restaurant Ordering System Documentation](https://github.com/fontys-group3)
 
-## Learning Outcome 1: Web Application
+## Learning Outcome 1: Web Application (GP)
 *You design and build **user-friendly**, **full-stack** web applications.*
 
 Clarification:
@@ -128,7 +128,7 @@ The application has multiple backends. The backends have been made by Me, Mike, 
 ### UX-Testing
 We haven't done UX-Testing in our group project.
 
-## Learning Outcome 3: Agile Method (GP)
+## Learning Outcome 3: Agile Method
 *You can implement the software process for your project according to a given agile software development method.*
 
 Clarification:
