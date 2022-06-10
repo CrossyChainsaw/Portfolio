@@ -138,7 +138,7 @@ Clarification:
 ### Scrum
 For our group project we used the agile method scrum. This means we have one scrummaster every sprint. The scrummaster would lead the standups and standdowns. Furthermore the scrummaster in our project didn't have too much meaning. For example, usually the contact person in the group is the scrummaster. But we found it easier to make that role static and give it to a groupmember (me). It kinda felt like we were all the scrummaster, this way of working didn't really give any problems.
 
-## Cultural Differences and Ethics
+## Learning Outcome 5: Cultural Differences and Ethics
 *You **recognize** and **take into account** cultural differences when working with multi-site teams and are aware of ethical aspects in software development.*
 
 Clarification:
