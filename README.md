@@ -110,7 +110,7 @@ The Restaurant Ordering System was my group project this semester. I made it tog
 
 [Restaurant Ordering System Documentation](https://github.com/fontys-group3)
 
-## Learning Outcome 1: Web Application (GP)
+## Learning Outcome 1: Web Application
 *You design and build **user-friendly**, **full-stack** web applications.*
 
 Clarification:
