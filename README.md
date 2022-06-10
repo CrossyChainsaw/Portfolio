@@ -187,7 +187,11 @@ Lets go through the biggest differences between analog versus digital together.
 #### Ordering
 When ordering analog the waiter can accidentally write down an order wrong just because he misunderstood the customer. When done digitally, the cusomter chooses what he wants to eat using software. Before ordering you can double check everything what you've selected. After placing the order the waiter brings it to the kitchen and bar, this could also go wrong in multiple ways. The waiter might have to help a customer on its way to the kitchen or the bar. also can he mix up what has to go to the bar and what has to go to the kitchen. Digitally this all goes automatic.
 
+#### Preparing the order
+In an analog situation, the order comes in and the employee takes the order and prepares it. This is very simular to how it would go digitally. When using our software you replace the paper with technology.
 
+#### Payement
+In an analog situation you have to go to the checkout. Here they get your bill, and type it in on the cash register. Digitally you can just stay on your place, pay and leave. The cashier could possibly give you the wrong bill giving a bad cumstomer experience. When paying digital, this can't occur.
 
 *Business process for making an order*
 ![image](https://user-images.githubusercontent.com/74303221/173024638-a51d2346-4b31-43a5-b7ad-1ce023b01e67.png)
