@@ -160,8 +160,17 @@ Clarification:
 
 **Multiple types of test techniques**: You apply user acceptance testing and stakeholder feedback to validate the quality of the requirements. You evaluate the quality of the design (e.g., by testing or prototyping) taking into account the formulated quality properties like security and performance.
 
-### Tests
-blank
+### Quality Requirements
+Before we started coding, we showed our user stories to the stakeholders. When they agreed to the user stories we started working on them. In a sprint delivery we didn't only deliver all our products but also did we show our stakeholder which user stories we would work on next sprint. This is very good to do since if they don't like a part of a user story or the priority of a user story they tell it us. Sadly we don't have footage of the stakeholders giving us feedback, but we do have the minutes of every meeting. Here are some example of feedback we wrote down during meetings/sprint deliveries.
+
+In blue you can see their feedback on all our user stories. Since it's a lot i'll translate a few. *add the user story that adds the functionality to place an order*, *user story 12 'actions' isn't clear for us, and what do you guys consider as a mistake?*, *in lots of user stories you guys use the format 'bla bla because bla bla' , you guys can leave away the because if it's not necesary.* 
+![image](https://user-images.githubusercontent.com/74303221/173034408-4500e704-bafe-476f-a42b-fa1a3fadbe93.png)
+
+In blue it says, *It's not important to focus on the paying process*, underneath the blue sentence they gave us advice on fuctionalities they would like to see instead, for example, *Make it impossible for outsiders to reach our website*, *saving a session to the backend*, *show all orders in the managment portal* and *completing an order*.
+![image](https://user-images.githubusercontent.com/74303221/173032795-1fd22516-dc6e-421c-824a-2c7d2a544552.png)
+
+### Security and Performance
+We had a few security issues in our project. For example, its possible to place an order, eat your food, remove your cookies on the browser. and it doesn't say you have to pay anymore. Our solution for this would be to save the cookies in the backend. At this moment we only save it in the frontend. Another security flaw is that it's possible to place an order while you aren't even near the restaurant. We wanted to solve this problem by making it impossible to reach the url if you are on a different IP, but that required wifi. And using a restaurant wifi isn't the most user friendly solution. so for this flaw we didn't find an solution yet. Sadly we ran out of time to build the functionalities.
 
 ## Learning Outcome 7: Business processes
 *You can explain **simple** business processes and **relate** them to the development of your software project.*
