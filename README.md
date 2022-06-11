@@ -18,8 +18,8 @@ image of all products
      - [Learning Outcome 7: Business processes](#learning-outcome-7-business-processes)
      - [Learning Outcome 8: Professional (GP)](#learning-outcome-8-professional-gp)
  - [Research](#research)
-   - [How do I create a fair but challenging bot for my game?](#how-do-i-create-a-fair-but-challenging-bot-for-my-game)
-   - [Which database fits my application the best?](#which-database-fits-my-application-the-best)
+   - [Which database is most suitable for my application?](#which-database-is-most-suitable-for-my-application)
+   - [How do i protect the urls my microservices use to communicate?](#how-do-i-protect-the-urls-my-microservices-use-to-communicate)
 
 # Preface
 Whilst reading you might encounter certain terms like IP, GP and S3, these refer to the terms Individual Project, Group Project and Semester 3 respectively. I'll start with showing all products I made this semester and then we'll go into the researches I did. Nothing else to add, have fun reading.
@@ -255,7 +255,7 @@ For our technical decisions I strongly recommend to visit our applications docum
 
 # Research
 
-## Which database fits my application the best?
+## Which database is most suitable for my application?
 For this research I made use of the [DOT framework](https://ictresearchmethods.nl/The_DOT_Framework).
 
 **What**: I want to research which database fit my application the best.
@@ -264,4 +264,9 @@ For this research I made use of the [DOT framework](https://ictresearchmethods.n
 
 **How**: Find multiple articles about how to choose the right database for your application, validate them, and use them for my project.
 
+I've put the document with the research in it in my portfolio, Because its so big you have to download it.
+
+[Database Research](https://github.com/CrossyChainsaw/Portfolio/blob/master/Database%20Research.docx)
+
+## How do i protect the urls my microservices use to communicate?
 
