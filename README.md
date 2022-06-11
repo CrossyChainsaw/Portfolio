@@ -19,7 +19,7 @@ image of all products
      - [Learning Outcome 8: Professional (GP)](#learning-outcome-8-professional-gp)
  - [Research](#research)
    - [Which database is most suitable for my application?](#which-database-is-most-suitable-for-my-application)
-   - [How do i protect the urls my microservices use to communicate?](#how-do-i-protect-the-urls-my-microservices-use-to-communicate)
+   - [How do I protect the URLs my microservices use to communicate?](#how-do-i-protect-the-urls-my-microservices-use-to-communicate)
 
 # Preface
 Whilst reading you might encounter certain terms like IP, GP and S3, these refer to the terms Individual Project, Group Project and Semester 3 respectively. I'll start with showing all products I made this semester and then we'll go into the researches I did. Nothing else to add, have fun reading.
@@ -268,5 +268,5 @@ I've put the document with the research in it in my portfolio, Because its so bi
 
 [Database Research](https://github.com/CrossyChainsaw/Portfolio/blob/master/Database%20Research.docx)
 
-## How do i protect the urls my microservices use to communicate?
+## How do I protect the URLs my microservices use to communicate?
 
