@@ -279,4 +279,4 @@ For this research I made use of the [DOT framework](https://ictresearchmethods.n
 
 I've put the document with the research in it in my portfolio.
 
-[Security Research](#blank)
+[Security Research](#blank) (blank)
