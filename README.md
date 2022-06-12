@@ -48,12 +48,12 @@ Clarification:
 ### Front-end
 The front-end has been made in React-TypeScript.
 
-[Reverse-Hangman-Online-Frontend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend)
+[Reverse Hangman Online Frontend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend)
 
 ### Back-end
 The back-end has partially been made in C# .NET and partially in Java Spring.
 
-[Reverse-Hangman-Online-Backend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend)
+[Reverse Hangman Online Backend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend)
 
 ### UX-Testing
 I sadly haven't been able to do user experience testing since my application wasn't done yet. So I couldn't let someone test it. Parts of my application were done quite early but the game itself wasn't.
