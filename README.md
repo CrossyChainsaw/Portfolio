@@ -285,7 +285,7 @@ For this research I made use of the [DOT framework](https://ictresearchmethods.n
 
 I've put the document with the research in it in my portfolio, Because its so big you have to download it.
 
-[Database Research](https://github.com/CrossyChainsaw/Portfolio/blob/master/Database%20Research.docx)
+[Database Research](https://github.com/CrossyChainsaw/Portfolio/tree/master/Database%20Research)
 
 ## How do I protect the URLs my microservices use to communicate?
 For this research I made use of the [DOT framework](https://ictresearchmethods.nl/The_DOT_Framework).
