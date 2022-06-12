@@ -66,7 +66,7 @@ Clarification:
 **Tooling and methodology**: Carry out, monitor and report on unit integration, regression and system tests, with attention for security and performance aspects, as well as applying static code analysis and code reviews.
 
 ### Testing
-blank
+In this semester I have to make use of 4 types of tests, unit, integration, regression and system tests. If i have a good explanation for it I may decide to not use certain types of tests.
 
 ### Static Code Analysis
 For code analysis i've made use of SonarCloud. I chose SonarCloud since a classmate of mine told me it is pretty easy to setup via SonarCloud. After a pull request to master, the SonarCloud code analysis get executed. Using code analysis i can easily find vulnerabilities in my code.
