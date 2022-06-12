@@ -108,6 +108,8 @@ I've setup continuous integration pipelines in all my applications. The pipeline
 ### Continuous Deployment
 I also added CD to all of my repositories. This means that, after a pull request on the master everything gets deployed on docker.
 
+![image](https://user-images.githubusercontent.com/74303221/173250305-8d6d2b01-faec-4ed3-bb0f-29a94ca0c52b.png)
+
 ## Learning Outcome 8: Professional (IP)
 *You act in a **professional manner** during software development and learning.*
 
