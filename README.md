@@ -69,7 +69,7 @@ Clarification:
 blank
 
 ### Static Code Analysis
-blank
+For code analysis i've made use of sonarcloud. After a pull request to master the sonarcloud code analysis get executed. Using code analysis i can easily find vulnerabilities in my code.
 
 ### Code Reviews
 blank
@@ -84,16 +84,16 @@ Clarification:
 ### Continuous Integration
 I've setup continuous integration pipelines in all my applications. The pipelines build the application and run all the unit tests I've written. I did all of this using the GitHub actions section. GitHub actions provides lots of templates which make it very easy to setup a pipeline. For my front-end, back-end, game-statistics-service and word-service I used a Node.js, .NET template another .NET template and a Java maven template respectively. 
 
-[Reverse Hangman Online Frontend CI](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/actions/workflows/node.js.yml)
+[Reverse Hangman Online Frontend CI/CD](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/actions/workflows/node.js.yml)
 
-[Reverse Hangman Online Backend CI](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/actions/workflows/dotnet.yml)
+[Reverse Hangman Online Backend CI/CD](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/actions/workflows/dotnet.yml)
 
-[Game Statistics Service CI](https://github.com/Epic-Chainsaw-Massacre/Game-Statistics-Service/actions/workflows/dotnet.yml)
+[Game Statistics Service CI/CD](https://github.com/Epic-Chainsaw-Massacre/Game-Statistics-Service/actions/workflows/dotnet.yml)
 
-[Word Service CI](https://github.com/Epic-Chainsaw-Massacre/Word-Service/actions/workflows/maven.yml)
+[Word Service CI/CD](https://github.com/Epic-Chainsaw-Massacre/Word-Service/actions/workflows/maven.yml)
 
 ### Continuous Deployment
-blank
+I also added CD to all of my repositories. This means that, after a pull request on the master everything gets deployed on docker.
 
 ## Learning Outcome 8: Professional (IP)
 *You act in a **professional manner** during software development and learning.*
