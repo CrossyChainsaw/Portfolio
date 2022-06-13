@@ -123,8 +123,16 @@ Just like the front-end section, I'll show some of the milestones, more noticeab
 [Word Service Repository](https://github.com/Epic-Chainsaw-Massacre/Word-Service)
 
 #### External API
+blank
 
 #### Reverse Hangman Forms Copy Paste
+blank
+
+#### Communicate with Front-end
+blank
+
+### Future Plans
+blank -> other services data n stuff
 
 ### UX-Testing
 I sadly haven't been able to do user experience testing since my application wasn't done yet. So I couldn't let someone test it. Parts of my application were done quite early but the game itself wasn't.
