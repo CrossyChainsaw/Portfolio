@@ -164,6 +164,19 @@ The front-ends has been mainly made by Me, Mike, Tim and David. We coded it in R
 ### Back-end
 The application has multiple backends. The backends have been made by Me, Mike, David and Cas. The only language we used in our backend is Java. Me and David worked on the same backend. After a while when me and David got some processes working between the front-end and back-end we decided that I would mainly focus on the front-end and he would focus on the back-end, since it was pretty annoying to both work on both. But on the other hand, since we've setup everything together we both exactly knew how each others' application worked.
 
+### My Tasks
+I'll slowly take you through everything I was responsible for.
+
+#### Menu Logic
+Me and David have worked on everything behind the scenes of our menu. We came across such a hard problem that I couldn't even describe it to look it up. I also couldn't do it in C#. I was completely lost, since usually, logic wise, nothing is impossible to me in C#. The problem we had was sorting our products into categories. So that all deserts get sorted together, all  main dishes would get sorted together etcetera. In the end of the day Mike or David solved it some how. Pretty funny, I found the message back where I'm saying "_design is going good but I have no idea how to get them sorted right_".
+
+![image](https://user-images.githubusercontent.com/74303221/173419348-90378085-0718-4546-9b6c-95b9e0a42194.png)
+
+#### Menu Design
+Also did i work on the design in the first sprint. The menu looked a bit prototype-ish, so Mike gave it a big make over. Here is the old design I made in sprint 1.
+
+![image](https://user-images.githubusercontent.com/74303221/173419259-bc31c838-1cdb-48e7-b750-2cf27c51535b.png)
+
 ### UX-Testing
 We haven't done UX-Testing in our group project.
 
