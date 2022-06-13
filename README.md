@@ -177,6 +177,12 @@ Also did i work on the design in the first sprint. The menu looked a bit prototy
 
 ![image](https://user-images.githubusercontent.com/74303221/173419259-bc31c838-1cdb-48e7-b750-2cf27c51535b.png)
 
+#### Inventory
+My latest task was about making the inventory in our menu. I made the inventory so that when you click on a product, it check in the database how much there's left for the item. If there's more than 0 left, one gets removed from the database. Why do we use a database for this you'd ask? Since you can also save everything on the page. We used to save in on the page, but the problem then was that it wouldn't share data between different clients. If a product is out of stock it gets grayed out like down below.
+
+![image](https://user-images.githubusercontent.com/74303221/173433824-06d00ee3-5066-4b5b-b48a-bf28efb75f90.png)
+
+
 ### UX-Testing
 We haven't done UX-Testing in our group project.
 
