@@ -123,7 +123,67 @@ Just like the front-end section, I'll show some of the milestones, more noticeab
 [Word Service Repository](https://github.com/Epic-Chainsaw-Massacre/Word-Service)
 
 #### External API
-blank
+I've heard of it so many times, yet did I never use it. External API's, had 0 experience going into this. As you should already know, I'm making a hangman-like game. Since there will be used words in my game, they should get checked on existance. To check a word on existance I've build a very, very vague process. So my backend does an API request to Miryam Webster (dictionary API I use). If the word exists, Miryam Webster returns me values, so now you would say, if tha API returns anything it's good right? WRONG, this is where it gets interesting. Miryam Webster's dictionary API uses fuzzy search, this means that if I do ana API request with 'Birate'. It will return me lots of different words that are almost the same as 'Birate', for example 'Pirate'. See example.
+
+![image](https://user-images.githubusercontent.com/74303221/173444601-1bbfd695-1937-41d2-bdfa-2f0d5724679a.png)
+
+To solve this problem I found a solution. If I do a request of the word 'Pirate', this is the JSON result I get.
+
+```json
+[
+   {
+      "meta":{
+         "id":"pirate",
+         "uuid":"02589eac-2077-4abd-abfe-1d72ad856773",
+         "sort":"1600684000",
+         "src":"sd2",
+         "section":"alpha",
+         "stems":[
+            "pirate",
+            "pirates",
+            "piratical",
+            "piratically"
+         ],
+         "offensive":false
+      },
+      "hwi":{
+         "hw":"pi*rate",
+         "prs":[
+            {
+               "mw":"\u02c8p\u012b-r\u0259t",
+               "sound":{
+                  "audio":"pirate01"
+               }
+            }
+         ]
+      },
+      "fl":"noun",
+      "def":[
+         {
+            "sseq":[
+               [
+                  [
+                     "sense",
+                     {
+                        "dt":[
+                           [
+                              "text",
+                              "{bc}a robber of ships at sea {bc}a person who commits piracy"
+                           ]
+                        ]
+                     }
+                  ]
+               ]
+            ]
+         }
+      ],
+      "shortdef":[
+         "a robber of ships at sea : a person who commits piracy"
+      ]
+   }
+]
+
+```
 
 #### Reverse Hangman Forms Copy Paste
 blank
