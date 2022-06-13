@@ -98,7 +98,7 @@ Here's an entire list of code smells in my front-end application.
 
 ![image](https://user-images.githubusercontent.com/74303221/173247849-7599d782-7d60-4b1e-808f-4ed045f2dfbc.png)
 
-My goal with SonarCloud is to review the code smells and fix them. If SonarCloud notifies me that there are problems I will solve them first before pushing my code.
+My goal with SonarCloud is to review the code smells and fix them. If SonarCloud notifies me that there are problems I will solve them first before merging my pull request.
 
 ### Code Reviews
 blank
