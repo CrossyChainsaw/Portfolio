@@ -58,55 +58,55 @@ I also planned a React spike, same concept as above, I just try to gather as muc
 It was surprisingly hard to get the text input value and put it in a variable for the first time. I managed to do this with a variable called word. This updates everytime the text input changes. the variable basically represents live what's in the text input. Also did I have a second variable, called permission. if you click the button permission becomes true, because the word gets permission to be checked on existence, get it? I've put the code down here so you can try to understand what i've done (I've left out parts of code that make it more complicated and irelevant for this topic).
 
 ```ts
-    const [word, setWord] = useState<string>("");
-    const [permission, setPermission] = useState<boolean>(false);
-    
-    useEffect(() => {
-        if (word.length > 3 && permission) {
-            //send word to backend
-            GetGoal();
-            GetLives();
-            GetGuessLine();
-            setVisibilityClass('not-hidden')
-        }
-    }, [gameStarted, word, permission])
+const [word, setWord] = useState<string>("");
+const [permission, setPermission] = useState<boolean>(false);
 
-    // this happens everytime text input gets updated
-    function OnChange(e: React.ChangeEvent<HTMLInputElement>) {
-        setWord(e.currentTarget.value);
+useEffect(() => {
+    if (word.length > 3 && permission) {
+        //send word to backend
+        GetGoal();
+        GetLives();
+        GetGuessLine();
+        setVisibilityClass('not-hidden')
     }
+}, [gameStarted, word, permission])
 
-    function OnCLick(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
-        setButtonClicks(buttonClicks + 1);
-        setPermission(true);
-    }
+// this happens everytime text input gets updated
+function OnChange(e: React.ChangeEvent<HTMLInputElement>) {
+    setWord(e.currentTarget.value);
+}
+
+function OnCLick(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
+    setButtonClicks(buttonClicks + 1);
+    setPermission(true);
+}
 ```
 
 #### API Requests
 This was hard to get into, even when I did a request once. It stayed hard for a while. After doing it a few times API requests are a breeze. Here are some API request examples, these are the ones used in the code above.
 
 ```ts
-    const GetLives = async () => {
-        console.log("word: " + word);
-        const apiUrl = "https://localhost:7071/Lives?word=" + word;
-        const data = await fetch(apiUrl);
-        const jsonData = await data.json();
-        setLives(jsonData)
-    };
-    const GetGoal = async () => {
-        console.log("word: " + word);
-        const apiUrl = "https://localhost:7071/Goal?word=" + word;
-        const data = await fetch(apiUrl);
-        const jsonData = await data.json();
-        setGoal(jsonData)
-    };
-    const GetGuessLine = async () => {
-        console.log("word: " + word);
-        const apiUrl = "https://localhost:7071/GuessLine?word=" + word;
-        const data = await fetch(apiUrl);
-        const jsonData = await data.json(); // Error
-        setGuessline(jsonData)
-    };
+const GetLives = async () => {
+    console.log("word: " + word);
+    const apiUrl = "https://localhost:7071/Lives?word=" + word;
+    const data = await fetch(apiUrl);
+    const jsonData = await data.json();
+    setLives(jsonData)
+};
+const GetGoal = async () => {
+    console.log("word: " + word);
+    const apiUrl = "https://localhost:7071/Goal?word=" + word;
+    const data = await fetch(apiUrl);
+    const jsonData = await data.json();
+    setGoal(jsonData)
+};
+const GetGuessLine = async () => {
+    console.log("word: " + word);
+    const apiUrl = "https://localhost:7071/GuessLine?word=" + word;
+    const data = await fetch(apiUrl);
+    const jsonData = await data.json(); // Error
+    setGuessline(jsonData)
+};
 ```
 
 
