@@ -87,7 +87,7 @@ For code analysis i've made use of SonarCloud. I chose SonarCloud since a classm
 
 ![image](https://user-images.githubusercontent.com/74303221/173247608-e802e311-4316-4a2a-96d0-318d8b2dcf75.png)
 
-Right now I only got the SonarCloud code analysis working on 2 out of 4 repositories. My goal is to have code analysis in every repository, so all of my repositories will have better code.
+Right now I only got the SonarCloud code analysis working on 2 out of 4 repositories. My goal is to have code analysis in every repository, so all of my repositories will have better code. 
 
 #### Code Smells
 Currently SonarCloud doesn't detect any bugs or vulnerabilities in my code. It does detect a few code smells.  
@@ -97,6 +97,8 @@ Currently SonarCloud doesn't detect any bugs or vulnerabilities in my code. It d
 Here's an entire list of code smells in my front-end application. 
 
 ![image](https://user-images.githubusercontent.com/74303221/173247849-7599d782-7d60-4b1e-808f-4ed045f2dfbc.png)
+
+My goal with SonarCloud is to review the code smells and fix them. If SonarCloud notifies me that there are problems I will solve them first before pushing my code.
 
 ### Code Reviews
 blank
@@ -110,6 +112,10 @@ Clarification:
 
 ### Continuous Integration
 I've setup continuous integration pipelines in all my applications. The pipelines build the application and run all the unit tests I've written. I did all of this using the GitHub actions section. GitHub actions provides lots of templates which make it very easy to setup a pipeline. For my front-end, back-end, game-statistics-service and word-service I used a Node.js, .NET template another .NET template and a Java maven template respectively. 
+
+Here's an example where I the pipeline actually helped me improve my code. I kept getting build errors, but my project itself would just run normally so without the pipeline I would't notice. I did get a few messages in my IDE but I always ignored them, I only noticed it when they were gone.
+
+![image](https://user-images.githubusercontent.com/74303221/173389942-39ad0666-73b5-41bd-9837-1a12e6ed8b8f.png)
 
 [Reverse Hangman Online Frontend CI/CD](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/actions/workflows/node.js.yml)
 
