@@ -55,44 +55,18 @@ Making a start with React TypeScript was very hard, without any experience I hop
 I also planned a React spike, same concept as above, I just try to gather as much information about React and try to implement it. I really like this type of learning and it always works out for me. For React I used the [W3schools React tutorial](https://www.w3schools.com/REACT/default.asp). In my opinion W3schools has the best tutorials to learn the basics.
 
 #### Text Input
-It was surprisingly hard to get the text input value and put it in a variable. I managed to do this with 2 seperate variables. One variable, called word, updates everytime the text input changes. the variable basically represents live what's in the text input. Also did I have a second variable, called permission. if you click the button permission becomes true, because the word gets permission to be checked on existence. I've put the code down here.
+It was surprisingly hard to get the text input value and put it in a variable. I managed to do this with 2 seperate variables. One variable, called word, updates everytime the text input changes. the variable basically represents live what's in the text input. Also did I have a second variable, called permission. if you click the button permission becomes true, because the word gets permission to be checked on existence, get it? I've put the code down here so you can try to understand what i've done (I've left out parts of code that make it more complicated and irelevant for this topic).
 
 ```ts
    useEffect(() => {
         if (word.length > 3 && permission) {
-            const GetLives = async () => {
-                console.log("word: " + word);
-                const apiUrl = "https://localhost:7071/Lives?word=" + word;
-                const data = await fetch(apiUrl);
-                const jsonData = await data.json();
-                setLives(jsonData)
-            };
-            const GetGoal = async () => {
-                console.log("word: " + word);
-                const apiUrl = "https://localhost:7071/Goal?word=" + word;
-                const data = await fetch(apiUrl);
-                const jsonData = await data.json();
-                setGoal(jsonData)
-            };
-            const GetGuessLine = async () => {
-                console.log("word: " + word);
-                const apiUrl = "https://localhost:7071/GuessLine?word=" + word;
-                const data = await fetch(apiUrl);
-                const jsonData = await data.json(); // Error
-                setGuessline(jsonData)
-            };
-            if (notInitialRender3.current) {
-                //send word to backend
-                GetGoal();
-                GetLives();
-                GetGuessLine();
-                setVisibilityClass('not-hidden')
+            //send word to backend
+            GetGoal();
+            GetLives();
+            GetGuessLine();
+            setVisibilityClass('not-hidden')
 
-                // show 'hide-this' class
-            }
-            else {
-                notInitialRender3.current = true;
-            }
+            // show 'hide-this' class
         }
     }, [gameStarted, word, permission])
 
