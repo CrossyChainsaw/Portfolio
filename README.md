@@ -57,7 +57,7 @@ I also planned a React spike, same concept as above, I just try to gather as muc
 #### Text Input
 It was surprisingly hard to get the text input value and put it in a variable. I managed to do this with 2 seperate variables. One variable, called word, updates everytime the text input changes. the variable basically represents live what's in the text input. Also did I have a second variable, called permission. if you click the button permission becomes true, because the word gets permission to be checked on existence. I've put the code down here.
 
-```
+```ts
     // this happens everytime text input gets updated
     function OnChange(e: React.ChangeEvent<HTMLInputElement>) {
         setWord(e.currentTarget.value);
