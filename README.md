@@ -114,9 +114,17 @@ const GetGuessLine = async () => {
 ```
 
 ### Back-end
-The back-end has partially been made in C# .NET and partially in Java Spring. You can check the code in my repository.
+Just like the front-end section, I'll show some of the milestones, more noticeable events that occured in my backend. The back-end has partially been made in C# .NET and partially in Java Spring. You can check the code in my repositories.
 
 [Reverse Hangman Online Backend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend)
+
+[Game Statistics Service Repository](https://github.com/Epic-Chainsaw-Massacre/Game-Statistics-Service)
+
+[Word Service Repository](https://github.com/Epic-Chainsaw-Massacre/Word-Service)
+
+#### External API
+
+#### Reverse Hangman Forms Copy Paste
 
 ### UX-Testing
 I sadly haven't been able to do user experience testing since my application wasn't done yet. So I couldn't let someone test it. Parts of my application were done quite early but the game itself wasn't.
