@@ -202,8 +202,23 @@ In blue you can see their feedback on all our user stories. Since it's a lot I'l
 In blue it says, *It's not important to focus on the paying process*, underneath the blue sentence they gave us advice on functionalities they would like to see instead, for example, *Make it impossible for outsiders to reach our website*, *saving a session to the backend*, *show all orders in the management portal* and *completing an order*.
 ![image](https://user-images.githubusercontent.com/74303221/173032795-1fd22516-dc6e-421c-824a-2c7d2a544552.png)
 
+### User Stories and Non-Functional Requirements
+We kept track of all our user stories and non-functional requirements using Jira. Here are all our user stories and non-functional requirements. User stories are green, non-functional requirements are blue.
+
+![image](https://user-images.githubusercontent.com/74303221/173355981-5ee09425-6218-42fe-84a2-ab1d6141d9a7.png)
+
+![image](https://user-images.githubusercontent.com/74303221/173356292-7b775bae-221e-4652-9d94-43491b633049.png)
+
+![image](https://user-images.githubusercontent.com/74303221/173356101-94592784-36dd-43e6-a3d1-91e049febd0a.png)
+
+
 ### Security and Performance
 We had a few security issues in our project. For example, its possible to place an order, eat your food, remove your cookies on the browser. and it doesn't say you have to pay anymore. Our solution for this would be to save the cookies in the backend. At this moment we only save it in the frontend. Another security flaw is that it's possible to place an order while you aren't even near the restaurant. We wanted to solve this problem by making it impossible to reach the URL if you are on a different IP, but that required WI-FI. And using a restaurant WI-FI isn't the most user friendly solution. so for this flaw we didn't find an solution yet. Sadly we ran out of time to build the functionalities.
+
+### Technical Decisions and Architecture
+For our technical decisions and architecture I strongly recommend to visit our applications documentation.
+
+[Restaurant Order System Documentation](https://github.com/fontys-group3)
 
 ## Learning Outcome 7: Business processes
 *You can explain **simple** business processes and **relate** them to the development of your software project.*
