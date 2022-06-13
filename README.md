@@ -46,7 +46,30 @@ Clarification:
 **Full-stack**: You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
 
 ### Front-end
-The front-end has been made in React-TypeScript. You can check the code in my repository.
+In this section I'll show some parts of my frontend, the bigger milestones. The front-end has been made in React-TypeScript. You can check the code in my repository.
+
+#### TypeScript
+Making a start with React TypeScript was very hard, without any experience I hopped in vscode and tried to do anything. This didn't work out at all. Everything I tried failed. My classmate [Mike van den Hoef](https://github.com/Headoros) was always willing to help me but still, It wouldn't work out this way. I decided to plan a TypeScript spike. In this spike I gathered information from the [W3schools TypeScript tutorial](https://www.w3schools.com/typescript/index.php) and at the same time i practised everything I was learning in a test project. TypeScript is such an awesome languange.
+
+#### React
+I also planned a React spike, same concept as above, I just try to gather as much information about React and try to implement it. I really like this type of learning and it always works out for me. For React I used the [W3schools React tutorial](https://www.w3schools.com/REACT/default.asp). In my opinion W3schools has the best tutorials to learn the basics.
+
+#### Text Input
+It was surprisingly hard to get the text input value and put it in a variable. I managed to do this with 2 seperate variables. One variable, called word, updates everytime the text input changes. the variable basically represents live what's in the text input. Also did I have a second variable, called permission. if you click the button permission becomes true, because the word gets permission to be checked on existence. I've put the code down here.
+
+```
+    // this happens everytime text input gets updated
+    function OnChange(e: React.ChangeEvent<HTMLInputElement>) {
+        setWord(e.currentTarget.value);
+    }
+
+    function OnCLick(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
+        setButtonClicks(buttonClicks + 1);
+        setPermission(true);
+    }
+```
+
+#### API Requests
 
 [Reverse Hangman Online Frontend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend)
 
