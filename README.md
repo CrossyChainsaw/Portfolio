@@ -229,7 +229,9 @@ app.MapGet("/GuessLine", ([FromUri] string word) =>
 My frontend just gives the word to an endpoint, the endpoint does some calculations with the word and returns for example the amount of lives it should return.
 
 ### Future Plans
-blank -> other services data n stuff
+My future plans are to finish a working round in Reverse Hangman Online. Right now you can only fill in a word, and make it check on existance. further on do the lives and goal get calculated using the word.
+
+Also do I still want to save game results to a database. Right now nothing with a database happens. Also would I like to show my data from my database in my frontend. Further on I was planning to make songs for my game. I really looked forward to that. Also adding sound effects, it brings the game overal more alive. At last I also wanted to add different languages, for this project i was planning on making English and Dutch. By changing the language, not only the UI should change but also the checking of words, so that means I would probably have to use a dutch dictionary API. Finally I wanted to add a ranking system to my game. people would be able to create an account and have an amount of rank points, elo. This elo would make people play against others from the same skill level.
 
 ### UX-Testing
 I sadly haven't been able to do user experience testing since my application wasn't done yet. So I couldn't let someone test it. Parts of my application were done quite early but the game itself wasn't.
