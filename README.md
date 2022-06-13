@@ -170,7 +170,7 @@ I'll slowly take you through everything I was responsible for.
 #### Menu Logic
 Me and David have worked on everything behind the scenes of our menu. We came across such a hard problem that I couldn't even describe it to look it up. I also couldn't do it in C#. I was completely lost, since usually, logic wise, nothing is impossible to me in C#. The problem we had was sorting our products into categories. So that all deserts get sorted together, all  main dishes would get sorted together etcetera. In the end of the day Mike or David solved it some how. Pretty funny, I found the message back where I'm saying "_design is going good but I have no idea how to get them sorted right_".
 
-![image](https://user-images.githubusercontent.com/74303221/173419348-90378085-0718-4546-9b6c-95b9e0a42194.png)
+![image](https://user-images.githubusercontent.com/74303221/173420101-f96a85ce-5683-4cd9-a557-19a143107225.png)
 
 #### Menu Design
 Also did i work on the design in the first sprint. The menu looked a bit prototype-ish, so Mike gave it a big make over. Here is the old design I made in sprint 1.
