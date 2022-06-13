@@ -182,7 +182,18 @@ To solve this problem I found a solution. If I do a request of the word 'Pirate'
       ]
    }
 ]
+```
 
+Important to note is that meta.id contains the word i did a request for. So the only thing I gotta do in my code is check if meta.id equals the word I did a request for. Here's my code for it. As you see I've put it in a try catch, since the json object isn't guaranteed to have data for meta.id. Because as you saw in the 'Birate' request we didn't have meta nor did we have id. This is the way I filter away words that don't exist.
+
+```java
+String wordString;
+try {
+    wordString = json.getJSONObject(0).getJSONObject("meta").getString("id");
+}
+catch (Exception e) {
+    return false;
+}
 ```
 
 #### Reverse Hangman Forms Copy Paste
