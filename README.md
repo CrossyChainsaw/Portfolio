@@ -46,12 +46,12 @@ Clarification:
 **Full-stack**: You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
 
 ### Front-end
-The front-end has been made in React-TypeScript.
+The front-end has been made in React-TypeScript. You can check the code in my repository.
 
 [Reverse Hangman Online Frontend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend)
 
 ### Back-end
-The back-end has partially been made in C# .NET and partially in Java Spring.
+The back-end has partially been made in C# .NET and partially in Java Spring. You can check the code in my repository.
 
 [Reverse Hangman Online Backend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend)
 
