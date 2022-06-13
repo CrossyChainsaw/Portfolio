@@ -58,6 +58,20 @@ The back-end has partially been made in C# .NET and partially in Java Spring.
 ### UX-Testing
 I sadly haven't been able to do user experience testing since my application wasn't done yet. So I couldn't let someone test it. Parts of my application were done quite early but the game itself wasn't.
 
+### Object Relational Mapping
+In our GP we used an ORM for our menu-service. In our service we've created entities, with some annotations and configuration we set up that the entities we've created get created in a MySQL database. Here is an example of what an entity class looks like. 
+
+![image](https://user-images.githubusercontent.com/74303221/173344401-af5e6d42-49b6-4505-95a2-c96be3813518.png)
+
+This is what it looks like in MySQL if we run the application.
+
+![image](https://user-images.githubusercontent.com/74303221/173344881-16332f66-b3d9-42ca-8dc5-958a8d745f00.png)
+
+As you saw there's already data in it, we've done this by adding a data.sql file. In the red square you can see the lines of code that generate our data.
+
+![image](https://user-images.githubusercontent.com/74303221/173345048-ed4d1e85-3cd3-4586-9eec-fdb036860ba1.png)
+
+
 ## Learning Outcome 2: Software Quality
 *You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.*
 
