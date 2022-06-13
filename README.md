@@ -197,10 +197,36 @@ catch (Exception e) {
 ```
 
 #### Reverse Hangman Forms Copy Paste
-blank
+So as you might know, I made an application in WinForms called ReverseHangmanDesktop. Since all the logic in ReverseHangmanDesktop was coded seperately from the presentation layer, I could just copy paste all the logic from that application into my application. My application did become an absolute mess. But i got all the backend functionalities in only a few minutes. Otherwise it would probably take hours.
+
+![image](https://user-images.githubusercontent.com/74303221/173446686-4a8d6a00-e537-4be5-9aee-1028e6214576.png)
 
 #### Communicate with Front-end
-blank
+Communicating with the frontend was a mystery at the start, I looked op tutorials how you make a C# service that can talk with a React frontend. It looked all super vague to me, I even tried to build a controller in WinForms haha don't do that. I did manage to call API requests from a WinForms application, that was actually pretty funny. But I was wasting time. Finally I went in visual studio and wrote API ASP.NET something like that. I clciked the one with ASP.NET Core. It was all a very random process. Maybe I also used a guide I can't remember it too well. But when I got in the project I got an auto-generated example with WeatherForecast that returned an array with some extra's. I just simplified that auto-generated endpoint and created the following.
+
+```cs
+app.MapGet("/Lives", ([FromUri] string word) =>
+{
+    gameSetup.differentLettersInWord = WordClass.CountDifferentLetters(word);
+    gameSetup.game.teamCollection.GetTeamList()[0].CalculateLives(gameSetup.differentLettersInWord);
+    return gameSetup.game.teamCollection.GetTeamList()[0].Lives;
+}).WithName("GetLives");
+
+app.MapGet("/Goal", ([FromUri] string word) =>
+{
+    int goal = gameSetup.game.teamCollection.GetTeamList()[0].GuessCollection.CalculateGoal(gameSetup.differentLettersInWord);
+    return goal;
+}).WithName("GetGoal");
+
+app.MapGet("/GuessLine", ([FromUri] string word) =>
+{
+    gameSetup.game.SetWord(word);
+    string guessline = gameSetup.game._wordClass.CalculateWordStripes();
+    return guessline.Length / 2;
+}).WithName("GuessLine");
+```
+
+My frontend just gives the word to an endpoint, the endpoint does some calculations with the word and returns for example the amount of lives it should return.
 
 ### Future Plans
 blank -> other services data n stuff
