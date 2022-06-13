@@ -316,6 +316,24 @@ I've put the document with the research in it in my portfolio, Because its so bi
 
 [Database Research](https://github.com/CrossyChainsaw/Portfolio/tree/master/Database%20Research)
 
+### Retrospective
+In my database research I've done a few things I will do different next time. 
+
+#### Filtering Sources
+The way I decided which sources to use was. I looked up a source. Researched the person that wrote it. If the person was well known and had a database background I gave it a high trust level, if not I gave it a low trust level. Why won't I do this next time? If someone is well known to a lot of people and has 10 years of experience with databases, it doesn't mean he has a good understanding of databases. A better strategy would be to find multiple sources, and use the infromation I encounter the most. If multiple people say the same stuff it sounds more reliable to me.
+
+#### Drop Databases for the wrong reasons
+In my research I dropped a few databases for controversial reasons. I dropped a database that had extra functionalities that I didn't need. But in the and all databasese have that so that was quite unnecessary. I dropped 2 database types because they dont directly support a key functionality I need. But by using a workaround I could actually make them work. As soon as I saw the key functionality was missing I instantly dropped it, but I shouldve given it a chance to the end. This is a good way to start the next topic.
+
+#### Random Conclusions 
+I randomly had a few conclusions throughout the research. Usually you have a conclusion at then end, but I had multiple at random spots. This usually means I have researched topics inside of my research, I kept researching and researching. This blends in nicely with the next topic.
+
+#### Kept Researching
+I kept researching everything. That's not bad, but I also kept researching topics that didn't fit in my database research at all. For example I researched how reliable people are that write online guides.
+
+#### Time
+The next time I will start earlier, I kept procastinating since I didn't know what I wanted to research, and because I found the DOT-framework very vague. In the end I started researching in the last week. This was a strange experience for me since I usually plan everything perfectly.
+
 ## How do I protect the URLs my microservices use to communicate?
 For this research I made use of the [DOT framework](https://ictresearchmethods.nl/The_DOT_Framework).
 
