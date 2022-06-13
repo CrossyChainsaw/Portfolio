@@ -48,6 +48,8 @@ Clarification:
 ### Front-end
 In this section I'll show some parts of my frontend, the bigger milestones. The front-end has been made in React-TypeScript. You can check the code in my repository.
 
+[Reverse Hangman Online Frontend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend)
+
 #### TypeScript
 Making a start with React TypeScript was very hard, without any experience I hopped in vscode and tried to do anything. This didn't work out at all. Everything I tried failed. My classmate [Mike van den Hoef](https://github.com/Headoros) was always willing to help me but still, It wouldn't work out this way. I decided to plan a TypeScript spike. In this spike I gathered information from the [W3schools TypeScript tutorial](https://www.w3schools.com/typescript/index.php) and at the same time i practised everything I was learning in a test project. TypeScript is such an awesome languange.
 
@@ -57,6 +59,7 @@ I also planned a React spike, same concept as above, I just try to gather as muc
 #### Text Input
 It was surprisingly hard to get the text input value and put it in a variable for the first time. I managed to do this with a variable called word. This updates everytime the text input changes. the variable basically represents live what's in the text input. Also did I have a second variable, called permission. if you click the button permission becomes true, because the word gets permission to be checked on existence, get it? I've put the code down here so you can try to understand what i've done (I've left out parts of code that make it more complicated and irelevant for this topic).
 
+*parts of singleplayer.tsx*
 ```ts
 const [word, setWord] = useState<string>("");
 const [permission, setPermission] = useState<boolean>(false);
@@ -85,6 +88,7 @@ function OnCLick(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
 #### API Requests
 This was hard to get into, even when I did a request once. It stayed hard for a while. After doing it a few times API requests are a breeze. Here are some API request examples, these are the ones used in the code above.
 
+*parts of singleplayer.tsx*
 ```ts
 const GetLives = async () => {
     console.log("word: " + word);
@@ -108,9 +112,6 @@ const GetGuessLine = async () => {
     setGuessline(jsonData)
 };
 ```
-
-
-[Reverse Hangman Online Frontend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend)
 
 ### Back-end
 The back-end has partially been made in C# .NET and partially in Java Spring. You can check the code in my repository.
