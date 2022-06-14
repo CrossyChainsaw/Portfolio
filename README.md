@@ -24,7 +24,11 @@ image of all products
  - [Reflection](#reflection)
 
 # Preface
-Whilst reading you might encounter certain terms like IP, GP and S3, these refer to the terms Individual Project, Group Project and Semester 3 respectively. I'll start with showing all products I made this semester and then we'll go into the researches I did. Nothing else to add, have fun reading.
+Whilst reading you might encounter certain terms like IP, GP and S3, these refer to the terms Individual Project, Group Project and Semester 3 respectively. I'll start with showing all products I made this semester and then we'll go into the researches I did. It gets mentioned pretty soon down here but maybe you only read the preface and skip some other things so keep in mind that a lot of my IP gets explained in my application's documentation. Usually I refer to the documentation but just to be sure, I've added it down here. Same goes for the GP. Nothing else to add, have fun reading.
+
+[Reverse Hangman Online Documentation](https://github.com/Epic-Chainsaw-Massacre)
+
+[Restaurant Ordering System Documentation](https://github.com/fontys-group3)
 
 # Products
 This semester I had to realise all the learning outcomes of semester 3. Per product I will explain how i realised the corresponding learning outcome. Here's a list with all the learning outcomes. I'll also include a list of requirements I have to realise this semester in my individual project.
