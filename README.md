@@ -615,3 +615,6 @@ in semester 2 we had a really nice and kind man as product owner. It felt like h
 
 ## Bad First Impression
 Our first impression with the product owners was horrible. We had to ask them question about the case they've send us. But only or two people of our group did actually read it. That was a terrible experience. At first it felt like our group tried to keep it secret, but I just told them we didn't read it at all nor had we seen it. Our teacher sent it so us over Teams so that was really on us. To do this better next time I should read Teams more frequently. But the issue with that is, I get so much garbage over teams for some reason. So maybe I should just clean that.
+
+## Code Tools used too late
+So I have to use all kinds of tools that help improve my code, for exmaple the CI pipeline and code analysis. Instead of using these tools to improve my code. I added them in the end of the semester showing the teachers I can use them.
