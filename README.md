@@ -9,7 +9,7 @@ image of all products
      - [Learning Outcome 1: Web Application (IP)](#learning-outcome-1-web-application-ip)
      - [Learning Outcome 2: Software Quality](#learning-outcome-2-software-quality)
      - [Learning Outcome 4: CI/CD](#learning-outcome-4-cicd)
-     - [Learning Outcome 6: Requirements and Design (IP)](#learning-outcome-6-requirements-and-design-ip)
+     - [Learning Outcome 6: Design](#learning-outcome-6-design)
      - [Learning Outcome 8: Professional (IP)](#learning-outcome-8-professional-ip)
    - [Restaurant Ordering System](#restaurant-ordering-system)
      - [Learning Outcome 1: Web Application (GP)](#learning-outcome-1-web-application-gp)
@@ -344,6 +344,11 @@ For the UI I just wanted to keep it simple and clean. I don't want people to sta
 The idea is again to replicate this onto my project. Currently it looks like this.
 
 ![image](https://user-images.githubusercontent.com/74303221/173572977-84aa2916-a58a-4712-bd0e-58bf1c2bd9b6.png)
+
+I also still wanted to make a background looking something like this. This also adds up to the spooky vibe of the application.
+
+![image](https://user-images.githubusercontent.com/74303221/173578807-efd02e2c-b314-4269-b9e9-e2da0d06e798.png)
+
 
 #### UX-Testing
 If you are looking for UX-Testing check out.
