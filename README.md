@@ -420,7 +420,36 @@ Clarification:
 **Agile** method: You are aware of most popular agile methods and their underlying agile principles. You are able to implement the process of your software project according to a chosen methodology.
 
 ### Scrum
-For our group project we used the agile method scrum. This means we have one scrum master every sprint. The scrum master would lead the stand-ups and standdowns. Furthermore, the scrum master in our project didn't have too much meaning. For example, usually the contact person in the group is the scrum master. But we found it easier to make that role static and give it to a group member (me). It kind of felt like we were all the scrum master, this way of working didn't really give any problems. 
+For our group project we used the agile method scrum. We chose Scrum after the result of a research one of our group members did, sadly he stopped and I can't find it back. In our project we have one scrum master every sprint. The scrum master would lead the stand-ups and standdowns. Furthermore, the scrum master in our project didn't have too much meaning. For example, usually the contact person in the group is the scrum master. But we found it easier to make that role static and give it to a group member (me). It kind of felt like we were all the scrum master, this way of working didn't really give any problems. 
+
+### Kanban
+The kanban methodology has 6 practises that help you through your project, we'll cover all 6 briefly.
+
+#### Visualize your work
+When starting a kanban project its important to visualize your work in a kanban board. Kanban boards can look very differently, in the image below you see the most basic exmaple.
+
+![image](https://user-images.githubusercontent.com/74303221/173593181-bc1769a5-fd60-4637-94d6-afcce31bfab1.png)
+
+Some people tend to add extra tabs to it, or make it their own. That's all depending on your group.
+
+![image](https://user-images.githubusercontent.com/74303221/173593650-26a8a1b3-d3a0-4df8-a903-176a243b90cd.png)
+
+#### Limit Work in Progress
+This basically means as a group you set a limit to the 'in progress' tab. I took the example I just showed and drew a red line at the bottom of the in progress tab. This way the work in progress tab stays clean. The work in progress limit depends on how big your group is. For example if you have a group of five people you want to have arround 6/10 tasks.
+
+![image](https://user-images.githubusercontent.com/74303221/173594939-4a81c8eb-25bc-40ed-a2c3-3610b2294112.png)
+
+#### Manage Flow
+Through the process you check how your requirements go through the kanban board. If there are requirements stuck on in progress for a while you might reconsider if the requirement is setup right.
+
+#### Define when a requirement is done
+When working on a requirement you might just keep going on forever not knowing when to stop. That's why you should add definition of done's to yourr requirements. This way you can check you checklist and know when a requirement is done.
+
+#### Apply Feedback
+It's important to ask and apply feedback within the group, within the group members and also with the product owner. You can setup feedback loops you do every x time, where you discuss a list of things or for example do code reviews. 
+
+#### Improvement
+It's important to keep improving throughout the process. You don't just make you're requirements, setup the board and just work till then end. Whenever you can improve something in the project, its important to improve it.
 
 ## Learning Outcome 5: Cultural Differences and Ethics
 *You **recognize** and **take into account** cultural differences when working with multi-site teams and are aware of ethical aspects in software development.*
