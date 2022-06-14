@@ -345,10 +345,11 @@ The idea is again to replicate this onto my project. Currently it looks like thi
 
 ![image](https://user-images.githubusercontent.com/74303221/173572977-84aa2916-a58a-4712-bd0e-58bf1c2bd9b6.png)
 
-I also still wanted to make a background looking something like this. This also adds up to the spooky vibe of the application.
+I also still wanted to make a background looking something like this. This also adds up to the spooky vibe of the application. Here are some skechtes, this is NOT how the applciation looks like now. just ideas.
 
 ![image](https://user-images.githubusercontent.com/74303221/173578807-efd02e2c-b314-4269-b9e9-e2da0d06e798.png)
 
+![image](https://user-images.githubusercontent.com/74303221/173579409-fb21c35e-8216-4c86-9a32-b666b18bf8c8.png)
 
 #### UX-Testing
 If you are looking for UX-Testing check out.
