@@ -480,6 +480,7 @@ its important that the developers dont work more than 40 hours a week. if there 
 Just like lots of other agile methodologies, waterfall exists of making requirements, design (models), implementation, verification or testing and deployment and maintenance in this order. I'll explain them all briefly.
 
 *Waterfall methodology flows down in this image like a waterfall :0*
+
 ![image](https://user-images.githubusercontent.com/74303221/173694949-4fab62c2-e7b1-46c5-a530-468a542b244f.png)
 
 #### Requirements
@@ -489,6 +490,7 @@ In waterfall it's important to have all your requirements defined at the start. 
 With design we aren't talking about the user interface, but stuff like class diagrams architecture models flow of the app stuff like that. After you've made these you can move on to the next part
 
 *Example of a flow diagram, a flow diagram is one of the many diagrams that could be made in the design process*
+
 ![image](https://user-images.githubusercontent.com/74303221/173695265-858682df-bfa9-49dc-b5a2-0c57abe7b740.png)
 
 #### implementation
