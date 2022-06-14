@@ -580,7 +580,7 @@ Here I'll explain what I would do different the next time. Here you will find ou
 ## Planning
 My planning this semester was terrible, honestly I don't know how I ended up in this state. In the final week I got my stuff together and made a planning for myself. In the planning it says everything I still have to do/make. This is what my planning currently looks like. In the last week it really felt like all my structure I usually have came back.
 
-![image](https://user-images.githubusercontent.com/74303221/173574296-5aa9ee77-3e44-4734-8a49-0aa2cb80e2e1.png)
+![image](https://user-images.githubusercontent.com/74303221/173577617-be6f2748-156c-43df-9338-52afac4153c3.png)
 
 ## Research
 In my database research I've done a few things I will do different next time. 
