@@ -9,17 +9,19 @@ image of all products
      - [Learning Outcome 1: Web Application (IP)](#learning-outcome-1-web-application-ip)
      - [Learning Outcome 2: Software Quality](#learning-outcome-2-software-quality)
      - [Learning Outcome 4: CI/CD](#learning-outcome-4-cicd)
+     - [Learning Outcome 6: Requirements and Design (IP)](#learning-outcome-6-requirements-and-design-ip)
      - [Learning Outcome 8: Professional (IP)](#learning-outcome-8-professional-ip)
    - [Restaurant Ordering System](#restaurant-ordering-system)
      - [Learning Outcome 1: Web Application (GP)](#learning-outcome-1-web-application-gp)
      - [Learning Outcome 3: Agile Method](#learning-outcome-3-agile-method)
      - [Learning Outcome 5: Cultural Differences and Ethics](#learning-outcome-5-cultural-differences-and-ethics)
-     - [Learning Outcome 6: Requirements and Design](#learning-outcome-6-requirements-and-design)
+     - [Learning Outcome 6: Requirements](#learning-outcome-6-requirements)
      - [Learning Outcome 7: Business processes](#learning-outcome-7-business-processes)
      - [Learning Outcome 8: Professional (GP)](#learning-outcome-8-professional-gp)
  - [Research](#research)
    - [Which database is most suitable for my application?](#which-database-is-most-suitable-for-my-application)
    - [How do I protect the URLs my microservices use to communicate?](#how-do-i-protect-the-urls-my-microservices-use-to-communicate)
+ - [Reflection](#reflection)
 
 # Preface
 Whilst reading you might encounter certain terms like IP, GP and S3, these refer to the terms Individual Project, Group Project and Semester 3 respectively. I'll start with showing all products I made this semester and then we'll go into the researches I did. Nothing else to add, have fun reading.
@@ -308,6 +310,46 @@ I also added CD to all of my repositories. This means that, after a pull request
 
 ![image](https://user-images.githubusercontent.com/74303221/173250305-8d6d2b01-faec-4ed3-bb0f-29a94ca0c52b.png)
 
+## Learning Outcome 6: Design
+*You translate (non-functional) requirements to extend existing (architectural) designs and can validate them using **multiple types of test techniques**.*
+
+I've split this learning outcome into 2 parts. In this section I'll focuss more on the design. If you are looking for the requirements part of this learning outcome, have a look at the GP version of this learning outcome.
+
+[Learning Outcome 6: Design](#learning-outcome-6-design)
+
+### Design Origin
+At first glance it all might looked like I was building a random interface and hoping for the best. Actually what I was doing all this time is trying to recreate my application I made earlier, ReverseHangmanDesktop. This is was ReverseHangmanDesktop looks like (if you've read Reverse Hangman Online Documentation this might look furmilair).
+
+![image](https://user-images.githubusercontent.com/74303221/173570455-621c2a54-a43f-4498-80e6-6f570801afb1.png)
+
+![image](https://user-images.githubusercontent.com/74303221/173570820-9ee24450-4e26-46ab-9e69-7cb9e7e419ea.png)
+
+#### Comic Sans MS
+But how did I come up with this design you're asking? As you might know, Comic Sans MS is the real meme font. ReverseHangmanDesktop itself was a meme that slowly became reality. So I wanted to make the application for it a big meme. This also perfectly fits that it has been made in WinForms.
+
+#### Black and White
+The colors black and white haven't been chosen randomly. I wanted to create a page that gives a 'grim ominous' vibe. I'm not sure if thats the corerct words I'm trying to say 'een kille en nare vibe'. Having a black screen gives this dead and cold vibe. For a long time I was also looking for scary fonts like these.
+
+![image](https://user-images.githubusercontent.com/74303221/173572160-33f7eccf-f126-4236-8559-78cf226fd0b8.png)
+
+![image](https://user-images.githubusercontent.com/74303221/173572196-314fc5da-5216-4b9b-951a-0f81fb178c52.png)
+
+But usually they costed money or I didn't like them, after like 30 minutes of searching for a good font I just decided to roll with the meme.
+
+#### User Interface
+For the UI I just wanted to keep it simple and clean. I don't want people to stare all day to the screen trying to understand what it all says. That's why i tried to sctructure the app. Down below you can again see ReverseHangmanDesktop.
+
+![image](https://user-images.githubusercontent.com/74303221/173572547-f1828901-a42d-4e0b-82f7-2724134b4567.png)
+
+The idea is again to replicate this onto my project. Currently it looks like this.
+
+![image](https://user-images.githubusercontent.com/74303221/173572977-84aa2916-a58a-4712-bd0e-58bf1c2bd9b6.png)
+
+#### UX-Testing
+If you are looking for UX-Testing check out.
+
+[Learning Outcome 1: Web Application (IP)](#learning-outcome-1-web-application-ip)
+
 ## Learning Outcome 8: Professional (IP)
 *You act in a **professional manner** during software development and learning.*
 
@@ -389,7 +431,7 @@ We didn't have very strict coding standards in our team. We did have one rule an
 
 If multiple people worked on one repository we made branches and push the branches to GitHub. finally we merge them to the master. Working like this we avoid pushing our code to the master branch which could be very fatal.
 
-## Learning Outcome 6: Requirements and Design
+## Learning Outcome 6: Requirements
 *You translate (non-functional) requirements to extend existing (architectural) designs and can validate them using **multiple types of test techniques**.*
 
 Clarification:
@@ -519,7 +561,28 @@ I've put the document with the research in it in my portfolio, Because its so bi
 
 [Database Research](https://github.com/CrossyChainsaw/Portfolio/tree/master/Database%20Research)
 
-### Retrospective
+## How do I protect the URLs my microservices use to communicate?
+For this research I made use of the [DOT framework](https://ictresearchmethods.nl/The_DOT_Framework).
+
+**What**: I want to research how I can protect my URLs against everyone except my services.
+
+**Why**: If i don't protect the URLs, people can DOS attack my services, which take down my application.
+
+**How**: Trying to understand what all the risks are of not protecting the URLs, and finding out how to protect the URLs making use of reliable sources and validation.
+
+I've put the document with the research in it in my portfolio.
+
+[Security Research](#blank) (blank)
+
+# Reflection
+Here I'll explain what I would do different the next time. Here you will find out stuff about my semester you might have never even known, pretty fun section. Enjoy.
+
+## Planning
+My planning this semester was terrible, honestly I don't know how I ended up in this state. In the final week I got my stuff together and made a planning for myself. In the planning it says everything I still have to do/make. This is what my planning currently looks like. In the last week it really felt like all my structure I usually have came back.
+
+![image](https://user-images.githubusercontent.com/74303221/173574296-5aa9ee77-3e44-4734-8a49-0aa2cb80e2e1.png)
+
+## Research
 In my database research I've done a few things I will do different next time. 
 
 #### Filtering Sources
@@ -537,15 +600,18 @@ I kept researching everything. That's not bad, but I also kept researching topic
 #### Time
 The next time I will start earlier, I kept procastinating since I didn't know what I wanted to research, and because I found the DOT-framework very vague. In the end I started researching in the last week. This was a strange experience for me since I usually plan everything perfectly.
 
-## How do I protect the URLs my microservices use to communicate?
-For this research I made use of the [DOT framework](https://ictresearchmethods.nl/The_DOT_Framework).
+## Don't just listen/do what others say
+In this semester for example, my teacher would tell me I had to create a login, importing Auth0 and all that. I had never read that anywhere on canvas, but honestly I didn't read canvas that well. Also something really stupid of me this semester. But I just accepted I had to do it. Luckily another teacher told me later on it wasn't necessary. And i did a security research instead of building a login.
 
-**What**: I want to research how I can protect my URLs against everyone except my services.
+Also teacher A said he recommended us to learn Java, so we learn a different language. Then teacher C asked me why I decided to learn Java and my response was, 'Because the teacher recommended it'. It would've been better if I would've thought more about that decision. In the end i'm quite happy i worked with java but still. Next time just think more before instantly making a choice. 
 
-**Why**: If i don't protect the URLs, people can DOS attack my services, which take down my application.
+Also did I think I had to build a microservice application for my individual, but that wasn't even the case. Also kinda adds up to all this.
 
-**How**: Trying to understand what all the risks are of not protecting the URLs, and finding out how to protect the URLs making use of reliable sources and validation.
+## Start taking GP more seriously
+in semester 2 we had a really nice and kind man as product owner. It felt like he was just a classmate of us. With the same mindset i went in S3 and I felt like I was a bit too comfortable with the product owners. I started to just have a chat with them that they looked like some celebirity. But I surely wouldn't do that next time hahah.
 
-I've put the document with the research in it in my portfolio.
+*I showed an image of this guy to the product owner saying he looked like him*
+![image](https://user-images.githubusercontent.com/74303221/173576715-3ad7f388-29c3-43bf-99db-420e54b68de6.png)
 
-[Security Research](#blank) (blank)
+## Bad First Impression
+Our first impression with the product owners was horrible. We had to ask them question about the case they've send us. But only or two people of our group did actually read it. That was a terrible experience. At first it felt like our group tried to keep it secret, but I just told them we didn't read it at all nor had we seen it. Our teacher sent it so us over Teams so that was really on us. To do this better next time I should read Teams more frequently. But the issue with that is, I get so much garbage over teams for some reason. So maybe I should just clean that.
