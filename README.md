@@ -426,8 +426,10 @@ Clarification:
 ### Scrum
 For our group project we used the agile method scrum. We chose Scrum after the result of a research one of our group members did, sadly he stopped and I can't find it back. In our project we have one scrum master every sprint. The scrum master would lead the stand-ups and standdowns. Furthermore, the scrum master in our project didn't have too much meaning. For example, usually the contact person in the group is the scrum master. But we found it easier to make that role static and give it to a group member (me). It kind of felt like we were all the scrum master, this way of working didn't really give any problems. 
 
+I did a small research to the other agile methods, I did this by searching multiple resources online. Usually about 3 to 6 websites.
+
 ### Kanban
-The kanban methodology has 6 practises that help you through your project, we'll cover all 6 briefly.
+I'll go briefly through the practises of the Kanban methodology. 
 
 #### Visualize your work
 When starting a kanban project its important to visualize your work in a kanban board. Kanban boards can look very differently, in the image below you see the most basic exmaple.
@@ -454,6 +456,21 @@ It's important to ask and apply feedback within the group, within the group memb
 
 #### Improvement
 It's important to keep improving throughout the process. You don't just make you're requirements, setup the board and just work till then end. Whenever you can improve something in the project, its important to improve it.
+
+### Extreme Programming
+Extreme programming, also known as XP, exists of short developement cycles wherin you define the requirements and assign them, its as if you set up a sprint right before it starts if you compare it to Scrum. Just like any other agile methodology, XP comes with some practises, 12 to be exact. Since 12 is quite a lot we'll split them in 4 groups.
+
+#### Fine-scale feedback
+Pair programming is one of the practises, that means when 2 people team up on one device. One of the 2 writes the code also called the 'Driver' while the other observes the code also called 'observer'. The goal is that the observer gives feedback to the driver. Usually the roles get switched frequently. Another practise is the planning, you should plan together with the product owners when which products should be released, also should you guys as a team plan who works on what and when. In the second phase the product owner isn't evolved. Writing tests is also a practise pretty straight forward, write tests for your code. At last the product owner should always be contactable during the working process.
+
+#### Continuous process
+in this section falls the practise the have everyone code on the same shared space and merge the code several times a day. Refactoring is also a part of all this. This means you improve the code without adding or removing functionality. As last its important to have releases thoughout the project. Small releases so that the product owner knows the current state of the project. Its also important that the code isnt from someone, the code is from the entire team. Everyone is allowed to make changes to the code. Everything should be writtin as simple as possible, if you have a funtionality with 100 lines of code that could be writtin in 60 lines of code you should shorten it. As last its important that everyone can read the code, inclusing people that don't code. Tou can achieve this be giving everything names that explain them selves as good as possible, for exmaple good variable names, good class names, good method names etcetera. 
+
+#### Shared understanding
+Use the same coding standards for exmaple code in the same language like dutch, english, german, im not talking about same coding language, altough that would also be pretty important if you work on the same piece lol. For another example lets look at C#, its pretty well known in C# that you do pascal casing on methods and start private fields with an underscore. 
+
+#### Programmer welfare
+its important that the developers dont work more than 40 hours a week. if there happens to be overtime one week it doesnt mean you can skip the overtime you did in the next week. Because XP consists of small processes. If you dont work for a while you can miss alot since the processes are so small.
 
 ## Learning Outcome 5: Cultural Differences and Ethics
 *You **recognize** and **take into account** cultural differences when working with multi-site teams and are aware of ethical aspects in software development.*
