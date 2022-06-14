@@ -476,6 +476,24 @@ Use the same coding standards for exmaple code in the same language like dutch, 
 #### Programmer welfare
 its important that the developers dont work more than 40 hours a week. if there happens to be overtime one week it doesnt mean you can skip the overtime you did in the next week. Because XP consists of small processes. If you dont work for a while you can miss alot since the processes are so small.
 
+### Waterfall
+Just like lots of other agile methodologies, waterfall exists of making requirements, design (models), implementation, verification or testing and deployment and maintenance in this order. I'll explain them all briefly.
+
+#### Requirements
+In waterfall it's important to have all your requirements defined at the start. Also is it important to plan how long everything will take so you can tell the customer the costs by forehand.
+
+#### Design Models
+With design we aren't talking about the user interface, but stuff like class diagrams architecture models flow of the app stuff like that. After you've made these you can move on to the next part
+
+#### implementation
+In this phase the team codes the application. They write code based of the requirements.
+
+#### Verification or Testing
+Here the team tests their code to see if it does satisfy the requirements.
+
+#### Deployment and Maintenance
+After deploying the project, the team should maintain the project. If any bug/issue gets found, they solve it.
+
 ## Learning Outcome 5: Cultural Differences and Ethics
 *You **recognize** and **take into account** cultural differences when working with multi-site teams and are aware of ethical aspects in software development.*
 
