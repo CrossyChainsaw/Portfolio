@@ -524,6 +524,9 @@ the 4 dimensions are power distance (PDI), individualism (IDV), uncertainty avoi
 ##### Power Distance (PDI)
 Power distance is the degree a society accept or rejects unequal power distribution. For example in the netherlands everyone behaves another equally. But for example in Japan they show lots of respect for older people, people with a higher status and people with titles. You can already see how this could go wrong. If a young dutch developer, and an older japanese developer work together. The dutch might behave unrespetfull in the eyes of the japanese man. This is why its important to understand each others' culture.
 
+*In this image you see the differences between japanase bows, these get mixed up a lot. Usuaully people think there is just one bow, but there are multiple.*
+![image](https://user-images.githubusercontent.com/74303221/173791109-7a9a2b23-c718-443a-9434-920864cb93a3.png)
+
 ##### Individualism (IDV)
 Individualism is the degree a human prioritizes his own, indivual accomplishments. the counterpart is collectivism, this is that you care more about the group accomplishments
 
@@ -534,6 +537,9 @@ Uncertainty Avoidance is the degree a society tolerates risks. An example of a c
 Masculinity-Femininity is the degree a society values assertiveness and materialism versus feelings, relationships, and quality of life. I found an interesting table where they put masculinity against feminity. This table explains it better than me so have a look.
 
 ![image](https://user-images.githubusercontent.com/74303221/173784309-b9497c83-48c9-418b-9be4-d79cdc288d2c.png)
+
+##### Can you give examples for cultural differences that you have experienced in your study or life? How do you explain these differences?
+Actually, no. I have never really experienced these cultural differences at work nor did I experience them at school. This is probably because im very integrated in the dutch culture. The only really difference i noticed that i take into account, is that sometimes people with autism get on my nerves. But I try to ignore it since they can't do a thing about it. And till now its going pretty good, but that's not a cultural difference, maybe i have autism too.
 
 ### Coding Together
 We didn't have very strict coding standards in our team. We did have one rule and that is to code everything in English. 
