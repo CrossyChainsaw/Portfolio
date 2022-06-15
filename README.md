@@ -267,7 +267,7 @@ Now it was my turn to guess the word, I failed and got 0 points.
 #### Feedback from Jay
 After our quick playthrough I asked Jay for feedback about the application, things he liked, things he didn't like. He responded with the following. 'App werkt naar behoren' meaning, the app works like how it should work. He also said 'duidelijk maken dat je het verkloot hebt', meaning he wants it to be more clear when he made a mistake. Right now you lose a life, the letters shows, and you hear a fart sound effect. But I might reconsider how to show you made a mistake. 'instructies zijn duidelijk' this means he says the instructions are clear. Here's an example of an in-game construction.
 
-*In the red square you see a construction*
+*In the red square you see a instruction*
 ![image](https://user-images.githubusercontent.com/74303221/173932899-68e3a1e4-c588-4fcd-974b-212580a01e16.png)
 
 A mistake I already made in the UX-Test is that I took a user that has already played it before on a whiteboard. So he did already know the basics of the game. Another thing he said was 'makkelijk te spelen', meaning its easy to play. And the last thing he said was how he like that the players can define the difficulty, if players are up for a real challenge they can choose harder words. In his words 'limiet ligt bij de gebruiker, je kan zelf bepalen hoe makkelijk of hoe moeilijk je het maakt'.
