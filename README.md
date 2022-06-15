@@ -541,6 +541,31 @@ Masculinity-Femininity is the degree a society values assertiveness and material
 ##### Can you give examples for cultural differences that you have experienced in your study or life? How do you explain these differences?
 Actually, no. I have never really experienced these cultural differences at work nor did I experience them at school. This is probably because im very integrated in the dutch culture. The only really difference i noticed that i take into account, is that sometimes people with autism get on my nerves. But I try to ignore it since they can't do a thing about it. And till now its going pretty good, but that's not a cultural difference, maybe i have autism too.
 
+##### What is your culture?
+My culture in short consists of a few practises and norms. Every friday i try to go to the mosque for my religion. I have respect for everyone, doesn't matter if its a kid that's 4 years old or an elder, i threat them both the same most respectful way i can. Justice is somthing i find very important, threat others with justice. Threat others like you want to be threated, thats like on of the most important sentence in life for me. I like a good structure, i'm **usually** good at planning. I dont like it if theres no structure. i can tell more and give more examples, but everything i want to write down ends up with 'threat others like you want to be threated'. for example, if i dont help my sis with moving out. I wouldn't expect her to help me moving out. And at last parents come before anything.
+
+##### What did you  do to improve the group communications with respect to cultural differences? 
+Since i cant give examples in the group project ill take examples of real life. If i see a family member i always try to start the conversation by saying 'salaam wa alaikum'. Its just a respectfull way to greet muslims. If someone says it to you, you respond with 'Wa alaykumu s-salam'. A huge cultural difference I'm confronted with in the netherlands is going out to party and drinking beer and all that. I don't drink, I have no interest in it and its also forbidden in my religion. going out to a club looks very wrong to me so i always pass. Just the stories you hear the videos you see. To me it all feels very wrong and it doesnt fit into my culture.
+
+### Ethics
+I've split this section up in 7 questions.
+
+#### What is ethics in software engineering?
+Ethics is software engineering mean that, engineers should think about the consequences of their product. They should avoid giving a group of people bad consequences.
+
+#### Why is ethics important in software engineering? 
+Over the years the impact of software on our lives has grown on an insane level. everywhere around you is software. Engineers should take ethics into account, because they could mess up people their lives. How you would ask? For exmaple lets look at factories. Over the years more and more processes in factories got automised. This resulted in people losing their jobs. Losing your job unexpectedly as an adult could be very fatal since you have lots of charges you gotta pay, and as an adult its not always easy to find a job.
+
+#### What do you have to do as a software engineer to address ethical aspects in your work? 
+
+#### How do you know that your ethical considerations match with those of other software engineers? 
+
+#### Which ethical aspects play a role in your project? 
+
+#### Do you foresee ethical conflicts caused by your software? What kind of?  
+
+#### Can you do something to avoid or minimize these conflicts? 
+
 ### Coding Together
 We didn't have very strict coding standards in our team. We did have one rule and that is to code everything in English. 
 
