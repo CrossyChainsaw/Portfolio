@@ -557,14 +557,16 @@ Ethics is software engineering mean that, engineers should think about the conse
 Over the years the impact of software on our lives has grown on an insane level. everywhere around you is software. Engineers should take ethics into account, because they could mess up people their lives. How you would ask? For exmaple lets look at factories. Over the years more and more processes in factories got automised. This resulted in people losing their jobs. Losing your job unexpectedly as an adult could be very fatal since you have lots of charges you gotta pay, and as an adult its not always easy to find a job.
 
 #### What do you have to do as a software engineer to address ethical aspects in your work? 
+As a software engineer you should inform your product owner about the negative aspects/consequences of your work.
 
 #### How do you know that your ethical considerations match with those of other software engineers? 
+To understand other engineers their view you, for example in your team. Everyone can share their view and opinions about ethics and the ethical consequences of the project.
 
-#### Which ethical aspects play a role in your project? 
-
-#### Do you foresee ethical conflicts caused by your software? What kind of?  
+#### Which ethical aspects play a role in your project? + Do you foresee ethical conflicts caused by your software? What kind of?  
+In our group project the biggest ethical aspect is the following. We take a process that gets exectued by humans, waiters to be more specific. Waiters wander arround and take orders from the customers, they bring the order to the kitchen, and finally they serve out the food. So actually a waiter has 3 tasks. Lets we build an application for a restaurant where they have 3 waiters. each waiter has its own task. one waiter gets orders, one brings orders to the ktichen, and one serves out the food. If the fictional restaurant i just described uses our application it woulf have the following results. 2 out of 3 waiters would be unnecessary. since the orders get taken automatically, and the orders get to the kitchen automatically. this means only the food has to get served out. ethically this is a bad application for the waiter since it creates a decent chance of them losing their job.
 
 #### Can you do something to avoid or minimize these conflicts? 
+We could build the application slightly different, so that the customers dont use the app but the waiters use the app. In our fictional restaurant app it saves one waiter from its job. But in the end we build the application to automise the process. What's the use in having the waiters do a task with our application, if you can also give it in the hands of the customers. This is a dillemaa you can think about for quite a while. for example, does the product owner just wanna get rid of the employees to save money? will he use the employees for something different. This ethical problem summons lots of questions. So yes you could avoid the conflict by giving waiters another task in the restaurant or building the app in a way that they have to use it. Or you minimize it by keeping a part automised and a part not automised. But how usefull is that really.
 
 ### Coding Together
 We didn't have very strict coding standards in our team. We did have one rule and that is to code everything in English. 
