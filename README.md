@@ -246,7 +246,34 @@ Also do I still want to save game results to a database. Right now nothing with 
 My project wasn't finished yet. So i couldn't let someone test my application. I asked my teacher for solutions, and he told me I could make wireframes and test the experience on users using my wireframes. I could also step it up and make a prototype of my application, and let users test my prototype, focussing on the process and gameplay over the looks and design, because in the end its just a prototype. Last semester I made an application called Reverse Hangman Desktop. Reverse Hangman Desktop is a prototype-ish application I made in WinForms. My entire individual project is based of the prototype-ish application. So my prototype application would be perfect for UX-testing.
 
 #### Moderated User Testing
-For my project I did a moderated user test. This means I let someone play through my application, whilst spectating. If my user had any questions about anything he could ask me. In this next
+For my project I did a moderated user test. This means I let someone play through my application, whilst spectating. If my user had any questions about the application he could ask me. The more questions he would ask the more I should update. Let's actually look like what happened during the test, and how it went.
+
+#### Jay Tests my Applciation
+Some guy I found at school called Jay was willing to test my prototype application. By forehand I told Jay that anything he could mention anything that looked off. Having that said we started actually testing the game. We would play against each other. We would choose teamnames and start playing. I had to start choosing a word, and he had to start guessing. In this playthrough I chose the word 'Dongel' (Dutch word for Dongle). Here you see an image of Jay guessing the word.
+
+*Image of Jay thinking*
+![image](https://user-images.githubusercontent.com/74303221/173931794-31c3b963-ad19-4f3b-8b9e-c9e2eeab4c5a.png)
+
+*Oopsie, the letter 'N' is in the word*
+![image](https://user-images.githubusercontent.com/74303221/173931980-02e6dea7-a4a4-448f-aed8-fc7ea124742b.png)
+
+Jay completed the first round gaining 2 points. Now it was his turn choosing a word.
+
+*Jay typing a word :0*
+![image](https://user-images.githubusercontent.com/74303221/173932093-a16db979-9ddb-4ec2-be3d-a80356c06c82.png)
+
+Now it was my turn to guess the word, I failed and got 0 points. 
+
+#### Feedback from Jay
+After our quick playthrough I asked Jay for feedback about the application, things he liked, things he didn't like. He responded with the following. 'App werkt naar behoren' meaning, the app works like how it should work. He also said 'duidelijk maken dat je het verkloot hebt', meaning he wants it to be more clear when he made a mistake. Right now you lose a life, the letters shows, and you hear a fart sound effect. But I might reconsider how to show you made a mistake. 'instructies zijn duidelijk' this means he says the instructions are clear. Here's an example of an in-game construction.
+
+*In the red square you see a construction*
+![image](https://user-images.githubusercontent.com/74303221/173932899-68e3a1e4-c588-4fcd-974b-212580a01e16.png)
+
+A mistake I already made in the UX-Test is that I took a user that has already played it before on a whiteboard. So he did already know the basics of the game. Another thing he said was 'makkelijk te spelen', meaning its easy to play. And the last thing he said was how he like that the players can define the difficulty, if players are up for a real challenge they can choose harder words. In his words 'limiet ligt bij de gebruiker, je kan zelf bepalen hoe makkelijk of hoe moeilijk je het maakt'.
+
+#### What now?
+What do i do now? Do i adjust everything Jay said? No. I first want to do more UX-tests targeting different people, like different age, gender and culture. I think I might get more feedback like that. My idea is to apply the feedback I get multiple times of multiple people. If multiple people give me the same feedback its enough validation for me to update the game.
 
 ### Object Relational Mapping
 In our GP we used an ORM for our menu-service. In our service we've created entities, with some annotations and configuration we set up that the entities we've created get created in a MySQL database. Here is an example of what an entity class looks like. 
@@ -750,6 +777,9 @@ I kept researching everything. That's not bad, but I also kept researching topic
 
 #### Time
 The next time I will start earlier, I kept procastinating since I didn't know what I wanted to research, and because I found the DOT-framework very vague. In the end I started researching in the last week. This was a strange experience for me since I usually plan everything perfectly.
+
+## UX-Tests
+Do more UX-tests, start earlier, target multiple kinds of people. I let a user test my application that already had a good understanding of the game, that comes with pros and cons. Since he already knows whats coming, he can be more ciritcal, but because he already knows it, everything is clear to him. So UX-testing 1 person definitely won't do the job
 
 ## Don't just listen/do what others say
 In this semester for example, my teacher would tell me I had to create a login, importing Auth0 and all that. I had never read that anywhere on canvas, but honestly I didn't read canvas that well. Also something really stupid of me this semester. But I just accepted I had to do it. Luckily another teacher told me later on it wasn't necessary. And i did a security research instead of building a login.
