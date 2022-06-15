@@ -568,6 +568,9 @@ In our group project the biggest ethical aspect is the following. We take a proc
 #### Can you do something to avoid or minimize these conflicts? 
 We could build the application slightly different, so that the customers dont use the app but the waiters use the app. In our fictional restaurant app it saves one waiter from its job. But in the end we build the application to automise the process. What's the use in having the waiters do a task with our application, if you can also give it in the hands of the customers. This is a dillemaa you can think about for quite a while. for example, does the product owner just wanna get rid of the employees to save money? will he use the employees for something different. This ethical problem summons lots of questions. So yes you could avoid the conflict by giving waiters another task in the restaurant or building the app in a way that they have to use it. Or you minimize it by keeping a part automised and a part not automised. But how usefull is that really.
 
+*image of a waiter using our application to note down an order*
+![image](https://user-images.githubusercontent.com/74303221/173804913-5b326448-4a96-43f9-9d47-b3c44deb10eb.png)
+
 ### Coding Together
 We didn't have very strict coding standards in our team. We did have one rule and that is to code everything in English. 
 
