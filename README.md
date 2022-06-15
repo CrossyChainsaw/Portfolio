@@ -243,7 +243,10 @@ My future plans are to finish a working round in Reverse Hangman Online. Right n
 Also do I still want to save game results to a database. Right now nothing with a database happens. Also would I like to show my data from my database in my frontend. Further on I was planning to make songs for my game. I really looked forward to that. Also adding sound effects, it brings the game overal more alive. At last I also wanted to add different languages, for this project i was planning on making English and Dutch. By changing the language, not only the UI should change but also the checking of words, so that means I would probably have to use a dutch dictionary API. Finally I wanted to add a ranking system to my game. people would be able to create an account and have an amount of rank points, elo. This elo would make people play against others from the same skill level.
 
 ### UX-Testing
-I sadly haven't been able to do user experience testing since my application wasn't done yet. So I couldn't let someone test it. Parts of my application were done quite early but the game itself wasn't.
+My project wasn't finished yet. So i couldn't let someone test my application. I asked my teacher for solutions, and he told me I could make wireframes and test the experience on users using my wireframes. I could also step it up and make a prototype of my application, and let users test my prototype, focussing on the process and gameplay over the looks and design, because in the end its just a prototype. Last semester I made an application called Reverse Hangman Desktop. Reverse Hangman Desktop is a prototype-ish application I made in WinForms. My entire individual project is based of the prototype-ish application. So my prototype application would be perfect for UX-testing.
+
+#### Moderated User Testing
+For my project I did a moderated user test. This means I let someone play through my application, whilst spectating. If my user had any questions about anything he could ask me. In this next
 
 ### Object Relational Mapping
 In our GP we used an ORM for our menu-service. In our service we've created entities, with some annotations and configuration we set up that the entities we've created get created in a MySQL database. Here is an example of what an entity class looks like. 
