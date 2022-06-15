@@ -525,6 +525,7 @@ the 4 dimensions are power distance (PDI), individualism (IDV), uncertainty avoi
 Power distance is the degree a society accept or rejects unequal power distribution. For example in the netherlands everyone behaves another equally. But for example in Japan they show lots of respect for older people, people with a higher status and people with titles. You can already see how this could go wrong. If a young dutch developer, and an older japanese developer work together. The dutch might behave unrespetfull in the eyes of the japanese man. This is why its important to understand each others' culture.
 
 ##### Individualism (IDV)
+Individualism is the degree a human prioritizes his own, indivual accomplishments. the counterpart is collectivism, this is that you care more about the group accomplishments
 
 ##### Uncertainty Avoidance (UAI)
 Uncertainty Avoidance is the degree a society tolerates risks. An example of a country with a high uncertainty avoidance culture is France. this means that if you have a french worker in your group, he will expect structure and predictability.
