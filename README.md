@@ -512,6 +512,28 @@ Clarification:
 **Take into account**: Adapt your communication, working, and behaviour styles to work with other developers from different cultures; 
 Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work.  
 
+### Cultural Differences
+For this section I will answer 5 questions.
+
+#### What is culture? 
+Culture is shortly, activities, behaviour and practises of a group. For example the dutch are very direct. Its important to take this into account, since usually they don't try to be mean but it sounds like they try to be mean a lot. but thats just how they are. Another example of culture is that the turkish people organize a big party if they marry.
+
+#### Which are well-known dimensions on cultural differences? 
+the 4 dimensions are power distance (PDI), individualism (IDV), uncertainty avoidance (UAI) and masculinity (MAS). I'll describe them down here.
+
+##### Power Distance (PDI)
+Power distance is the degree a society accept or rejects unequal power distribution. For example in the netherlands everyone behaves another equally. But for example in Japan they show lots of respect for older people, people with a higher status and people with titles. You can already see how this could go wrong. If a young dutch developer, and an older japanese developer work together. The dutch might behave unrespetfull in the eyes of the japanese man. This is why its important to understand each others' culture.
+
+##### Individualism (IDV)
+
+##### Uncertainty Avoidance (UAI)
+Uncertainty Avoidance is the degree a society tolerates risks. An example of a country with a high uncertainty avoidance culture is France. this means that if you have a french worker in your group, he will expect structure and predictability.
+
+##### Masculinity-Femininity (MAS)
+Masculinity-Femininity is the degree a society values assertiveness and materialism versus feelings, relationships, and quality of life. I found an interesting table where they put masculinity against feminity. This table explains it better than me so have a look.
+
+![image](https://user-images.githubusercontent.com/74303221/173784309-b9497c83-48c9-418b-9be4-d79cdc288d2c.png)
+
 ### Coding Together
 We didn't have very strict coding standards in our team. We did have one rule and that is to code everything in English. 
 
