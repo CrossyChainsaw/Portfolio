@@ -288,6 +288,11 @@ As you saw there's already data in it, we've done this by adding a data.sql file
 
 ![image](https://user-images.githubusercontent.com/74303221/173345048-ed4d1e85-3cd3-4586-9eec-fdb036860ba1.png)
 
+### Architecture
+Looking for architecture? Click on the link below.
+
+[Reverse Hangman Online Documentation - Architecture](https://github.com/Epic-Chainsaw-Massacre#architecture)
+
 
 ## Learning Outcome 2: Software Quality
 *You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.*
@@ -353,6 +358,11 @@ I also added CD to all of my repositories. This means that, after a pull request
 I've split this learning outcome into 2 parts. In this section I'll focuss more on the design. If you are looking for the requirements part of this learning outcome, have a look at the GP version of this learning outcome.
 
 [Learning Outcome 6: Design](#learning-outcome-6-design)
+
+### Architecture
+Looking for architecture? Click on the link below.
+
+[Reverse Hangman Online Documentation - Architecture](https://github.com/Epic-Chainsaw-Massacre#architecture)
 
 ### Design Origin
 At first glance it all might looked like I was building a random interface and hoping for the best. Actually what I was doing all this time is trying to recreate my application I made earlier, ReverseHangmanDesktop. This is was ReverseHangmanDesktop looks like (if you've read Reverse Hangman Online Documentation this might look furmilair).
