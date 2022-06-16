@@ -309,7 +309,7 @@ For code analysis i've made use of SonarCloud. I chose SonarCloud since a classm
 
 ![image](https://user-images.githubusercontent.com/74303221/173247608-e802e311-4316-4a2a-96d0-318d8b2dcf75.png)
 
-Right now I only got the SonarCloud code analysis working on 2 out of 4 repositories. My goal is to have code analysis in every repository, so all of my repositories will have better code. 
+Right now I only got the SonarCloud code analysis working on 2 out of 4 repositories. My goal is to have code analysis in every repository, so all of my repositories will have better code. Update, I got it working on all 4 :D
 
 #### Code Smells
 Currently SonarCloud doesn't detect any bugs or vulnerabilities in my code. It does detect a few code smells.  
