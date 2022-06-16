@@ -417,6 +417,11 @@ This semester started off with [Leon van Bokhorst](https://github.com/leonvanbok
 blank v
 [FeedPulse PDF Report](#blank)
 
+### Research
+Researches are mentioned in the bottom of the document, click on the click to teleport there.
+
+[Research](#research)
+
 # Restaurant Ordering System
 The Restaurant Ordering System was my group project this semester. I made it together with [Mike van den Hoef](https://github.com/Headoros), [Tim Meijvogel](https://github.com/Timsel1), [Cas Esselink](https://github.com/CasEsselink) and [David Chang](https://github.com/Davidchang24). Everything about our Group Project can be found at it's documentation
 
@@ -733,6 +738,11 @@ After every sprint delivery we got feedback from the stakeholders and from the t
 For our technical decisions I strongly recommend to visit our applications documentation.
 
 [Restaurant Order System Documentation](https://github.com/fontys-group3)
+
+### Research
+Researches are mentioned literally underneath this, but I added a link for people who like clicking links.
+
+[Research](#research)
 
 # Research
 
