@@ -801,6 +801,8 @@ The next time I will start earlier, I kept procastinating since I didn't know wh
 ## UX-Tests
 Do more UX-tests, start earlier, target multiple kinds of people. I let a user test my application that already had a good understanding of the game, that comes with pros and cons. Since he already knows whats coming, he can be more ciritcal, but because he already knows it, everything is clear to him. So UX-testing 1 person definitely won't do the job
 
+My teacher also gave me feedback to observer my user. Try to look at his behaviour. From someone's behaviour you can also conceive information. Do confirm your conceptions with your user. Like this my UX-tests will be more efficient.
+
 ## Don't just listen/do what others say
 In this semester for example, my teacher would tell me I had to create a login, importing Auth0 and all that. I had never read that anywhere on canvas, but honestly I didn't read canvas that well. Also something really stupid of me this semester. But I just accepted I had to do it. Luckily another teacher told me later on it wasn't necessary. And i did a security research instead of building a login.
 
