@@ -417,7 +417,7 @@ This semester started off with [Leon van Bokhorst](https://github.com/leonvanbok
 blank v
 [FeedPulse PDF Report](#blank)
 
-### Research
+### Researches
 Researches are mentioned in the bottom of the document, click on the click to teleport there.
 
 [Research](#research)
@@ -739,7 +739,7 @@ For our technical decisions I strongly recommend to visit our applications docum
 
 [Restaurant Order System Documentation](https://github.com/fontys-group3)
 
-### Research
+### Researches
 Researches are mentioned literally underneath this, but I added a link for people who like clicking links.
 
 [Research](#research)
