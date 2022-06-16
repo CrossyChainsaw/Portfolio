@@ -348,9 +348,18 @@ Here's an example where I the pipeline actually helped me improve my code. I kep
 [Word Service CI/CD](https://github.com/Epic-Chainsaw-Massacre/Word-Service/actions/workflows/maven.yml)
 
 ### Continuous Deployment
-I also added CD to all of my repositories. This means that, after a pull request on the master everything gets deployed on docker.
+I also added Continous Delivery to all of my repositories. This means that, after a pull request on the master everything gets deployed on docker.
 
 ![image](https://user-images.githubusercontent.com/74303221/173250305-8d6d2b01-faec-4ed3-bb0f-29a94ca0c52b.png)
+
+But huge issue, they weren't getting deployed. To deploy all my applications I copy pasted the Dockerfile of a classmate of mine. This made 2/5 images actually run, but 3/5 weren't running. 
+
+![image](https://user-images.githubusercontent.com/74303221/174109810-dde544a6-52ed-4f4e-a856-3ec8ac65bd68.png)
+
+To fix this i probably have to change something in my dockerfile, one issue, since I copy pasted everything, I have no idea what's happening. I know why it stop's running. But I don't know how to fix it. So I decided to put a hard focus on learning docker.
+
+#### Learning Docker
+To learn docker I followed the [tutorial on Docker's website](https://docs.docker.com/get-started/). 
 
 ## Learning Outcome 6: Design
 *You translate (non-functional) requirements to extend existing (architectural) designs and can validate them using **multiple types of test techniques**.*
