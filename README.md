@@ -359,7 +359,7 @@ But huge issue, they weren't getting deployed. To deploy all my applications I c
 To fix this i probably have to change something in my dockerfile, one issue, since I copy pasted everything, I have no idea what's happening. I know why it stop's running. But I don't know how to fix it. So I decided to put a hard focus on learning docker.
 
 #### Learning Docker
-To learn docker I followed the [tutorial on Docker's website](https://docs.docker.com/get-started/). 
+To learn docker I followed the [tutorial on Docker's website](https://docs.docker.com/get-started/). After learning the basics there about docker, I wanted to focus my actual problem. I didn't know how to setup a dockerfile.
 
 ## Learning Outcome 6: Design
 *You translate (non-functional) requirements to extend existing (architectural) designs and can validate them using **multiple types of test techniques**.*
