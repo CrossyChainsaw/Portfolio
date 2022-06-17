@@ -21,6 +21,7 @@
      - [Learning Outcome 7: Business processes](#learning-outcome-7-business-processes)
      - [Learning Outcome 8: Professional (GP)](#learning-outcome-8-professional-gp)
    - [Ranknir](#ranknir)
+   - [Money Squadron Virus](#money-squadron-virus)
  - [Research](#research)
    - [Which database is most suitable for my application?](#which-database-is-most-suitable-for-my-application)
    - [How do I protect the URLs my microservices use to communicate?](#how-do-i-protect-the-urls-my-microservices-use-to-communicate)
