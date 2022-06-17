@@ -779,7 +779,7 @@ For this research I made use of the [DOT framework](https://ictresearchmethods.n
 
 I've put the document with the research in it in my portfolio.
 
-[Security Research](#https://github.com/CrossyChainsaw/Portfolio/tree/master/Security%20Research)
+[Security Research](https://github.com/CrossyChainsaw/Portfolio/tree/master/Security%20Research)
 
 # Reflection
 Here I'll explain what I would do different the next time. Here you will find out stuff about my semester you might have never even known, pretty fun section. Enjoy.
