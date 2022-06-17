@@ -813,7 +813,7 @@ The code isn't too interesting, I improved my python skills. Besides that did it
 # Money Squadron Virus
 A less interesting project I worked on this semester is Money Squadron Virus. MSV is a meme bot created in python. Other than practising python this project didn't really add up to my skills as an software engineer, but in the end I did spend quite some time on this project, maintaining it, so I thought it deserved a spot in here. 
 
-Here are a few of my favourite memes
+Here are a few of my favourite memes.
 
 ![image](https://user-images.githubusercontent.com/74303221/174412150-4f81bda6-7937-4654-b9d2-e1a5b70b312a.png)
 
