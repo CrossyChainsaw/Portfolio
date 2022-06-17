@@ -383,6 +383,10 @@ ENTRYPOINT ["dotnet", "GameStatisticsService.dll"]
 ```
 I got the same error. That made me realize, I wasnt updating my local docker images. everything kept getting pushed to dockerhub, but if I ran them locally I kept running the 4 line dockerfile. Once i realized that everything was pretty easy to setup. Just look up for dockerfiles, copy paste, and everything runs in a compose file.
 
+*Evidence of everything running*
+
+https://user-images.githubusercontent.com/74303221/174286904-65b6127e-f612-4519-9a7a-3227df9b4956.mp4
+
 ## Learning Outcome 6: Design
 *You translate (non-functional) requirements to extend existing (architectural) designs and can validate them using **multiple types of test techniques**.*
 
