@@ -388,9 +388,9 @@ I got the same error. That made me realize, I wasnt updating my local docker ima
 https://user-images.githubusercontent.com/74303221/174286904-65b6127e-f612-4519-9a7a-3227df9b4956.mp4
 
 [//]: # (### Failed to Fetch
-Everything runs, great, but the api requests between my applications don't work. My frontend can't seem to reach my backend and vice versa. To fix this I will configure them on the same IP. !-->)
+Everything runs, great, but the api requests between my applications don't work. My frontend can't seem to reach my backend and vice versa. To fix this I will configure them on the same IP.
 
-![image](https://user-images.githubusercontent.com/74303221/174288353-b235486d-d5a2-4ac4-adea-2cdcc0e75cd1.png)
+![image](https://user-images.githubusercontent.com/74303221/174288353-b235486d-d5a2-4ac4-adea-2cdcc0e75cd1.png))
 
 
 ## Learning Outcome 6: Design
