@@ -348,7 +348,7 @@ Here's an example where I the pipeline actually helped me improve my code. I kep
 [Word Service CI/CD](https://github.com/Epic-Chainsaw-Massacre/Word-Service/actions/workflows/maven.yml)
 
 ### Continuous Deployment
-I also added Continous Delivery to all of my repositories. This means that, after a pull request on the master everything gets deployed on docker.
+I also added Continous Delivery to all of my repositories. This means that, after a pull request on the master everything gets deployed on dockerhub. From Docker desktop if I go to remote repositories I can indeed see that the images have been pushed to dockerhub.
 
 ![image](https://user-images.githubusercontent.com/74303221/173250305-8d6d2b01-faec-4ed3-bb0f-29a94ca0c52b.png)
 
@@ -359,7 +359,29 @@ But huge issue, they weren't getting deployed. To deploy all my applications I c
 To fix this i probably have to change something in my dockerfile, one issue, since I copy pasted everything, I have no idea what's happening. I know why it stop's running. But I don't know how to fix it. So I decided to put a hard focus on learning docker.
 
 #### Learning Docker
-To learn docker I followed the [tutorial on Docker's website](https://docs.docker.com/get-started/). After learning the basics there about docker, I wanted to focus my actual problem. I didn't know how to setup a dockerfile.
+To learn docker I followed the [tutorial on Docker's website](https://docs.docker.com/get-started/). After learning the basics there about docker, I wanted to focus my actual problem. I didn't know how to setup a dockerfile. I tried looking up tutorials but everyone just breezes through the dockerfile without explaining it. Then I realized something. The docker error I got was always exactly the same. No matter what I did. If my dockerfile looked like the following
+```dockerfile
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
+WORKDIR /src
+COPY ["GameStatisticsService/GameStatisticsService.csproj", "GameStatisticsService/"]
+ENTRYPOINT ["dotnet", "GameStatisticsService.dll"]
+```
+or if it looked like this
+```
+FROM mcr.microsoft.com/dotnet/sdk:6.0-focal AS build
+WORKDIR /source
+COPY . .
+RUN dotnet restore "./GameStatisticsService/GameStatisticsService.csproj" --disable-parallel
+RUN dotnet publish "./GameStatisticsService/GameStatisticsService.csproj" -c release -o /app --no-restore
+
+# Run
+FROM mcr.microsoft.com/dotnet/aspnet:6.0-focal
+WORKDIR /app
+COPY --from=build /app ./
+
+ENTRYPOINT ["dotnet", "GameStatisticsService.dll"] 
+```
+I got the same error. That made me realize, I wasnt updating my local docker images. everything kept getting pushed to dockerhub, but if I ran them locally I kept running the 4 line dockerfile. Once i realized that everything was pretty easy to setup. Just look up for dockerfiles, copy paste, and everything runs in a compose file.
 
 ## Learning Outcome 6: Design
 *You translate (non-functional) requirements to extend existing (architectural) designs and can validate them using **multiple types of test techniques**.*
@@ -833,6 +855,9 @@ So I have to use all kinds of tools that help improve my code, for exmaple the C
 
 ## Wednesday
 I usually did nothing on wednesday. This was because me and my mom watched a series that always dropped at Tuesday 23:30. The episode usually lasted like 150 minutes. so I would always sleep way too late. Since I still wanted to sleep properly I woke up pretty late. This made me tired the entire day. And then I did nothing the entire day. This is how every wednesday went. This was very unprofessional behaviour of me.
+
+## Videos in Portfolio
+I just absolutely forgot this was a thing sadly, The last 3 days someone reminded me it was a thing and i added for example docker running in a video so you can see its not fake. but other than that I wanted to focus more on finishing everything instead of taking videos of everything. 
 
 # Epilogue
 In the end it was an ok semester. I've had semesters that were more fun. Everything this semester just went vague or unstructured. I didn't necissarily reached/learned cool things, neither did I make cool things. Let's hope I don't have to do it all over again.
