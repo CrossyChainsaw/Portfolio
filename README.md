@@ -809,7 +809,7 @@ First I asked myself 3 questions. What do i wanna research, why do i wanna resea
 
 I've put the document with the research in it in my portfolio.
 
-[Security Research](https://github.com/CrossyChainsaw/Portfolio/tree/master/Security%20Research)
+[Security Research](https://github.com/CrossyChainsaw/Portfolio/blob/master/Security%20Research/DDoS%20URL%20Research.pdf)
 
 # Reflection
 Here I'll explain what I would do different the next time. Here you will find out stuff about my semester you might have never even known, pretty fun section. Enjoy.
