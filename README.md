@@ -799,11 +799,11 @@ I've put the document with the research in it in my portfolio, Because its so bi
 [Database Research](https://github.com/CrossyChainsaw/Portfolio/tree/master/Database%20Research)
 
 ## How do I protect the URLs my microservices use to communicate?
-For this research I made use of the [DOT framework](https://ictresearchmethods.nl/The_DOT_Framework).
+First I asked myself 3 questions. What do i wanna research, why do i wanna research it, and how do i wanna research it.
 
-**What**: I want to research how I can protect my URLs against everyone except my services.
+**What**: I want to research how I can protect my URLs against DDoS attacks.
 
-**Why**: If i don't protect the URLs, people can DOS attack my services, which take down my application.
+**Why**: If i don't protect the URLs, people can DDoS attack my services, which slow down my application or can even take it down.
 
 **How**: Trying to understand what all the risks are of not protecting the URLs, and finding out how to protect the URLs making use of reliable sources and validation.
 
