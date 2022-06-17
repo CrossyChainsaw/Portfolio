@@ -21,6 +21,7 @@
      - [Learning Outcome 6: Requirements](#learning-outcome-6-requirements)
      - [Learning Outcome 7: Business processes](#learning-outcome-7-business-processes)
      - [Learning Outcome 8: Professional (GP)](#learning-outcome-8-professional-gp)
+   - [Ranknir](#ranknir)
  - [Research](#research)
    - [Which database is most suitable for my application?](#which-database-is-most-suitable-for-my-application)
    - [How do I protect the URLs my microservices use to communicate?](#how-do-i-protect-the-urls-my-microservices-use-to-communicate)
@@ -777,6 +778,32 @@ After every sprint delivery we got feedback from the stakeholders and from the t
 For our technical decisions I strongly recommend to visit our applications documentation.
 
 [Restaurant Order System Documentation](https://github.com/fontys-group3)
+
+# Ranknir
+Ranknir is a discord bot I made for fun. The discord I made it for showed a list of players in a certain clan and their rank points. The thing that bugged me was, they only showed all players their 1v1 stats. I thought this wasn't fair for the hardcore 2v2 players so I decided to make it myself.
+
+*The 1v1 list that already existed in the discord*
+
+![image](https://user-images.githubusercontent.com/74303221/174409799-1a1b909b-1f41-48f7-b631-3a998bc491e0.png)
+
+*The 2v2 list that I made, as you can see it fits the style of the already existing one*
+
+![image](https://user-images.githubusercontent.com/74303221/174409895-5fe193b8-2532-4f58-a3d8-1e2c89a86ef1.png)
+
+
+To accomplish this, I first needed an API key of the game in question, Brawlhalla. I looked up how to get an API key and it was pretty clear, you just had to mail them explaining why you want the API key and what your plans are. So I explained exactly that.
+
+*Me asking the game people behind Brawlhalla for an API key*
+
+![image](https://user-images.githubusercontent.com/74303221/174409298-7444b8fd-67bb-4f8b-a270-89bc46bf113a.png)
+
+*Them approving the request, and giving me an API key*
+
+![image](https://user-images.githubusercontent.com/74303221/174409420-2466e854-d71c-4a8f-b54d-6f40dc0a55d1.png)
+
+The code isn't too interesting, I improved my python skills. Besides that did it give me a good practise with JSON data. I thought this was a pretty interesting project to execute, also to show in my portfolio. The entire proces of mailing a popular game, them responding, all that, it was a fun and cool project.
+
+[Ranknir Documentation](https://github.com/CrossyChainsaw/Ranknir)
 
 ### Researches
 Researches are mentioned literally underneath this, but I added a link for people who like clicking links.
