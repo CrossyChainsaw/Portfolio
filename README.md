@@ -810,6 +810,26 @@ The code isn't too interesting, I improved my python skills. Besides that did it
 
 [Ranknir Documentation](https://github.com/CrossyChainsaw/Ranknir)
 
+# Money Squadron Virus
+A less interesting project I worked on this semester is Money Squadron Virus. MSV is a meme bot created in python. Other than practising python this project didn't really add up to my skills as an software engineer, but in the end I did spend quite some time on this project, maintaining it, so I thought it deserved a spot in here. 
+
+Here are a few of my favourite memes
+
+![test](https://i.imgur.com/nJ1Ag2V.gif)
+
+![image](https://user-images.githubusercontent.com/74303221/174412150-4f81bda6-7937-4654-b9d2-e1a5b70b312a.png)
+
+![image](https://user-images.githubusercontent.com/74303221/174412110-13f5d68d-fa67-41d0-8d01-0b00c75ae59c.png)
+
+![image](https://user-images.githubusercontent.com/74303221/174411850-7b02c8df-4828-4b00-a0dc-f5db604aa88b.png)
+
+![image](https://user-images.githubusercontent.com/74303221/174411832-1b76623e-5584-4f51-8b5a-23a8cbceb259.png)
+
+
+Everytime I want to add a meme I have to edit the code, I tried to import [Imgur](https://imgur.com/a/l2wygcj) in my python code, so that I only have to add a meme to imgur and my application would automatically pull the image, but no succes sadly. Bot was made to mock a discord server called Money Squadron. But the hype came to an end. Bot is still up tho. For more information check out the documentation.
+
+[Money Squadron Virus Documentation](https://github.com/CrossyChainsaw/MoneySquadronVirus)
+
 # Research
 
 ## Which database is most suitable for my application?
