@@ -779,6 +779,11 @@ For our technical decisions I strongly recommend to visit our applications docum
 
 [Restaurant Order System Documentation](https://github.com/fontys-group3)
 
+### Researches
+Researches are mentioned down below, click the link to go there.
+
+[Research](#research)
+
 # Ranknir
 Ranknir is a discord bot I made for fun. The discord I made it for showed a list of players in a certain clan and their rank points. The thing that bugged me was, they only showed all players their 1v1 stats. I thought this wasn't fair for the hardcore 2v2 players so I decided to make it myself.
 
@@ -804,11 +809,6 @@ To accomplish this, I first needed an API key of the game in question, Brawlhall
 The code isn't too interesting, I improved my python skills. Besides that did it give me a good practise with JSON data. I thought this was a pretty interesting project to execute, also to show in my portfolio. The entire proces of mailing a popular game, them responding, all that, it was a fun and cool project.
 
 [Ranknir Documentation](https://github.com/CrossyChainsaw/Ranknir)
-
-### Researches
-Researches are mentioned literally underneath this, but I added a link for people who like clicking links.
-
-[Research](#research)
 
 # Research
 
