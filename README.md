@@ -305,6 +305,206 @@ Clarification:
 ### Testing
 In this semester I have to make use of 4 types of tests, unit, integration, regression and system tests. If i have a good explanation for it I may decide to not use certain types of tests.
 
+#### Unit Testing 
+In a unit test you test a single unit. The meaning of a unit is very vague on the internet. Some say it's a function, some say it’s a class, and some say it’s a service. Since I use a microservice architecture, I would say a unit test tests a single service. Having that said let's look at my unit tests. 
+
+I decided not to make too much unit tests, this is because I don’t have that many logic in my application. My application consists mainly of services talking to each other, so the integration tests will be more interesting. 
+
+First of all, I will show the two unit tests in my backend. Here is the first one. This test tests if the goal in the game gets calculated right. Since the formula used to calculate the formula I've put a comment above the test explaining the test. Also can you see I used a parameterized test. This way I can test even and odd numbers since the formula works differently on even and odd numbers. 
+
+```cs 
+
+public class GoalTest 
+
+    { 
+
+        /* 
+
+        In this test you see a word as input and a number as output, the number gets calculated as follows 
+
+        example: 
+
+        word = help 
+
+        differentLetters = 4 (h=1, e=2, l=3, p=4) 
+
+        goal < differentLetters * 2 
+
+        goal < 4 * 2 
+
+        goal < 8 
+
+        */  
+
+        [Test] 
+
+        [TestCase("help", "goal < 8")] 
+
+        [TestCase("helps", "goal < 10")] 
+
+        [TestCase("helping", "goal < 14")] 
+
+        public void CalculateGoalTest(string word, string expectedValue) 
+
+        { 
+
+            // arrange 
+
+            GameSetup _gameSetup = new GameSetup(); 
+
+            string _word = word; 
+
+  
+
+            // act 
+
+            _gameSetup.differentLettersInWord = WordClass.CountDifferentLetters(_word); 
+
+            int goal = _gameSetup.game.teamCollection.GetTeamList()[0].GuessCollection.CalculateGoal(_gameSetup.differentLettersInWord); 
+
+            string goalString = "goal < " + goal; 
+
+  
+
+            // assert 
+
+            Assert.IsTrue(goalString == expectedValue); 
+
+        } 
+
+    }  
+
+``` 
+
+In the next test I calculate the amount of lives the player should have. It is very similar to the first test. A formula calculates the amount of lives, and the formula is explained above the test. Again, I used a parameterized test, this way I can test multiple test cases. 
+
+```cs 
+
+public class LivesTest 
+
+    { 
+
+        /* 
+
+        In this test you see a word as input and a number as output, the number gets calculated as follows 
+
+        example1: 
+
+        word = help 
+
+        differentLetters = 4 (h=1, e=2, l=3, p=4) 
+
+        lives = Math.Floor(differentLetters / 2) + 1 
+
+        lives = Math.Floor(4/2) + 1 
+
+        Lives = Math.Floor(2) + 1 
+
+        Lives = 2 + 1 
+
+        Lives = 3 
+
+  
+
+        example2: 
+
+        word = horse 
+
+        differentLetters = 5 (h=1, o=2, r=3, s=4, e=5) 
+
+        lives = Math.Floor(differentLetters / 2) + 1 
+
+        lives = Math.Floor(5/2) + 1 
+
+        Lives = Math.Floor(2.5) + 1 
+
+        Lives = 2 + 1 
+
+        Lives = 3 
+
+        */ 
+
+        [Test] 
+
+        [TestCase("help", 3)] 
+
+        [TestCase("horse", 3)] 
+
+        [TestCase("clover", 4)] 
+
+        public void WordWith4DifferentLetters(string word, int expectedLives) 
+
+        { 
+
+            // arrange 
+
+            GameSetup _gameSetup = new GameSetup(); 
+
+            string _word = word; 
+
+  
+
+            // act 
+
+            _gameSetup.differentLettersInWord = WordClass.CountDifferentLetters(_word); 
+
+            _gameSetup.game.teamCollection.GetTeamList()[0].CalculateLives(_gameSetup.differentLettersInWord); 
+
+  
+
+            // assert 
+
+            Assert.IsTrue(_gameSetup.game.teamCollection.GetTeamList()[0].Lives == expectedLives); 
+
+        } 
+
+    }  
+
+``` 
+
+In my frontend I haven't written any unit tests, since my frontend only shows values on the page that get calculated by other services. 
+
+In my API wrapper (word-service) I wrote two unit tests, I'll start with the basic one. Again a parameterized test since this just saves writing multiple tests that lookalike. I have 2 testcases. First I test a word that actually exists `help`, so it should output `true`. Next I input a non-existing word `asgfkjas`, this should output `false`. The test itself pretty much speaks for itself. We test the method `wordExists()` to test if a word exists. 
+
+```java 
+
+@ParameterizedTest 
+@CsvSource({"help,true", "ksgujfudg,false"}) 
+//@ValueSource(strings = {"help", "asgfkjas"}, booleans = {true, false}) 
+void checkWordExistance(String word, Boolean exists) { 
+   WordResource wordResource = new WordResource(); 
+   assertTrue(wordResource.wordExists(word) == exists); 
+}  
+
+``` 
+
+The other test I made in my API wrapper is to test the functionality of Bucket4j. I wrote tests to check if I understand how Bucket4j works. With Bucket4j I've created a rate limit for the Merriam-Webster external dictionary API. 
+
+```java  
+ 
+@Test 
+void apiBucket(){ 
+   // so every minute you can use 5 tokens 
+   Refill refill = Refill.intervally(5, Duration.ofMinutes(1)); 
+   // there are 5 tokens in total? 
+   Bandwidth limit = Bandwidth.classic(5, refill); 
+   // Build the bucket 
+   Bucket bucket = Bucket4j.builder() 
+         .addLimit(limit) 
+         .build(); 
+ 
+   // consume all 5 tokens 
+   for (int i = 1; i <= 5; i++) { 
+      assertTrue(bucket.tryConsume(1)); 
+   } 
+   // should be no tokens left 
+   assertFalse(bucket.tryConsume(1)); 
+}  
+
+``` 
+
+As I mentioned before, I don't have that many unit tests. Mainly because there is barely logic in my application. 
+
 ### Static Code Analysis
 For code analysis i've made use of SonarCloud. I chose SonarCloud since a classmate of mine told me it is pretty easy to setup via SonarCloud. After a pull request to master, the SonarCloud code analysis get executed. Using code analysis i can easily find vulnerabilities in my code.
 
