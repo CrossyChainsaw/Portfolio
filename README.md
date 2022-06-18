@@ -56,7 +56,7 @@
        - [Researches](#research)
    - [Side Projects](#side-projects) 
      - [Auto Clicker](#auto-clicker) 
-     - [BattleSim](#battle-sim)
+     - [BattleSim](#battlesim)
      - [Ranknir](#ranknir)
      - [Money Squadron Virus](#money-squadron-virus)
  - [Research](#research)
