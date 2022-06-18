@@ -673,6 +673,17 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 ```
 
+### System Testing
+In a system test you test a walkthrough from one point to another. For example, in my web game that would be from start page, to playing a full round of the game. Or from start of the game to the rules section. Or from the rules section all the way to play a full round of the game. This concept I just explained also goes as End-to-End testing.
+
+#### End-to-End Testing
+In my current application end-to-end testing could be very interesting, why you would ask? Well, basically my entire project consists of user inputs. The user chooses what word to guess and the user chooses a letter to guess. Further on in the game, the user has to choose if he wants to gamble his points for double or nothing. After a full round of playing, the Game-Statistics-Service should save all the results to the database. Since there is so much user input involved, it would be very interesting to implement such tests, sadly it's not possible yet to play a full round in my game, neither does the saving to a database work. Therefore i can't build the test yet. 
+
+As my project would advance I would definitely want to test a few end-to-end cases, I will explain the cases I would've liked to test.
+
+##### Play a full round
+I visualized the end-to-end test in a flowlike diagram but with my c4 model. This way I exactly know what I should do if im going to write the test at some point. There are a few assumptions. There are 2 players sitting next to each other, they are gonna play around of multiplayer against each other.
+
 [Reverse Hangman Online Frontend CI/CD](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/actions/workflows/node.js.yml)
 
 [Reverse Hangman Online Backend CI/CD](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/actions/workflows/dotnet.yml)
