@@ -686,12 +686,12 @@ jobs:
 In a system test you test a walkthrough from one point to another. For example, in my web game that would be from start page, to playing a full round of the game. Or from start of the game to the rules section. Or from the rules section all the way to play a full round of the game. This concept I just explained also goes as End-to-End testing.
 
 #### End-to-End Testing
-In my current application end-to-end testing could be very interesting, why you would ask? Well, basically my entire project consists of user inputs. The user chooses what word to guess and the user chooses a letter to guess. Further on in the game, the user has to choose if he wants to gamble his points for double or nothing. After a full round of playing, the Game-Statistics-Service should save all the results to the database. Since there is so much user input involved, it would be very interesting to implement such tests, sadly it's not possible yet to play a full round in my game, neither does the saving to a database work. Therefore i can't build the test yet. 
+In my current application end-to-end testing could be very interesting, why you would ask? Well, basically my entire project consists of user inputs. The user chooses what word to guess and the user chooses a letter to guess. Further on in the game, the user has to choose if he wants to gamble his points for double or nothing. After a full round of playing, the Game-Statistics-Service should save all the results to the database. Since there is so much user input involved, there can be many different outcomes. It takes a while to test this all myself everytime. Sadly it's not possible yet to play a full round in my game, neither does the saving to a database work. Therefore i can't build the test yet. 
 
-As my project would advance I would definitely want to test a few end-to-end cases, I will explain the cases I would've liked to test.
+I did prepare by writing out the end-to-end scenarios i want to test. You can find them back here.
 
-##### Play a full round
-I visualized the end-to-end test in a flowlike diagram but with my c4 model. This way I exactly know what I should do if im going to write the test at some point. There are a few assumptions. There are 2 players sitting next to each other, they are gonna play around of multiplayer against each other.
+[US25: End-to-End testing, walkthrough entire project](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/issues/16)
+
 
 ## Static Code Analysis
 For code analysis i've made use of SonarCloud. I chose SonarCloud since a classmate of mine told me it is pretty easy to setup via SonarCloud. After a pull request to master, the SonarCloud code analysis get executed. Using code analysis i can easily find vulnerabilities in my code.
