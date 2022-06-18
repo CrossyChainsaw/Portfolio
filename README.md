@@ -1247,6 +1247,9 @@ Here I'll explain everything that went good in this semester.
 ### Asking feedback
 This semester I tried to get atleast once a week feedback. The next week I would implement the feedback, and show my implemented feedback to the teacher. The last 3 weeks we got 2 teachers instead of 1, so I tried asking both of them for feedback once a week. 
 
+### Documentation
+This semester I found out documentating can be pretty fun. If you look at Reverse Hangman Online Documentation, I documented an entire game I was making. Further on I tried to add documentation to all the side projects I included to this portfolio. Also did I translate our GP decisions to English and did I wrote a documentation for the restaurant system. Also do I like my portfolio, it's a bit on the long side, but if you use the links in Table of Contents correctly you can navigate anywhere you want, and find anything ou want.
+
 ### Focus on a subject
 Multiple times this semester I had to work on something I had 0 experience at. For example, TypeScript, Java, React, Docker. But everytime I just ignored every other aspect of my project, and focused on that one subject. This worked so good for learning anything. For example in our group project I was a total React-TypeScript noob. I spend a day learning the basics and returned pretty experienced.
 
