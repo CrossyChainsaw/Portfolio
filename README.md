@@ -701,11 +701,17 @@ For code analysis i've made use of SonarCloud. I chose SonarCloud since a classm
 Right now I only got the SonarCloud code analysis working on 2 out of 4 repositories. My goal is to have code analysis in every repository, so all of my repositories will have better code. Update, I got it working on all 4 :D
 
 ### Code Smells
-Currently SonarCloud doesn't detect any bugs or vulnerabilities in my code. It does detect a few code smells.  
+Currently SonarCloud doesn't detect any bugs or vulnerabilities in my services, except the backend. It also detects a few code smells.  
 
-![image](https://user-images.githubusercontent.com/74303221/173247751-ebf66669-5bfe-4a9f-8b06-0e320609cce6.png)
+![image](https://user-images.githubusercontent.com/74303221/174443500-266b7595-c670-4e03-a0cb-f43086a77162.png)
 
-Here's an entire list of code smells in my front-end application. 
+The backend bug is no surprise. The entire code is such a mess so no surprise.
+
+*Backend bug*
+
+![image](https://user-images.githubusercontent.com/74303221/174443627-3353b6e2-4191-4770-ba13-0aa3a11f37b8.png)
+
+*Frontend code smells*
 
 ![image](https://user-images.githubusercontent.com/74303221/173247849-7599d782-7d60-4b1e-808f-4ed045f2dfbc.png)
 
