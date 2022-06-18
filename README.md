@@ -20,9 +20,10 @@
      - [Learning Outcome 6: Requirements](#learning-outcome-6-requirements)
      - [Learning Outcome 7: Business processes](#learning-outcome-7-business-processes)
      - [Learning Outcome 8: Professional (GP)](#learning-outcome-8-professional-gp)
-   - [Auto Clicker](#auto-clicker) 
-   - [Ranknir](#ranknir)
-   - [Money Squadron Virus](#money-squadron-virus)
+   - [Side Projects](#side-projects) 
+     - [Auto Clicker](#auto-clicker) 
+     - [Ranknir](#ranknir)
+     - [Money Squadron Virus](#money-squadron-virus)
  - [Research](#research)
    - [Which database is most suitable for my application?](#which-database-is-most-suitable-for-my-application)
    - [How do I protect the URLs my microservices use to communicate?](#how-do-i-protect-the-urls-my-microservices-use-to-communicate)
@@ -985,7 +986,10 @@ Researches are mentioned down below, click the link to go there.
 
 [Research](#research)
 
-# Auto Clicker
+# Side Projects
+In this section I will mention the side projects I made this semester, that were bigger than my usual side project.
+
+## Auto Clicker
 Auto Clicker is by far the most useful application I have ever created. This semester I often played a braindead game called [Mutants: Genetic Gladiators](https://mutants.kobojo.com/). inside of this game there was a place where you could farm resources if you clicked on ceratin places in a ceratin order. I used to repeat this proces of clicking as a kid over 1000 times. A few semesters ago, I used a random autoclicker I found on internet. This semester, I wanted to farm the resources again, but I refused to download an auto clicker online. I am an experience WinForms developer, if there's anything I should be able to make, it's an auto clicker in winforms.
 
 *Video of me setting up the Auto Clicker, and farming resources on that stupid pay to win game*
@@ -994,7 +998,7 @@ video
 
 [Auto Clicker Documentation](https://github.com/CrossyChainsaw/AutoClicker)
 
-# Ranknir
+## Ranknir
 Ranknir is a discord bot I made for fun. The discord I made it for showed a list of players in a certain clan and their rank points. The thing that bugged me was, they only showed all players their 1v1 stats. I thought this wasn't fair for the hardcore 2v2 players so I decided to make it myself.
 
 *The 1v1 list that already existed in the discord*
@@ -1020,7 +1024,7 @@ The code isn't too interesting, I improved my python skills. Besides that did it
 
 [Ranknir Documentation](https://github.com/CrossyChainsaw/Ranknir)
 
-# Money Squadron Virus
+## Money Squadron Virus
 A less interesting project I worked on this semester is Money Squadron Virus. MSV is a meme bot created in python. Other than practising python this project didn't really add up to my skills as an software engineer, but in the end I did spend quite some time on this project, maintaining it, so I thought it deserved a spot in here. 
 
 Here are a few of my favourite memes.
