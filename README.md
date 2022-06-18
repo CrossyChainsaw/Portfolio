@@ -1401,6 +1401,9 @@ In the IP i wasn't using my weeks too efficient, this will be explained later on
 ### Presentations
 Our presentations weren't always prepared, but if we prepared the presentation for the sprint delivery, we were so good. Ecspecially the second last sprint delivery.
 
+### Side Projects
+The side projects I worked on this semester were so fun. If I find something fun, usually the result will be better than usual. Maybe I shoul've prioritized the IP a bit more. In then end very happy about my Side Projects. 
+
 ### Presence
 I always have been on school when I had the oppurtunity, even though I concentrate better at home, I find it fun to hang arround with everyone, and of course to ask feedback.
 
