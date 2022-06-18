@@ -9,6 +9,12 @@
  - [Products](#products)
    - [Reverse Hangman Online](#reverse-hangman-online)
      - [Learning Outcome 1: Web Application (IP)](#learning-outcome-1-web-application-ip)
+       - [Front-end](#front-end)
+       - [Back-end](#back-end)
+       - [Future Plans](#future-plans)
+       - [UX-Testing](#ux-testing) 
+       - [Object Relational Mapping](#object-relational-mapping)
+       - [Architecture](#architecture)
      - [Learning Outcome 2: Software Quality](#learning-outcome-2-software-quality)
      - [Learning Outcome 4: CI/CD](#learning-outcome-4-cicd)
      - [Learning Outcome 6: Design](#learning-outcome-6-design)
@@ -48,7 +54,7 @@ Reverse Hangman Online is a game I made for my individual project. I will explai
 
 [Reverse Hangman Online Documentation](https://github.com/Epic-Chainsaw-Massacre)
 
-## Learning Outcome 1: Web Application (IP)
+# Learning Outcome 1: Web Application (IP)
 *You design and build **user-friendly**, **full-stack** web applications.*
 
 Clarification:
@@ -57,18 +63,18 @@ Clarification:
 
 **Full-stack**: You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
 
-### Front-end
+## Front-end
 In this section I'll show some parts of my frontend, the bigger milestones. The front-end has been made in React-TypeScript. You can check the code in my repository.
 
 [Reverse Hangman Online Frontend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend)
 
-#### TypeScript
+### TypeScript
 Making a start with React TypeScript was very hard, without any experience I hopped in vscode and tried to do anything. This didn't work out at all. Everything I tried failed. My classmate [Mike van den Hoef](https://github.com/Headoros) was always willing to help me but still, It wouldn't work out this way. I decided to plan a TypeScript spike. In this spike I gathered information from the [W3schools TypeScript tutorial](https://www.w3schools.com/typescript/index.php) and at the same time i practised everything I was learning in a test project. TypeScript is such an awesome languange.
 
-#### React
+### React
 I also planned a React spike, same concept as above, I just try to gather as much information about React and try to implement it. I really like this type of learning and it always works out for me. For React I used the [W3schools React tutorial](https://www.w3schools.com/REACT/default.asp). In my opinion W3schools has the best tutorials to learn the basics.
 
-#### Text Input
+### Text Input
 It was surprisingly hard to get the text input value and put it in a variable for the first time. I managed to do this with a variable called word. This updates everytime the text input changes. the variable basically represents live what's in the text input. Also did I have a second variable, called permission. if you click the button permission becomes true, because the word gets permission to be checked on existence, get it? I've put the code down here so you can try to understand what i've done (I've left out parts of code that make it more complicated and irelevant for this topic).
 
 *parts of singleplayer.tsx*
@@ -97,7 +103,7 @@ function OnCLick(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
 }
 ```
 
-#### API Requests
+### API Requests
 This was hard to get into, even when I did a request once. It stayed hard for a while. After doing it a few times API requests are a breeze. Here are some API request examples, these are the ones used in the code above.
 
 *parts of singleplayer.tsx*
@@ -125,7 +131,7 @@ const GetGuessLine = async () => {
 };
 ```
 
-### Back-end
+## Back-end
 Just like the front-end section, I'll show some of the milestones, more noticeable events that occured in my backend. The back-end has partially been made in C# .NET and partially in Java Spring. You can check the code in my repositories.
 
 [Reverse Hangman Online Backend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend)
@@ -134,7 +140,7 @@ Just like the front-end section, I'll show some of the milestones, more noticeab
 
 [Word Service Repository](https://github.com/Epic-Chainsaw-Massacre/Word-Service)
 
-#### External API
+### External API
 I've heard of it so many times, yet did I never use it. External API's, had 0 experience going into this. As you should already know, I'm making a hangman-like game. Since there will be used words in my game, they should get checked on existance. To check a word on existance I've build a very, very vague process. So my backend does an API request to Miryam Webster (dictionary API I use). If the word exists, Miryam Webster returns me values, so now you would say, if tha API returns anything it's good right? WRONG, this is where it gets interesting. Miryam Webster's dictionary API uses fuzzy search, this means that if I do ana API request with 'Birate'. It will return me lots of different words that are almost the same as 'Birate', for example 'Pirate'. See example.
 
 ![image](https://user-images.githubusercontent.com/74303221/173444601-1bbfd695-1937-41d2-bdfa-2f0d5724679a.png)
@@ -208,12 +214,12 @@ catch (Exception e) {
 }
 ```
 
-#### Reverse Hangman Forms Copy Paste
+### Reverse Hangman Forms Copy Paste
 So as you might know, I made an application in WinForms called ReverseHangmanDesktop. Since all the logic in ReverseHangmanDesktop was coded seperately from the presentation layer, I could just copy paste all the logic from that application into my application. My application did become an absolute mess. But i got all the backend functionalities in only a few minutes. Otherwise it would probably take hours.
 
 ![image](https://user-images.githubusercontent.com/74303221/173446686-4a8d6a00-e537-4be5-9aee-1028e6214576.png)
 
-#### Communicate with Front-end
+### Communicate with Front-end
 Communicating with the frontend was a mystery at the start, I looked op tutorials how you make a C# service that can talk with a React frontend. It looked all super vague to me, I even tried to build a controller in WinForms haha don't do that. I did manage to call API requests from a WinForms application, that was actually pretty funny. But I was wasting time. Finally I went in visual studio and wrote API ASP.NET something like that. I clciked the one with ASP.NET Core. It was all a very random process. Maybe I also used a guide I can't remember it too well. But when I got in the project I got an auto-generated example with WeatherForecast that returned an array with some extra's. I just simplified that auto-generated endpoint and created the following.
 
 ```cs
@@ -240,18 +246,18 @@ app.MapGet("/GuessLine", ([FromUri] string word) =>
 
 My frontend just gives the word to an endpoint, the endpoint does some calculations with the word and returns for example the amount of lives it should return.
 
-### Future Plans
+## Future Plans
 My future plans are to finish a working round in Reverse Hangman Online. Right now you can only fill in a word, and make it check on existance. further on do the lives and goal get calculated using the word.
 
 Also do I still want to save game results to a database. Right now nothing with a database happens. Also would I like to show my data from my database in my frontend. Further on I was planning to make songs for my game. I really looked forward to that. Also adding sound effects, it brings the game overal more alive. At last I also wanted to add different languages, for this project i was planning on making English and Dutch. By changing the language, not only the UI should change but also the checking of words, so that means I would probably have to use a dutch dictionary API. Finally I wanted to add a ranking system to my game. people would be able to create an account and have an amount of rank points, elo. This elo would make people play against others from the same skill level.
 
-### UX-Testing
+## UX-Testing
 My project wasn't finished yet. So i couldn't let someone test my application. I asked my teacher for solutions, and he told me I could make wireframes and test the experience on users using my wireframes. I could also step it up and make a prototype of my application, and let users test my prototype, focussing on the process and gameplay over the looks and design, because in the end its just a prototype. Last semester I made an application called Reverse Hangman Desktop. Reverse Hangman Desktop is a prototype-ish application I made in WinForms. My entire individual project is based of the prototype-ish application. So my prototype application would be perfect for UX-testing.
 
-#### Moderated User Testing
+### Moderated User Testing
 For my project I did a moderated user test. This means I let someone play through my application, whilst spectating. If my user had any questions about the application he could ask me. The more questions he would ask the more I should update. Let's actually look like what happened during the test, and how it went.
 
-#### Jay Tests my Applciation
+### Jay Tests my Applciation
 Some guy I found at school called Jay was willing to test my prototype application. By forehand I told Jay that anything he could mention anything that looked off. Having that said we started actually testing the game. We would play against each other. We would choose teamnames and start playing. I had to start choosing a word, and he had to start guessing. In this playthrough I chose the word 'Dongel' (Dutch word for Dongle). Here you see an image of Jay guessing the word.
 
 *Image of Jay thinking*
@@ -267,7 +273,7 @@ Jay completed the first round gaining 2 points. Now it was his turn choosing a w
 
 Now it was my turn to guess the word, I failed and got 0 points. 
 
-#### Feedback from Jay
+### Feedback from Jay
 After our quick playthrough I asked Jay for feedback about the application, things he liked, things he didn't like. He responded with the following. 'App werkt naar behoren' meaning, the app works like how it should work. He also said 'duidelijk maken dat je het verkloot hebt', meaning he wants it to be more clear when he made a mistake. Right now you lose a life, the letters shows, and you hear a fart sound effect. But I might reconsider how to show you made a mistake. 'instructies zijn duidelijk' this means he says the instructions are clear. Here's an example of an in-game construction.
 
 *In the red square you see a instruction*
@@ -275,10 +281,10 @@ After our quick playthrough I asked Jay for feedback about the application, thin
 
 A mistake I already made in the UX-Test is that I took a user that has already played it before on a whiteboard. So he did already know the basics of the game. Another thing he said was 'makkelijk te spelen', meaning its easy to play. And the last thing he said was how he like that the players can define the difficulty, if players are up for a real challenge they can choose harder words. In his words 'limiet ligt bij de gebruiker, je kan zelf bepalen hoe makkelijk of hoe moeilijk je het maakt'.
 
-#### What now?
+### What now?
 What do i do now? Do i adjust everything Jay said? No. I first want to do more UX-tests targeting different people, like different age, gender and culture. I think I might get more feedback like that. My idea is to apply the feedback I get multiple times of multiple people. If multiple people give me the same feedback its enough validation for me to update the game.
 
-### Object Relational Mapping
+## Object Relational Mapping
 In our GP we used an ORM for our menu-service. In our service we've created entities, with some annotations and configuration we set up that the entities we've created get created in a MySQL database. Here is an example of what an entity class looks like. 
 
 ![image](https://user-images.githubusercontent.com/74303221/173344401-af5e6d42-49b6-4505-95a2-c96be3813518.png)
@@ -291,7 +297,7 @@ As you saw there's already data in it, we've done this by adding a data.sql file
 
 ![image](https://user-images.githubusercontent.com/74303221/173345048-ed4d1e85-3cd3-4586-9eec-fdb036860ba1.png)
 
-### Architecture
+## Architecture
 Looking for architecture? Click on the link below.
 
 [Reverse Hangman Online Documentation - Architecture](https://github.com/Epic-Chainsaw-Massacre#architecture)
