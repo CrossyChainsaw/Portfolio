@@ -835,10 +835,6 @@ My latest task was about making the inventory in our menu. I made the inventory 
 
 ![image](https://user-images.githubusercontent.com/74303221/173433824-06d00ee3-5066-4b5b-b48a-bf28efb75f90.png)
 
-
-### UX-Testing
-We haven't done UX-Testing in our group project.
-
 ## Learning Outcome 3: Agile Method
 *You can implement the software process for your project according to a given agile software development method.*
 
