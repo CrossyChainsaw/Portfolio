@@ -1169,7 +1169,7 @@ BattleSim is a project I started all the way in semester 1. In semester 1 I hard
 
 *Semester 2 BattleSim*
 
-https://user-images.githubusercontent.com/74303221/174434115-a02f998d-5c34-4d41-997c-9f498418599e.mp4
+https://user-images.githubusercontent.com/74303221/174434335-d5760f7c-11b8-4f0c-bf9e-7b3ad73e015e.mp4
 
 *Semester 3 BattleSim, still working on it (this is currently only in the create-abilites branch)*
 
