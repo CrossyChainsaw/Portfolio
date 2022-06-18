@@ -1184,6 +1184,8 @@ Auto Clicker is by far the most useful application I have ever created. This sem
 
 https://user-images.githubusercontent.com/74303221/174418294-6f732cbd-bfcd-4dbf-8d57-15f8e9d1c958.mp4
 
+Here's the documentation, it explains how to use the Auto Clicker.
+
 [Auto Clicker Documentation](https://github.com/CrossyChainsaw/AutoClicker)
 
 ## BattleSim
