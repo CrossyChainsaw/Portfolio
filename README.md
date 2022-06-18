@@ -504,8 +504,144 @@ void apiBucket(){
 }  
 
 ``` 
+#### Integration Testing
+Same for unit testing, integration testing tests multiple units. From my understanding, since I use a microservice architecture, this means I test multiple micro services together. I couldn't image how this would go. Since I would have to write tests that would have to make use of another application. For me that sounds impossible, so I went looking for tools
 
 As I mentioned before, I don't have that many unit tests. Mainly because there is barely logic in my application. 
+
+#### Regression Testing
+As regressiion testing, I test all my unit tests where i specifically test logic. For example, I test the way lives get calculated everytime i pull request to master. In my continious integration pipelines I don't only build my application, but I also test them. I've added links to all my CI pipelines so you can check them out yourself. Here's a quick example what it looks like in my pipeline. Somewhere in the middle I have an action named `Test` that's where the tests happen.
+
+*A regression test I execute when a pull request occurs to master*
+```cs 
+
+public class LivesTest 
+
+    { 
+
+        /* 
+
+        In this test you see a word as input and a number as output, the number gets calculated as follows 
+
+        example1: 
+
+        word = help 
+
+        differentLetters = 4 (h=1, e=2, l=3, p=4) 
+
+        lives = Math.Floor(differentLetters / 2) + 1 
+
+        lives = Math.Floor(4/2) + 1 
+
+        Lives = Math.Floor(2) + 1 
+
+        Lives = 2 + 1 
+
+        Lives = 3 
+
+  
+
+        example2: 
+
+        word = horse 
+
+        differentLetters = 5 (h=1, o=2, r=3, s=4, e=5) 
+
+        lives = Math.Floor(differentLetters / 2) + 1 
+
+        lives = Math.Floor(5/2) + 1 
+
+        Lives = Math.Floor(2.5) + 1 
+
+        Lives = 2 + 1 
+
+        Lives = 3 
+
+        */ 
+
+        [Test] 
+
+        [TestCase("help", 3)] 
+
+        [TestCase("horse", 3)] 
+
+        [TestCase("clover", 4)] 
+
+        public void WordWith4DifferentLetters(string word, int expectedLives) 
+
+        { 
+
+            // arrange 
+
+            GameSetup _gameSetup = new GameSetup(); 
+
+            string _word = word; 
+
+  
+
+            // act 
+
+            _gameSetup.differentLettersInWord = WordClass.CountDifferentLetters(_word); 
+
+            _gameSetup.game.teamCollection.GetTeamList()[0].CalculateLives(_gameSetup.differentLettersInWord); 
+
+  
+
+            // assert 
+
+            Assert.IsTrue(_gameSetup.game.teamCollection.GetTeamList()[0].Lives == expectedLives); 
+
+        } 
+
+    }  
+
+``` 
+
+*reverse-hangman-backend-online dotnet.yml file*
+```yml
+name: .NET
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
+    - name: Docker Build & Push Action
+      uses: mr-smithers-excellent/docker-build-push@v5.6
+      with:
+        image: crossychainsaw/reverse-hangman-online-backend
+        tags: latest
+        registry: docker.io
+        dockerfile: Dockerfile
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+```
+
+[Reverse Hangman Online Frontend CI/CD](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/actions/workflows/node.js.yml)
+
+[Reverse Hangman Online Backend CI/CD](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/actions/workflows/dotnet.yml)
+
+[Game Statistics Service CI/CD](https://github.com/Epic-Chainsaw-Massacre/Game-Statistics-Service/actions/workflows/dotnet.yml)
+
+[Word Service CI/CD](https://github.com/Epic-Chainsaw-Massacre/Word-Service/actions/workflows/maven.yml)
 
 ### Static Code Analysis
 For code analysis i've made use of SonarCloud. I chose SonarCloud since a classmate of mine told me it is pretty easy to setup via SonarCloud. After a pull request to master, the SonarCloud code analysis get executed. Using code analysis i can easily find vulnerabilities in my code.
@@ -524,9 +660,6 @@ Here's an entire list of code smells in my front-end application.
 ![image](https://user-images.githubusercontent.com/74303221/173247849-7599d782-7d60-4b1e-808f-4ed045f2dfbc.png)
 
 My goal with SonarCloud is to review the code smells and fix them. If SonarCloud notifies me that there are problems I will solve them first before merging my pull request.
-
-### Code Reviews
-blank
 
 ## Learning Outcome 4: CI/CD
 *You **design and implement** a (semi)automated software release process that matches the needs of the project context.*
