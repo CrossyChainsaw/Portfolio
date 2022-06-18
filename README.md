@@ -20,6 +20,7 @@
      - [Learning Outcome 6: Requirements](#learning-outcome-6-requirements)
      - [Learning Outcome 7: Business processes](#learning-outcome-7-business-processes)
      - [Learning Outcome 8: Professional (GP)](#learning-outcome-8-professional-gp)
+   - [Auto Clicker](#auto-clicker) 
    - [Ranknir](#ranknir)
    - [Money Squadron Virus](#money-squadron-virus)
  - [Research](#research)
