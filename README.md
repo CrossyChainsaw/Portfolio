@@ -1341,4 +1341,8 @@ In the end it was an ok semester. I've had semesters that were more fun. Everyth
 
 _Kaan Gögcay_
 
-*Kaan Gögcay*
+**Kaan Gögcay**
+
+Kaan Gögcay
+
+# Kaan Gögcay
