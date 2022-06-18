@@ -26,7 +26,7 @@
        - [Design Origin](#design-origin) 
      - [Learning Outcome 8: Professional (IP)](#learning-outcome-8-professional-ip)
        -  [Feedback](#feedback)
-       -  [Researches](#researches)
+       -  [Researches](#research)
    - [Restaurant Ordering System](#restaurant-ordering-system)
      - [Learning Outcome 1: Web Application (GP)](#learning-outcome-1-web-application-gp)
        - [Front-end (ROS)](#front-end-ros)
@@ -53,14 +53,14 @@
        - [What are the others doing?](#what-are-the-others-doing)
        - [Ask for feedback](#ask-for-feedback)
        - [Technical Decisions](#technical-decisions)
-       - [Researches](#researches)
+       - [Researches](#research)
    - [Side Projects](#side-projects) 
      - [Auto Clicker](#auto-clicker) 
      - [Ranknir](#ranknir)
      - [Money Squadron Virus](#money-squadron-virus)
  - [Research](#research)
    - [Which database is most suitable for my application?](#which-database-is-most-suitable-for-my-application)
-   - [How do I protect the URLs my microservices use to communicate?](#how-do-i-protect-the-urls-my-microservices-use-to-communicate)
+   - [How do I protect the URLs my microservices use to communicate against DDoS attacks?](#how-do-i-protect-the-urls-my-microservices-use-to-communicate-against-ddos-attacks)
  - [Reflection](#reflection)
 
 # Preface
@@ -1224,7 +1224,7 @@ I've put the document with the research in it in my portfolio, Because its so bi
 
 [Database Research](https://github.com/CrossyChainsaw/Portfolio/tree/master/Database%20Research)
 
-## How do I protect the URLs my microservices use to communicate?
+## How do I protect the URLs my microservices use to communicate against DDoS attacks?
 First I asked myself 3 questions. What do i wanna research, why do i wanna research it, and how do i wanna research it.
 
 **What**: I want to research how I can protect my URLs against DDoS attacks.
