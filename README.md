@@ -715,7 +715,7 @@ The backend bug is no surprise. The entire code is such a mess so no surprise.
 
 ![image](https://user-images.githubusercontent.com/74303221/173247849-7599d782-7d60-4b1e-808f-4ed045f2dfbc.png)
 
-My goal with SonarCloud is to review the code smells and fix them. If SonarCloud notifies me that there are problems I will solve them first before merging my pull request.
+My goal with SonarCloud is to review the code smells and bugs, and fix them. If SonarCloud notifies me that there are problems I will solve them first before merging my pull request.
 
 ## Code Reviews
 Inside the group project we didn't have structured moment where we would review each others' code. We have done [Pair Programming](https://en.wikipedia.org/wiki/Pair_programming) often online and on location. When Pair Programming, one person codes and the others observes it, giving real time feedback. Examples were that one of our group members was coding in Dutch while the others were programming in English, so we told him it would be better if he also coded in English. Another example is that one of my group members advised me to pull out all API requests out of the code, and put it in a seperate file. This way the API requests are all together and is it easier to find them and edit them. Also did my classmate multiplpe times tell me I shouldn't use classes over functions in React-TypeScript, and I kept telling him he should use functions over classes, but neither of us had a good argumentation why. So we had some forms of code reviews but we didn't take code reviews that seriously.
