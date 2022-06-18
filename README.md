@@ -1175,7 +1175,7 @@ https://user-images.githubusercontent.com/74303221/174434335-d5760f7c-11b8-4f0c-
 
 https://user-images.githubusercontent.com/74303221/174434117-c3e4e20b-d2b3-49ed-9ff9-91bd53ed498e.mp4
 
-The hard thing I did to make choosing your own fighter possible is making use of override methods. Here is the code that made it possible to override child classes their methods over the base classes their methods.
+The hard thing I did to make choosing your own fighter possible is making use of override methods. Since i can't just call the method of a child class from the base class. Here is the code that made it possible to override child classes their methods over the base classes their methods.
 
 *NeoFigther.cs, the base class, I have left out irrelevant pieces of code from the NeoFighter class*
 
