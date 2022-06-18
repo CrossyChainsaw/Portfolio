@@ -56,6 +56,7 @@
        - [Researches](#research)
    - [Side Projects](#side-projects) 
      - [Auto Clicker](#auto-clicker) 
+     - [BattleSim](#battle-sim)
      - [Ranknir](#ranknir)
      - [Money Squadron Virus](#money-squadron-virus)
  - [Research](#research)
@@ -1152,7 +1153,7 @@ Researches are mentioned down below, click the link to go there.
 [Research](#research)
 
 # Side Projects
-In this section I will mention the side projects I made this semester, that were bigger than my usual side project.
+In this section I will mention the side projects I made this semester, that were bigger than my usual side project. I added these projects because I enjoyed making them and I think they deserve a spot in my portfolio. This also shows that I don't only work professional for a school project, but also in my spare time.
 
 ## Auto Clicker
 Auto Clicker is by far the most useful application I have ever created. This semester I often played a braindead game called [Mutants: Genetic Gladiators](https://mutants.kobojo.com/). inside of this game there was a place where you could farm resources if you clicked on ceratin places in a ceratin order. I used to repeat this proces of clicking as a kid over 1000 times. A few semesters ago, I used a random autoclicker I found on internet. This semester, I wanted to farm the resources again, but I refused to download an auto clicker online. I am an experience WinForms developer, if there's anything I should be able to make, it's an auto clicker in winforms.
@@ -1162,6 +1163,119 @@ Auto Clicker is by far the most useful application I have ever created. This sem
 https://user-images.githubusercontent.com/74303221/174418294-6f732cbd-bfcd-4dbf-8d57-15f8e9d1c958.mp4
 
 [Auto Clicker Documentation](https://github.com/CrossyChainsaw/AutoClicker)
+
+## BattleSim
+BattleSim is a project I started all the way in semester 1. In semester 1 I hardly made a working project, In semester 2 I refactored everything, since it did work but, it was semester 1 code, so there was lots of unnecissary code. In semester 2 I wanted to create a functionality that both players can choose their fighter. Since that wasn't possible, you would get assigned a fighter based on player 1 or 2. It first looked impossible, but I told myself, I'm in semester 3 software. How the fuck can i not make a simple battle simulation. With some help of [The Coding Den](https://discord.com/invite/code) I got it working. Also did I add another fitgher I'll show a before and after
+
+*Semester 2 BattleSim*
+
+https://user-images.githubusercontent.com/74303221/174434115-a02f998d-5c34-4d41-997c-9f498418599e.mp4
+
+*Semester 3 BattleSim, still working on it (this is currently only in the create-abilites branch)*
+
+https://user-images.githubusercontent.com/74303221/174434117-c3e4e20b-d2b3-49ed-9ff9-91bd53ed498e.mp4
+
+The hard thing I did to make choosing your own fighter possible is making use of override methods. Here is the code that made it possible to override child classes their methods over the base classes their methods.
+
+*NeoFigther.cs, the base class, I have left out irrelevant pieces of code from the NeoFighter class*
+
+```cs
+    abstract public class NeoFighter
+    {
+        abstract public int Attack1(Random rnd, NeoFighter enemyNeoFighter);
+        abstract public int Attack2(Random rnd, NeoFighter enemyNeoFighter);
+        abstract public int Attack3(Random rnd, NeoFighter enemyNeoFighter);
+    }
+```
+
+*Blumaroo.cs, still in developement*
+```cs
+public class Blumaroo : NeoFighter
+    {
+        public Blumaroo()
+        {
+            Name = NeoFighterNames.Blumaroo;
+            Health = 300;
+            AttackPower = 29;
+            CritRatio = 10;
+        }
+
+        public override int Attack1(Random rnd, NeoFighter enemyNeoFighter)
+        {
+            //wooden fist
+            //10% to increase attackPower by 1
+            throw new NotImplementedException();
+        }
+        public override int Attack2(Random rnd, NeoFighter enemyNeoFighter)
+        {
+            //mimic
+            //learn enemies' last used move
+            throw new NotImplementedException();
+        }
+        public override int Attack3(Random rnd, NeoFighter enemyNeoFighter)
+        {
+            //ingrain
+            //heal 10 health every turn for 3 turns
+            throw new NotImplementedException();
+        }
+    }
+```
+
+*Korbat.cs, done for now*
+```cs
+public class Korbat : NeoFighter
+    {
+        NeoFighterNames _name = NeoFighterNames.Korbat;
+        int _health = 280;
+        int _attackPower = 28; // this means between 26-30
+        int _critRatio = 15;
+        int _chanceToPoison = 45;
+
+        public Korbat()
+        {
+            Name = _name;
+            Health = _health;
+            AttackPower = _attackPower;
+            CritRatio = _critRatio;
+            Attack1Name = "LifeSteal";
+            Attack2Name = "Strychine";
+            Attack3Name = "PoisonBite";
+        }
+
+        public override int Attack1(Random rnd, NeoFighter enemyNeoFighter)
+        {
+            //LifeSteal
+            //heal 40% of dealth damage
+            int damage = Attack(rnd, _attackPower);
+            GainHealth(damage * 40 / 100);
+            return damage;
+        }
+        public override int Attack2(Random rnd, NeoFighter enemyNeoFighter)
+        {
+            //Strychine
+            //double damage if enemy is poisoned
+            int damage = Attack(rnd, _attackPower);
+            if (enemyNeoFighter.IsPoisoned)
+            {
+                damage *= 2;
+            }
+            return damage;
+        }
+        public override int Attack3(Random rnd, NeoFighter enemyNeoFighter)
+        {
+            //PoisonBite
+            //30% chance to poison
+            int poisonChance = rnd.Next(1, 101);
+            if (poisonChance <= _chanceToPoison)
+            {
+                enemyNeoFighter.SetPoisoned(true);
+            }
+            return Attack(rnd, _attackPower);
+        }
+    }
+```
+
+[BattleSim Documentation](https://github.com/CrossyChainsaw/BattleSim)
 
 ## Ranknir
 Ranknir is a discord bot I made for fun. The discord I made it for showed a list of players in a certain clan and their rank points. The thing that bugged me was, they only showed all players their 1v1 stats. I thought this wasn't fair for the hardcore 2v2 players so I decided to make it myself.
