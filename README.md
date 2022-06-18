@@ -1339,10 +1339,4 @@ I just absolutely forgot this was a thing sadly, The last 3 days someone reminde
 # Epilogue
 In the end it was an ok semester. I've had semesters that were more fun. Everything this semester just went vague or unstructured. I didn't necissarily reached/learned cool things, neither did I make cool things. Let's hope I don't have to do it all over again. I did have lots of fun making the side projects tho.
 
-_Kaan Gögcay_
-
-**Kaan Gögcay**
-
 Kaan Gögcay
-
-# Kaan Gögcay
