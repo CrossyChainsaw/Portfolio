@@ -9,8 +9,8 @@
  - [Products](#products)
    - [Reverse Hangman Online](#reverse-hangman-online)
      - [Learning Outcome 1: Web Application (IP)](#learning-outcome-1-web-application-ip)
-       - [Front-end](#front-end)
-       - [Back-end](#back-end)
+       - [Front-end (RHO)](#front-end-rho)
+       - [Back-end (RHO)](#back-end-rho)
        - [Future Plans](#future-plans)
        - [UX-Testing](#ux-testing) 
        - [Object Relational Mapping](#object-relational-mapping)
@@ -29,11 +29,31 @@
        -  [Researches](#researches)
    - [Restaurant Ordering System](#restaurant-ordering-system)
      - [Learning Outcome 1: Web Application (GP)](#learning-outcome-1-web-application-gp)
+       - [Front-end (ROS)](#front-end-ros)
+       - [Back-end (ROS)](#back-end-ros)
      - [Learning Outcome 3: Agile Method](#learning-outcome-3-agile-method)
+       - [Scrum](#scrum)
+       - [Kanban](#kanban)
+       - [Extreme Programming](#extreme-programming)
+       - [Waterfall](#waterfall)
      - [Learning Outcome 5: Cultural Differences and Ethics](#learning-outcome-5-cultural-differences-and-ethics)
+       - [Cultural Differences](#cultural-differences)
+       - [Ethics](#ethics)
+       - [Coding Together](#coding-together)
      - [Learning Outcome 6: Requirements](#learning-outcome-6-requirements)
+       - [Quality Requirements](#quality-requirements) 
+       - [User Stories and Non-Functional Requirements](#user-stories-and-non-functional-requirements)
+       - [Security and Performance](#security-and-performance)
+       - [Technical Decisions and Architecture](#technical-decisions-and-architecture)
      - [Learning Outcome 7: Business processes](#learning-outcome-7-business-processes)
+       - [Ordering Process](#ordering-process)
      - [Learning Outcome 8: Professional (GP)](#learning-outcome-8-professional-gp)
+       - [Team Communication](#team-communication)
+       - [Communication with the Stakeholders](#communication-with-the-stakeholders)
+       - [What are the others doing?](#what-are-the-others-doing)
+       - [Ask for feedback](#ask-for-feedback)
+       - [Technical Decisions](#technical-decisions)
+       - [Researches](#researches)
    - [Side Projects](#side-projects) 
      - [Auto Clicker](#auto-clicker) 
      - [Ranknir](#ranknir)
@@ -71,7 +91,7 @@ Clarification:
 
 **Full-stack**: You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
 
-## Front-end
+## Front-end (RHO)
 In this section I'll show some parts of my frontend, the bigger milestones. The front-end has been made in React-TypeScript. You can check the code in my repository.
 
 [Reverse Hangman Online Frontend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend)
@@ -139,7 +159,7 @@ const GetGuessLine = async () => {
 };
 ```
 
-## Back-end
+## Back-end (RHO)
 Just like the front-end section, I'll show some of the milestones, more noticeable events that occured in my backend. The back-end has partially been made in C# .NET and partially in Java Spring. You can check the code in my repositories.
 
 [Reverse Hangman Online Backend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend)
