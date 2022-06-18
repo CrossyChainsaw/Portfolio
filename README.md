@@ -1296,6 +1296,7 @@ public class Korbat : NeoFighter
         }
     }
 ```
+For more information check the documentation, you can also take a look at the code.
 
 [BattleSim Documentation](https://github.com/CrossyChainsaw/BattleSim)
 
@@ -1321,7 +1322,7 @@ To accomplish this, I first needed an API key of the game in question, Brawlhall
 
 ![image](https://user-images.githubusercontent.com/74303221/174409420-2466e854-d71c-4a8f-b54d-6f40dc0a55d1.png)
 
-The code isn't too interesting, I improved my python skills. Besides that did it give me a good practise with JSON data. I thought this was a pretty interesting project to execute, also to show in my portfolio. The entire proces of mailing a popular game, them responding, all that, it was a fun and cool project.
+The code isn't too interesting, I improved my python skills. Besides that did it give me a good practise with JSON data. I thought this was a pretty interesting project to execute, also to show in my portfolio. The entire proces of mailing a popular game, them responding, all that, it was a fun and cool project. For more information check the documentation.
 
 [Ranknir Documentation](https://github.com/CrossyChainsaw/Ranknir)
 
