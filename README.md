@@ -62,6 +62,8 @@
    - [Which database is most suitable for my application?](#which-database-is-most-suitable-for-my-application)
    - [How do I protect the URLs my microservices use to communicate against DDoS attacks?](#how-do-i-protect-the-urls-my-microservices-use-to-communicate-against-ddos-attacks)
  - [Reflection](#reflection)
+   - [What went good?](#what-went-good) 
+   - [What will I do different next time?](#what-will-i-do-different-next-time) 
 
 # Preface
 Whilst reading you might encounter certain terms like IP, GP and S3, these refer to the terms Individual Project, Group Project and Semester 3 respectively. I'll start with showing all products I made this semester and then we'll go into the researches I did. It gets mentioned pretty soon down here but maybe you only read the preface and skip some other things so keep in mind that a lot of my IP gets explained in my application's documentation. Usually I refer to the documentation but just to be sure, I've added it down here. Same goes for the GP. Nothing else to add, have fun reading.
