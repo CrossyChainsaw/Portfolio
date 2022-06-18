@@ -1240,6 +1240,28 @@ I've put the document with the research in it in my portfolio.
 # Reflection
 
 ## What went good?
+Here I'll explain everything that went good in this semester.
+
+### Asking feedback
+This semester I tried to get atleast once a week feedback. The next week I would implement the feedback, and show my implemented feedback to the teacher. The last 3 weeks we got 2 teachers instead of 1, so I tried asking both of them for feedback once a week. 
+
+### Focus on a subject
+Multiple times this semester I had to work on something I had 0 experience at. For example, TypeScript, Java, React, Docker. But everytime I just ignored every other aspect of my project, and focused on that one subject. This worked so good for learning anything. For example in our group project I was a total React-TypeScript noob. I spend a day learning the basics and returned pretty experienced.
+
+### Researches
+A lot went wrong in the researches but I felt like I was doing a good job, ecspecially in the URL DDoS research. I'ts straigther to the point than the db research. I'm curious what the teachers will think of it.
+
+### Working tempo in GP
+In the IP i wasn't using my weeks too efficient, this will be explained later on. But in the group project I was usually working or helping others. We also noticed that the tinier the group got, the more efficient we worked.
+
+### Presentations
+Our presentations weren't always prepared, but if we prepared the presentation for the sprint delivery, we were so good. Ecspecially the second last sprint delivery.
+
+### Presence
+I always have been on school when I had the oppurtunity, even though I concentrate better at home, I find it fun to hang arround with everyone, and of course to ask feedback.
+
+### The last 3 weeks
+The last 3 weeks I worked so hard, I never took school this seriously. I just hate wasting time in general, and I know I have what it takes to pass this semester wo I would freak out if working 12 hours a day on school was all for no reason.
 
 ## What will I do different next time?
 Here I'll explain what I would do different the next time. Here you will find out stuff about my semester you might have never even known, pretty fun section. Enjoy.
@@ -1291,8 +1313,20 @@ Our first impression with the product owners was horrible. We had to ask them qu
 ### Code Tools used too late
 So I have to use all kinds of tools that help improve my code, for exmaple the CI pipeline and code analysis. Instead of using these tools to improve my code. I added them in the end of the semester showing the teachers I can use them.
 
+### Resetting my school laptop 12 times
+I resetted my laptop I used for school a total of 12 times this semester. Why? because when I try to game, I got very little FPS stutter and this freaked me out. So always if I would play online I would reset my pc, and guess what, I played 1 hour a day. So anyday my laptop felt off, I resetted it. Usually I hdid this in the weekens what brings us to the following topic.
+
+### Mondays
+Lots of mondays I had to reinstall everything for school. This was because I resetted my laptop in the weekens due to lower performance. So usually half of my monday was gone because I was reinstalling everything.
+
 ### Wednesday
 I usually did nothing on wednesday. This was because me and my mom watched a series that always dropped at Tuesday 23:30. The episode usually lasted like 150 minutes. so I would always sleep way too late. Since I still wanted to sleep properly I woke up pretty late. This made me tired the entire day. And then I did nothing the entire day. This is how every wednesday went. This was very unprofessional behaviour of me.
+
+### Thursday
+On thursdays I came to school, usually hanged arroud with everyone, checking on everyone how they are doing. Asked my teacher for feedback. And overal just talked a lot with people doing not too much for school, This of course changed the last 3 weeks, but as you can see  I didn't do too much on thursdays.
+
+### Friday
+Every friday I woke up, worked a bit on school, went to the mosque, worked a bit on school and went to work. I mean, the mosque only took 1 hour, but still it felt like I did shit every friday. Also probably because I wasn't forced to wake up early.
 
 ### Videos in Portfolio
 I just absolutely forgot this was a thing sadly, The last 3 days someone reminded me it was a thing and i added for example docker running in a video so you can see its not fake. but other than that I wanted to focus more on finishing everything instead of taking videos of everything. 
