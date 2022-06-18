@@ -672,6 +672,15 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 ```
+*Links to my CI/CD pipelines*
+
+[Reverse Hangman Online Frontend CI/CD](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/actions/workflows/node.js.yml)
+
+[Reverse Hangman Online Backend CI/CD](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/actions/workflows/dotnet.yml)
+
+[Game Statistics Service CI/CD](https://github.com/Epic-Chainsaw-Massacre/Game-Statistics-Service/actions/workflows/dotnet.yml)
+
+[Word Service CI/CD](https://github.com/Epic-Chainsaw-Massacre/Word-Service/actions/workflows/maven.yml)
 
 ### System Testing
 In a system test you test a walkthrough from one point to another. For example, in my web game that would be from start page, to playing a full round of the game. Or from start of the game to the rules section. Or from the rules section all the way to play a full round of the game. This concept I just explained also goes as End-to-End testing.
@@ -683,14 +692,6 @@ As my project would advance I would definitely want to test a few end-to-end cas
 
 ##### Play a full round
 I visualized the end-to-end test in a flowlike diagram but with my c4 model. This way I exactly know what I should do if im going to write the test at some point. There are a few assumptions. There are 2 players sitting next to each other, they are gonna play around of multiplayer against each other.
-
-[Reverse Hangman Online Frontend CI/CD](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/actions/workflows/node.js.yml)
-
-[Reverse Hangman Online Backend CI/CD](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/actions/workflows/dotnet.yml)
-
-[Game Statistics Service CI/CD](https://github.com/Epic-Chainsaw-Massacre/Game-Statistics-Service/actions/workflows/dotnet.yml)
-
-[Word Service CI/CD](https://github.com/Epic-Chainsaw-Massacre/Word-Service/actions/workflows/maven.yml)
 
 ## Static Code Analysis
 For code analysis i've made use of SonarCloud. I chose SonarCloud since a classmate of mine told me it is pretty easy to setup via SonarCloud. After a pull request to master, the SonarCloud code analysis get executed. Using code analysis i can easily find vulnerabilities in my code.
