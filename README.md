@@ -984,6 +984,15 @@ Researches are mentioned down below, click the link to go there.
 
 [Research](#research)
 
+# Auto Clicker
+Auto Clicker is by far the most useful application I have ever created. This semester I often played a braindead game called [Mutants: Genetic Gladiators](https://mutants.kobojo.com/). inside of this game there was a place where you could farm resources if you clicked on ceratin places in a ceratin order. I used to repeat this proces of clicking as a kid over 1000 times. A few semesters ago, I used a random autoclicker I found on internet. This semester, I wanted to farm the resources again, but I refused to download an auto clicker online. I am an experience WinForms developer, if there's anything I should be able to make, it's an auto clicker in winforms.
+
+*Video of me setting up the Auto Clicker, and farming resources on that stupid pay to win game*
+
+video
+
+[Auto Clicker Documentation](https://github.com/CrossyChainsaw/AutoClicker)
+
 # Ranknir
 Ranknir is a discord bot I made for fun. The discord I made it for showed a list of players in a certain clan and their rank points. The thing that bugged me was, they only showed all players their 1v1 stats. I thought this wasn't fair for the hardcore 2v2 players so I decided to make it myself.
 
