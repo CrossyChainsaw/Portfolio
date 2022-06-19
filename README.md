@@ -1602,22 +1602,22 @@ In the IP I wasn't using my weeks too efficient, this will be explained later on
 Now that I think about it, I actually did write tests whenever I needed them wherever I needed them. I just didn't really focus the learning outcome. If you look at the learning outcomes, my project lacks end-to-end testing, but right now, I could make an end-to-end test, but it wouldn't help me in any way, since the functionalities I want to test in the end-to-end tests aren't there yet. I did document the scenarios I would like to test in the future.
 
 ### Presentations
-Our presentations weren't always prepared, but if we prepared the presentation for the sprint delivery, we were so good. Ecspecially the second last sprint delivery.
+Our presentations weren't always prepared, but if we prepared the presentation for the sprint delivery, we were so good. Especially the second last sprint delivery.
 
 ### Side Projects
-The side projects I worked on this semester were so fun. If I find something fun, usually the result will be better than usual. Maybe I shoul've prioritized the IP a bit more. In then end very happy about my Side Projects. 
+The side projects I worked on this semester were so fun. If I find something fun, usually the result will be better than usual. Maybe I should’ve prioritized the IP a bit more. In then end very happy about my Side Projects.
 
 ### Presence
-I always have been on school when I had the oppurtunity, even though I concentrate better at home, I find it fun to hang arround with everyone, and of course to ask feedback.
+I always have been on school when I had the opportunity, even though I concentrate better at home, I find it fun to hang around with everyone, and of course to ask feedback.
 
 ### The last 3 weeks
-The last 3 weeks I worked so hard, I never took school this seriously. I just hate wasting time in general, and I know I have what it takes to pass this semester wo I would freak out if working 12 hours a day on school was all for no reason.
+The last 3 weeks I worked so hard, I never took school this seriously. I just hate wasting time in general, and I know I have what it takes to pass this semester so I would freak out if working 12 hours a day on school was all for no reason.
 
 ## What will I do different next time?
 Here I'll explain what I would do different the next time. Here you will find out stuff about my semester you might have never even known, pretty fun section. Enjoy.
 
 ### Planning
-My planning this semester was terrible, honestly I don't know how I ended up in this state. In the final week I got my stuff together and made a planning for myself. In the planning it says everything I still have to do/make. This is what my planning currently looks like. In the last week it really felt like all my structure I usually have came back.
+My planning this semester was terrible, honestly I don't know how I ended up in this state. In the final week I got my stuff back together and made a planning for myself. In the planning it says everything I still have to do/make. This is what my planning currently looks like. In the last week it really felt like all my structure I usually have come back.
 
 ![image](https://user-images.githubusercontent.com/74303221/173577617-be6f2748-156c-43df-9338-52afac4153c3.png)
 
@@ -1625,37 +1625,37 @@ My planning this semester was terrible, honestly I don't know how I ended up in 
 In my database research I've done a few things I will do different next time. 
 
 ### Testing Libraries
-I didn't make thoughtfull choices arround testing libraries for my applications. Thought it didn't really care untill jest-dom screwed me over with some missing functionalities like not being able to disable CORS policiy checking.
+I didn't make thoughtful choices around testing libraries for my applications. Thought it didn't really care until jest-dom screwed me over with some missing functionalities like not being able to disable CORS policy checking.
 
 ##### Filtering Sources
-The way I decided which sources to use was. I looked up a source. Researched the person that wrote it. If the person was well known and had a database background I gave it a high trust level, if not I gave it a low trust level. Why won't I do this next time? If someone is well known to a lot of people and has 10 years of experience with databases, it doesn't mean he has a good understanding of databases. A better strategy would be to find multiple sources, and use the infromation I encounter the most. If multiple people say the same stuff it sounds more reliable to me.
+The way I decided which sources to use was. I looked up a source. Researched the person that wrote it. If the person was well known and had a database background I gave it a high trust level, if not I gave it a low trust level. Why won't I do this next time? If someone is well known to a lot of people and has 10 years of experience with databases, it doesn't mean he has a good understanding of databases. A better strategy would be to find multiple sources, and use the information I encounter the most. If multiple people say the same stuff it sounds more reliable to me.
 
 ##### Drop Databases for the wrong reasons
-In my research I dropped a few databases for controversial reasons. I dropped a database that had extra functionalities that I didn't need. But in the and all databasese have that so that was quite unnecessary. I dropped 2 database types because they dont directly support a key functionality I need. But by using a workaround I could actually make them work. As soon as I saw the key functionality was missing I instantly dropped it, but I shouldve given it a chance to the end. This is a good way to start the next topic.
+In my research I dropped a few databases for controversial reasons. I dropped a database that had extra functionalities that I didn't need. But in the and all databases have that so that was quite unnecessary. I dropped 2 database types because they don’t directly support a key functionality I need. But by using a workaround I could actually make them work. As soon as I saw the key functionality was missing I instantly dropped it, but I should’ve given it a chance to the end. This is a good way to start the next topic.
 
 ##### Random Conclusions 
-I randomly had a few conclusions throughout the research. Usually you have a conclusion at then end, but I had multiple at random spots. This usually means I have researched topics inside of my research, I kept researching and researching. This blends in nicely with the next topic.
+I randomly had a few conclusions throughout the research. Usually you have a conclusion at the end, but I had multiple at random spots. This usually means I have researched topics inside of my research, I kept researching and researching. This blends in nicely with the next topic.
 
 ##### Kept Researching
 I kept researching everything. That's not bad, but I also kept researching topics that didn't fit in my database research at all. For example I researched how reliable people are that write online guides.
 
 ##### Time
-The next time I will start earlier, I kept procastinating since I didn't know what I wanted to research, and because I found the DOT-framework very vague. In the end I started researching in the last week. This was a strange experience for me since I usually plan everything perfectly.
+The next time I will start earlier, I kept procrastinating since I didn't know what I wanted to research, and because I found the DOT-framework very vague. In the end I started researching in the last week. This was a strange experience for me since I usually plan everything perfectly.
 
 ### UX-Tests
-Do more UX-tests, start earlier, target multiple kinds of people. I let a user test my application that already had a good understanding of the game, that comes with pros and cons. Since he already knows whats coming, he can be more ciritcal, but because he already knows it, everything is clear to him. So UX-testing 1 person definitely won't do the job
+Do more UX-tests, start earlier, target multiple kinds of people. I let a user test my application that already had a good understanding of the game, that comes with pros and cons. Since he already knows what’s coming, he can be more critical, but because he already knows it, everything is clear to him. So UX-testing 1 person definitely won't do the job
 
 My teacher also gave me feedback to observer my user. Try to look at his behaviour. From someone's behaviour you can also conceive information. Do confirm your conceptions with your user. Like this my UX-tests will be more efficient.
 
 ### Don't just listen/do what others say
-In this semester for example, my teacher would tell me I had to create a login, importing Auth0 and all that. I had never read that anywhere on canvas, but honestly I didn't read canvas that well. Also something really stupid of me this semester. But I just accepted I had to do it. Luckily another teacher told me later on it wasn't necessary. And i did a security research instead of building a login.
+In this semester for example, my teacher would tell me I had to create a login, importing Auth0 and all that. I had never read that anywhere on canvas, but honestly I didn't read canvas that well. Also something really stupid of me this semester. But I just accepted I had to build a login. Luckily another teacher told me it wasn't necessary. And I did a security research instead of building a login.
 
-Also teacher A said he recommended us to learn Java, so we learn a different language. Then teacher C asked me why I decided to learn Java and my response was, 'Because the teacher recommended it'. It would've been better if I would've thought more about that decision. In the end i'm quite happy i worked with java but still. Next time just think more before instantly making a choice. 
+Also teacher A said he recommended us to learn Java, so we learn a different language. Then teacher C asked me why I decided to learn Java and my response was, 'Because the teacher recommended it'. It would've been better if I would've thought more about that decision. In the end I’m quite happy I worked with java but still. Next time just think more before instantly making a choice.
 
-Also did I think I had to build a microservice application for my individual, but that wasn't even the case. Also kinda adds up to all this.
+Also did I think I had to build a microservice application for my individual, but that wasn't even the case. Also kind of adds up to all this.
 
 ### Start taking GP more seriously
-in semester 2 we had a really nice and kind man as product owner. It felt like he was just a classmate of us. With the same mindset i went in S3 and I felt like I was a bit too comfortable with the product owners. I started to just have a chat with them that they looked like some celebirity. But I surely wouldn't do that next time hahah.
+in semester 2 we had a really nice and kind man as product owner. It felt like he was just a classmate of us. With the same mindset I went in S3 and I felt like I was a bit too comfortable with the product owners. I started to just have a chat with them that they looked like some Dutch celebrity. But I surely wouldn't do that next time hahah.
 
 *I showed an image of this guy to the product owner saying he looked like him*
 ![image](https://user-images.githubusercontent.com/74303221/173576715-3ad7f388-29c3-43bf-99db-420e54b68de6.png)
@@ -1664,28 +1664,28 @@ in semester 2 we had a really nice and kind man as product owner. It felt like h
 Our first impression with the product owners was horrible. We had to ask them question about the case they've send us. But only or two people of our group did actually read it. That was a terrible experience. At first it felt like our group tried to keep it secret, but I just told them we didn't read it at all nor had we seen it. Our teacher sent it so us over Teams so that was really on us. To do this better next time I should read Teams more frequently. But the issue with that is, I get so much garbage over teams for some reason. So maybe I should just clean that.
 
 ### Code Tools used too late
-So I have to use all kinds of tools that help improve my code, for exmaple the CI pipeline and code analysis. Instead of using these tools to improve my code. I added them in the end of the semester showing the teachers I can use them.
+So I have to use all kinds of tools that help improve my code, for example the CI pipeline and code analysis. I added these kind of late to the project, therefore I couldn’t make too good use of them.
 
 ### Resetting my school laptop 12 times
-I resetted my laptop I used for school a total of 12 times this semester. Why? because when I try to game, I got very little FPS stutter and this freaked me out. So always if I would play online I would reset my pc, and guess what, I played 1 hour a day. So anyday my laptop felt off, I resetted it. Usually I hdid this in the weekens what brings us to the following topic.
+I reset my laptop I used for school a total of 12 times this semester. Why? because when I try to game, I got very little FPS stutter and this freaked me out. So always if I would play online I would reset my pc, and guess what, I played 1 hour a day. So any day my laptop felt off, I reset it. Usually I did this in the weekends what brings us to the following topic.
 
 ### Mondays
-Lots of mondays I had to reinstall everything for school. This was because I resetted my laptop in the weekens due to lower performance. So usually half of my monday was gone because I was reinstalling everything.
+Lots of Mondays I had to reinstall everything for school. This was because I reset my laptop in the weekends due to lower performance. So usually half of my Monday was gone because I was reinstalling everything.
 
 ### Wednesday
-I usually did nothing on wednesday. This was because me and my mom watched a series that always dropped at Tuesday 23:30. The episode usually lasted like 150 minutes. so I would always sleep way too late. Since I still wanted to sleep properly I woke up pretty late. This made me tired the entire day. And then I did nothing the entire day. This is how every wednesday went. This was very unprofessional behaviour of me.
+I usually did nothing on Wednesday. This was because me and my mom watched a series that always dropped at Tuesday 23:30. The episode usually lasted like 150 minutes. so I would always sleep way too late. Since I still wanted to sleep properly I woke up pretty late. This made me tired the entire day. And then I did nothing the entire day. This is how every Wednesday went. This was very unprofessional behaviour of me.
 
 ### Thursday
-On thursdays I came to school, usually hanged arroud with everyone, checking on everyone how they are doing. Asked my teacher for feedback. And overal just talked a lot with people doing not too much for school, This of course changed the last 3 weeks, but as you can see  I didn't do too much on thursdays.
+On Thursdays I came to school, usually hanged around with everyone, checking on everyone how they are doing. Asked my teacher for feedback. And overall just talked a lot with people doing not too much for school, This of course changed the last 3 weeks, but as you can see I didn't do too much on Thursdays.
 
 ### Friday
-Every friday I woke up, worked a bit on school, went to the mosque, worked a bit on school and went to work. I mean, the mosque only took 1 hour, but still it felt like I did shit every friday. Also probably because I wasn't forced to wake up early.
+Every Friday I woke up, worked a bit on school, went to the mosque, worked a bit on school and went to work. I mean, the mosque only took 1 hour, but still it felt like I did shit every Friday. Also probably because I wasn't forced to wake up early.
 
 ### Videos in Portfolio
-I just absolutely forgot this was a thing sadly, The last 3 days someone reminded me it was a thing and i added for example docker running in a video so you can see its not fake. but other than that I wanted to focus more on finishing everything instead of taking videos of everything. 
+I just absolutely forgot this was a thing sadly, The last 3 days someone reminded me it was a thing and I added for example docker running in a video so you can see it’s not fake. but other than that I wanted to focus more on finishing everything instead of taking videos of everything.
 
 # Epilogue
-In the end it was an ok semester. I've had semesters that were more fun. Everything this semester just went vague or unstructured. I didn't necissarily reached/learned cool things, neither did I make cool things. Let's hope I don't have to do it all over again. I did have lots of fun making the side projects tho.
+In the end it was an okay semester. I've had semesters that were more fun. Everything this semester just went vague or unstructured. I didn't necessarily reached/learned cool things, neither did I make too cool things. Let's hope I don't have to do it all over again. I did have lots of fun making the side projects though.
 
 Kaan Gögcay
 
