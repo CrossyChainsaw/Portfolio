@@ -243,7 +243,7 @@ To solve this problem I found a solution. If I do a request of the word 'Pirate'
 ]
 ```
 
-Important to note is that meta.id contains the word i did a request for. So the only thing I gotta do in my code is check if meta.id equals the word I did a request for. Here's my code for it. As you see I've put it in a try catch, since the json object isn't guaranteed to have data for meta.id. Because as you saw in the 'Birate' request we didn't have meta nor did we have id. This is the way I filter away words that don't exist.
+Important to note is that `meta.id` contains the word I did a request for. So the only thing I got to do is, check if `meta.id` equals the word I did a request for. Here's my code for it. As you see I've put it in a try catch, since the JSON object isn't guaranteed to have data for `meta.id`. Because as you saw in the 'Birate' request we didn't have `meta` nor did we have `id`. This is the way I filter words that don't exist.
 
 *Part of [WordResource.java](https://github.com/Epic-Chainsaw-Massacre/Word-Service/blob/1d19e80132950c192d5cdc68a4d6a404f9fe74f1/src/main/java/EpicChainsawMassacre/reversehangmanonlinebackend/resources/WordResource.java#L66)*
 ```java
@@ -257,12 +257,12 @@ catch (Exception e) {
 ```
 
 ### Reverse Hangman Forms Copy Paste
-So as you might know, I made an application in WinForms called ReverseHangmanDesktop. Since all the logic in ReverseHangmanDesktop was coded seperately from the presentation layer, I could just copy paste all the logic from that application into my application. My application did become an absolute mess. But i got all the backend functionalities in only a few minutes. Otherwise it would probably take hours.
+So as you might know, I made an application in WinForms called ReverseHangmanDesktop. Since all the logic in ReverseHangmanDesktop was coded separately from the presentation layer, I could just copy paste all the logic from that application into my application. My application did become an absolute mess. But I got all the backend functionalities in only a few minutes. Otherwise it would probably take hours.
 
 ![image](https://user-images.githubusercontent.com/74303221/173446686-4a8d6a00-e537-4be5-9aee-1028e6214576.png)
 
 ### Communicate with Front-end
-Communicating with the frontend was a mystery at the start, I looked op tutorials how you make a C# service that can talk with a React frontend. It looked all super vague to me, I even tried to build a controller in WinForms haha don't do that. I did manage to call API requests from a WinForms application, that was actually pretty funny. But I was wasting time. Finally I went in visual studio and wrote API ASP.NET something like that. I clciked the one with ASP.NET Core. It was all a very random process. Maybe I also used a guide I can't remember it too well. But when I got in the project I got an auto-generated example with WeatherForecast that returned an array with some extra's. I just simplified that auto-generated endpoint and created the following.
+Communicating with the frontend was a mystery at the start, I looked op tutorials how you make a C# service that can talk with a React frontend. It looked all super vague to me, I even tried to build a controller in WinForms haha don't do that. I did manage to call API requests from a WinForms application, that was actually pretty funny. But I was wasting time. Finally I went in Visual Studio and wrote API ASP.NET something like that. I clicked the one with ASP.NET Core. It was all a very random process. Maybe I also used a guide I can't remember it too well. But when I got in the project I got an auto-generated example with `WeatherForecast` that returned an array with some extra's. I just simplified that auto-generated endpoint and created the following.
 
 *part of [Program.cs](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/blob/7d29db75f1619feae6fbcd069dc75f676db0a3f4/Reverse-Hangman-Online-Backend/Program.cs#L63)*
 ```cs
@@ -290,9 +290,16 @@ app.MapGet("/GuessLine", ([FromUri] string word) =>
 My frontend just gives the word to an endpoint, the endpoint does some calculations with the word and returns for example the amount of lives it should return.
 
 ## Future Plans
-My future plans are to finish a working round in Reverse Hangman Online. Right now you can only fill in a word, and make it check on existance. further on do the lives and goal get calculated using the word.
+My future plans are to finish a working round in Reverse Hangman Online. Right now you can only fill in a word, and make it check on existence. Further on do the lives and goal get calculated depending on the word.
 
-Also do I still want to save game results to a database. Right now nothing with a database happens. Also would I like to show my data from my database in my frontend. Further on I was planning to make songs for my game. I really looked forward to that. Also adding sound effects, it brings the game overal more alive. At last I also wanted to add different languages, for this project i was planning on making English and Dutch. By changing the language, not only the UI should change but also the checking of words, so that means I would probably have to use a dutch dictionary API. Finally I wanted to add a ranking system to my game. people would be able to create an account and have an amount of rank points, elo. This elo would make people play against others from the same skill level.
+Also do I still want to save game results to a database. Right now nothing with a database happens. Also would I like to show data from my database in the frontend. Further on I was planning to make songs for my game. I really looked forward to do that. Also adding sound effects, it brings the game overall more alive. At last I also wanted to add different languages, for this project I was planning on making English and Dutch. By changing the language, not only the UI should change but also the checking of words, so that means I would probably have to use a Dutch dictionary API. Finally I wanted to add a ranking system to my game. people would be able to create an account and have an amount of rank points, Elo. This Elo would make people play against others from the same skill level.
+
+*Example of how I want to show data in my frontend*
+![image](https://user-images.githubusercontent.com/74303221/174489900-62c0bfe3-8376-4d22-b90b-3bf4baed5a3b.png)
+
+More about saving and reading data in the Game Statistics Service.
+
+[Game Statistics Service Documentation](https://github.com/Epic-Chainsaw-Massacre/Game-Statistics-Service)
 
 ## UX-Testing
 My project wasn't finished yet. So i couldn't let someone test my application. I asked my teacher for solutions, and he told me I could make wireframes and test the experience on users using my wireframes. I could also step it up and make a prototype of my application, and let users test my prototype, focussing on the process and gameplay over the looks and design, because in the end its just a prototype. Last semester I made an application called Reverse Hangman Desktop. Reverse Hangman Desktop is a prototype-ish application I made in WinForms. My entire individual project is based of the prototype-ish application. So my prototype application would be perfect for UX-testing.
