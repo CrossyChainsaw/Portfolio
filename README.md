@@ -1,6 +1,6 @@
 # Portfolio Semester 3 - Kaan Gögcay
 
-*Here you see an image of a few products i worked on this semester. Going from left to right, [AutoClicker](https://github.com/CrossyChainsaw/AutoClicker), [BattleSim](https://github.com/CrossyChainsaw/BattleSim), [Restaurant Ordering System](https://github.com/fontys-group3), [MoneySquadronVirus](https://github.com/CrossyChainsaw/MoneySquadronVirus), [Ranknir](https://github.com/CrossyChainsaw/Ranknir), [Reverse Hangman Online](https://github.com/Epic-Chainsaw-Massacre)*
+*Here you see an image of a few products I worked on this semester. Going from left to right, [AutoClicker](https://github.com/CrossyChainsaw/AutoClicker), [BattleSim](https://github.com/CrossyChainsaw/BattleSim), [Restaurant Ordering System](https://github.com/fontys-group3), [MoneySquadronVirus](https://github.com/CrossyChainsaw/MoneySquadronVirus), [Ranknir](https://github.com/CrossyChainsaw/Ranknir), [Reverse Hangman Online](https://github.com/Epic-Chainsaw-Massacre)*
 
 ![template (1)](https://user-images.githubusercontent.com/74303221/173811448-e70513a6-6dfd-4a5c-a1fa-eb41815771fb.png)
 
@@ -68,16 +68,16 @@
    - [What will I do different next time?](#what-will-i-do-different-next-time) 
 
 # Preface
-Whilst reading you might encounter certain terms like IP, GP and S3, these refer to the terms Individual Project, Group Project and Semester 3 respectively. I'll start with showing all products I made this semester and then we'll go into the researches I did. It gets mentioned pretty soon down here but maybe you only read the preface and skip some other things so keep in mind that a lot of my IP gets explained in my application's documentation. Usually I refer to the documentation but just to be sure, I've added it down here. Same goes for the GP. Nothing else to add, have fun reading.
+Whilst reading you might encounter certain terms like IP, GP and S3, these refer to the terms Individual Project, Group Project and Semester 3 respectively. I'll start with showing all products I made this semester and then we'll go into the researches I did. Keep in mind that a lot of my IP gets explained in my application's documentation. Usually I refer to the documentation but just to be sure, I've added it down here. Same goes for the GP. Nothing else to add, have fun reading.
 
 [Reverse Hangman Online Documentation](https://github.com/Epic-Chainsaw-Massacre)
 
 [Restaurant Ordering System Documentation](https://github.com/fontys-group3)
 
 # Products
-This semester I had to realise all the learning outcomes of semester 3. Per product I will explain how i realised the corresponding learning outcome. Here's a list with all the learning outcomes. I'll also include a list of requirements I have to realise this semester in my individual project.
+This semester I had to realise all the learning outcomes of semester 3. Per product I will explain how I realised the corresponding learning outcome. Here's a list with all the learning outcomes. I'll also include a list of requirements I have to realise this semester in my individual project.
 
-[Learning Outcomes S3](https://fhict.instructure.com/courses/12078/outcomes)
+[Learning Outcomes S3](https://fhict.instructure.com/courses/12078/outcomes) (You need a Fontys account to see the page, don't worry I will also explain them in my document)
 
 [List of requirements Individual Project](https://fhict.instructure.com/courses/12078/pages/what-should-be-covered-in-my-individual-project?module_item_id=749928)
 
@@ -1576,6 +1576,9 @@ My planning this semester was terrible, honestly I don't know how I ended up in 
 ### Research
 In my database research I've done a few things I will do different next time. 
 
+### Testing Libraries
+I didn't make thoughtfull choices arround testing libraries for my applications. Thought it didn't really care untill jest-dom screwed me over with some missing functionalities like not being able to disable CORS policiy checking.
+
 ##### Filtering Sources
 The way I decided which sources to use was. I looked up a source. Researched the person that wrote it. If the person was well known and had a database background I gave it a high trust level, if not I gave it a low trust level. Why won't I do this next time? If someone is well known to a lot of people and has 10 years of experience with databases, it doesn't mean he has a good understanding of databases. A better strategy would be to find multiple sources, and use the infromation I encounter the most. If multiple people say the same stuff it sounds more reliable to me.
 
@@ -1637,3 +1640,6 @@ I just absolutely forgot this was a thing sadly, The last 3 days someone reminde
 In the end it was an ok semester. I've had semesters that were more fun. Everything this semester just went vague or unstructured. I didn't necissarily reached/learned cool things, neither did I make cool things. Let's hope I don't have to do it all over again. I did have lots of fun making the side projects tho.
 
 Kaan Gögcay
+
+![image](https://user-images.githubusercontent.com/74303221/174488643-44070659-946a-4c0a-b172-3a902226ccad.png)
+
