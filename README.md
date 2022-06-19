@@ -1231,25 +1231,25 @@ I've split this section up in 7 questions.
 Ethics is software engineering mean that, engineers should think about the consequences of their product. They should avoid giving a group of people bad consequences.
 
 ### Why is ethics important in software engineering? 
-Over the years the impact of software on our lives has grown on an insane level. everywhere around you is software. Engineers should take ethics into account, because they could mess up people their lives. How you would ask? For exmaple lets look at factories. Over the years more and more processes in factories got automised. This resulted in people losing their jobs. Losing your job unexpectedly as an adult could be very fatal since you have lots of charges you gotta pay, and as an adult its not always easy to find a job.
+Over the years the impact of software on our lives has grown on an insane level. everywhere around you is software. Engineers should take ethics into account, because they could mess up people their lives. How you would ask? For example let’s look at factories. Over the years more and more processes in factories got automized. This resulted in people losing their jobs. Losing your job unexpectedly as an adult could be very fatal since you have lots of charges you got to pay, and as an adult it’s not always easy to find a job.
 
 ### What do you have to do as a software engineer to address ethical aspects in your work? 
 As a software engineer you should inform your product owner about the negative aspects/consequences of your work.
 
 ### How do you know that your ethical considerations match with those of other software engineers? 
-To understand other engineers their view you, for example in your team. Everyone can share their view and opinions about ethics and the ethical consequences of the project.
+To understand other engineers their view, everyone can share their view and opinions about ethics and the ethical consequences of the project.
 
 ### Which ethical aspects play a role in your project? + Do you foresee ethical conflicts caused by your software? What kind of?  
-In our group project the biggest ethical aspect is the following. We take a process that gets exectued by humans, waiters to be more specific. Waiters wander arround and take orders from the customers, they bring the order to the kitchen, and finally they serve out the food. So actually a waiter has 3 tasks. Lets we build an application for a restaurant where they have 3 waiters. each waiter has its own task. one waiter gets orders, one brings orders to the ktichen, and one serves out the food. If the fictional restaurant i just described uses our application it woulf have the following results. 2 out of 3 waiters would be unnecessary. since the orders get taken automatically, and the orders get to the kitchen automatically. this means only the food has to get served out. ethically this is a bad application for the waiter since it creates a decent chance of them losing their job.
+In our group project the biggest ethical aspect is the following. We take a process that gets executed by humans, waiters to be more specific. Waiters wander around and take orders from the customers, they bring the order to the kitchen, and finally they serve out the food. So actually a waiter has 3 tasks. Let’s we build an application for a restaurant where they have 3 waiters. each waiter has its own task. one waiter gets orders, one brings orders to the kitchen, and one serves out the food. If the fictional restaurant I just described uses our application it would have the following results. 2 out of 3 waiters would be unnecessary. since the orders get taken automatically, and the orders get to the kitchen automatically. this means only the food has to get served out. ethically this is a bad application for the waiter since it creates a decent chance of them losing their job.
 
 ### Can you do something to avoid or minimize these conflicts? 
-We could build the application slightly different, so that the customers dont use the app but the waiters use the app. In our fictional restaurant app it saves one waiter from its job. But in the end we build the application to automise the process. What's the use in having the waiters do a task with our application, if you can also give it in the hands of the customers. This is a dillemaa you can think about for quite a while. for example, does the product owner just wanna get rid of the employees to save money? will he use the employees for something different. This ethical problem summons lots of questions. So yes you could avoid the conflict by giving waiters another task in the restaurant or building the app in a way that they have to use it. Or you minimize it by keeping a part automised and a part not automised. But how usefull is that really.
+We could build the application slightly different, so that the customers don’t use the app but the waiters use the app. In our fictional restaurant app it saves one waiters  job. But in the end we build the application to automize the process. What's the use in having the waiters do a task with our application, if you can also give it in the hands of the customers. This is a dilemma you can think about for quite a while. for example, does the product owner just want to get rid of the employees to save money? will he use the employees for something different. This ethical problem summons lots of questions. So yes you could avoid the conflict by giving waiters another task in the restaurant or building the app in a way that they have to use it. Or you minimize it by keeping a part automized and a part not automized. But how useful is that really.
 
 *image of a waiter using our application to take an order*
 ![image](https://user-images.githubusercontent.com/74303221/173804913-5b326448-4a96-43f9-9d47-b3c44deb10eb.png)
 
 ## Coding Together
-We didn't have very strict coding standards in our team. We did have one rule and that is to code everything in English. 
+We didn't have very strict coding standards in our team. We did have one rule and that is to code everything in English.
 
 If multiple people worked on one repository we made branches and push the branches to GitHub. finally we merge them to the master. Working like this we avoid pushing our code to the master branch which could be very fatal.
 
@@ -1300,7 +1300,7 @@ Clarification:
 In our business process we visualized the entire process of making an order digital and analog. You see 3 phases in this process, these are placing the order, prepare the order and finishing the order. Let's go through 2 quick examples. 
 
 ### Non-Digital
-John enters the restaurant and takes a seat. Now the ordering process takes place. In the order process John orders a burger and a coke. The waiter writes it all down and brings the order to the kitchen and bar. This is where the preparing phase starts. The kitchen makes a burger and the bar prepares a coke. When everything is prepared, the waiter takes it to John's table. If John is done dining, the ending phase starts. In this phase the cashier types in the amount of money John has to pay. John pays for the food. If John gave too much money he also gets his change from the cashier. Now the cashier asks John if he wants the receipt. John decides he wants the receipt, and leaves the restaurant.
+John enters the restaurant and takes a seat. Now the ordering process takes place. In the order process John orders a burger and a coke. The waiter writes it all down and brings the order to the kitchen and bar. This is where the preparing phase starts. The kitchen makes a burger and the bar prepares a coke. When everything is prepared, the waiter takes it to John's table. If John is done dining, the ending phase starts. In this phase the cashier types in the amount of money John has to pay. John pays for the food. If John gave too much money he gets his change from the cashier. Now the cashier asks John if he wants the receipt. John decides he wants the receipt, and leaves the restaurant.
 
 ### Digital
 John enters the restaurant and takes a seat and scans the QR code to open up the menu. Here the process of ordering will start. John clicks on a burger and a coke, and places the order. Now the preparing phase starts. Kitchen and bar employee claim the burger and the coke in their interface respectively. When both are ready to serve, they drag the order to done in their interface. Then the waiter gets the order and serves it out to John. If John is done eating, the ending phase starts. He gets an invoice to his phone, after paying he can choose if he wants the receipt and he's free to go.
@@ -1334,9 +1334,9 @@ Inside our group we used Teams and Discord to communicate. We started off in Tea
 *Rules of Presence*
 ![image](https://user-images.githubusercontent.com/74303221/172949644-04301849-de14-4ae8-b7b8-f988d8f2ef1b.png)
 
-For the English readers, this says. *Be present at 09:00, after 09:10 you will be considered as late, if you know you will be late let us know 1 day before. If you don't let us know anything, you are late and you don't have a valid reason to be late, we give you a strike. All the rules that apply to being to late also apply to not showing up at all. If you get you're third strike we inform the teacher about your presence. 
+For the English readers, this says. *Be present at 09:00, after 09:10 you will be considered as late. If you know you will be late let us know 1 day before. If you don't let us know anything, you are late and you don't have a valid reason to be late, we give you a strike. All the rules that apply to being too late also apply to not showing up at all. If you get you're third strike we inform the teacher about your presence.
 
-Always if i knew i would be late i let my group know but to prove it here are some messages of me letting my group know i will be too late.
+Always if I knew I would be late I let my group know but to prove it here are some messages of me letting my group know I will be too late.
 
 ![image](https://user-images.githubusercontent.com/74303221/172952242-3fc00baa-3ed7-4e82-8ae6-3f1f81da832b.png)
 ![image](https://user-images.githubusercontent.com/74303221/172952188-a35c89c3-2e90-468e-9be0-0e4e525bf3b3.png)
@@ -1377,7 +1377,7 @@ Researches are mentioned down below, click the link to go there.
 In this section I will mention the side projects I made this semester, that were bigger than my usual side project. I added these projects because I enjoyed making them and I think they deserve a spot in my portfolio. This also shows that I don't only work professional for a school project, but also in my spare time.
 
 ## Auto Clicker
-Auto Clicker is by far the most useful application I have ever created. This semester I often played a braindead game called [Mutants: Genetic Gladiators](https://mutants.kobojo.com/). inside of this game there was a place where you could farm resources if you clicked on ceratin places in a ceratin order. I used to repeat this proces of clicking as a kid over 1000 times. A few semesters ago, I used a random autoclicker I found on internet. This semester, I wanted to farm the resources again, but I refused to download an auto clicker online. I am an experience WinForms developer, if there's anything I should be able to make, it's an auto clicker in winforms.
+Auto Clicker is by far the most useful application I have ever created. This semester I often played a braindead game called Mutants: Genetic Gladiators. inside of this game there was a place where you could farm resources if you clicked on certain places in a certain order. I used to repeat this process of clicking as a kid over 1000 times. A few semesters ago, I used a random auto clicker I found on internet. This semester, I wanted to farm the resources again, but I refused to download an auto clicker online. I am an experience WinForms developer, if there's anything I should be able to make, it's an auto clicker in WinForms.
 
 *Video of me setting up the Auto Clicker, and farming resources on that stupid pay to win game*
 
@@ -1388,7 +1388,7 @@ Here's the documentation, it explains how to use the Auto Clicker.
 [Auto Clicker Documentation](https://github.com/CrossyChainsaw/AutoClicker)
 
 ## BattleSim
-BattleSim is a project I started all the way in semester 1. In semester 1 I hardly made a working project, In semester 2 I refactored everything, since it did work but, it was semester 1 code, so there was lots of unnecissary code. In semester 2 I wanted to create a functionality that both players can choose their fighter. Since that wasn't possible, you would get assigned a fighter based on player 1 or 2. It first looked impossible, but I told myself, I'm in semester 3 software. How the fuck can i not make a simple battle simulation. With some help of [The Coding Den](https://discord.com/invite/code) I got it working. Also did I add another fitgher I'll show a before and after
+BattleSim is a project I started all the way in semester 1. In semester 1 I hardly made a working project, In semester 2 I refactored everything. It was semester 1 code, so there was lots of unnecessary code that could be written shorter and more efficient. In semester 2 I wanted to create a functionality that both players can choose their fighter. Since that wasn't possible, you would get assigned a fighter based on player 1 or 2. It first looked impossible, but I told myself, I'm in semester 3 software. How the fuck can I not make a simple battle simulation. With some help of The Coding Den I got it working. Also did I add another fighter. I'll show a before and after.
 
 *Semester 2 BattleSim*
 
@@ -1398,7 +1398,7 @@ https://user-images.githubusercontent.com/74303221/174434335-d5760f7c-11b8-4f0c-
 
 https://user-images.githubusercontent.com/74303221/174434117-c3e4e20b-d2b3-49ed-9ff9-91bd53ed498e.mp4
 
-The hard thing I did to make choosing your own fighter possible is making use of override methods. Since i can't just call the method of a child class from the base class. Here is the code that made it possible to override child classes their methods over the base classes their methods.
+The hard thing I did to make choosing your own fighter possible, is making use of override methods. I can't just call the method of a child class from the base class. Here is the code that made it possible to override child classes their methods over the base classes their methods.
 
 *part of [NeoFigther.cs](https://github.com/CrossyChainsaw/BattleSim/blob/4137a43cfe3dcd59abff1c677d4b00b13275fbf4/BattleSim/Logic/NeoFighter.cs#L53), the base class*
 
@@ -1523,7 +1523,7 @@ To accomplish this, I first needed an API key of the game in question, Brawlhall
 
 ![image](https://user-images.githubusercontent.com/74303221/174409420-2466e854-d71c-4a8f-b54d-6f40dc0a55d1.png)
 
-The code isn't too interesting, I improved my python skills. Besides that did it give me a good practise with JSON data. I thought this was a pretty interesting project to execute, also to show in my portfolio. The entire proces of mailing a popular game, them responding, all that, it was a fun and cool project. For more information check the documentation.
+The code isn't too interesting, I improved my python skills. Besides that did it give me a good practise with JSON data. I thought this was a pretty interesting project to execute, also to show in my portfolio. The entire process of mailing a popular game, them responding, all that, it was a fun and cool project. For more information check the documentation.
 
 [Ranknir Documentation](https://github.com/CrossyChainsaw/Ranknir)
 
@@ -1544,8 +1544,9 @@ Here are a few of my favourite memes.
 
 [![image](https://user-images.githubusercontent.com/74303221/174412423-5b6d0471-9ec9-4a55-a268-0d4999c7213b.png)](https://www.youtube.com/watch?v=yQQNZTEnl6o)
 
+Uploading HUXW5738.MP4…
 
-Everytime I want to add a meme I have to edit the code, I tried to import [Imgur](https://imgur.com/a/l2wygcj) in my python code, so that I only have to add a meme to imgur and my application would automatically pull the image, but no succes sadly. Bot was made to mock a discord server called Money Squadron. But the hype came to an end. Bot is still up tho. For more information check out the documentation.
+Every time I want to add a meme I have to edit the code, I tried to import Imgur in my python code, so that I only have to add a meme to Imgur and my application would automatically pull the image, but no success sadly. Bot was made to mock a discord server called Money Squadron. But the hype came to an end. Bot is still up though. For more information check out the documentation.
 
 [Money Squadron Virus Documentation](https://github.com/CrossyChainsaw/MoneySquadronVirus)
 
@@ -1558,18 +1559,18 @@ For this research I made use of the [DOT framework](https://ictresearchmethods.n
 
 **Why**: Instead of choosing a random database, I'd like to know which database fits my application the best. Because if you realize you chose the wrong database in the middle of the project it might cost a lot of time, effort and money(for a company, I'm just a student).
 
-**How**: Find multiple articles about how to choose the right database for your application, validate them, and use them for my project.
+**How**: Find multiple articles about how to choose the right database for your application, validate them, and use them for my research.
 
-I've put the document with the research in it in my portfolio, Because its so big you have to download it.
+I've put the document with the research in it in my portfolio, Because it's so big you have to download it.
 
 [Database Research](https://github.com/CrossyChainsaw/Portfolio/tree/master/Database%20Research)
 
 ## How do I protect the URLs my microservices use to communicate against DDoS attacks?
-First I asked myself 3 questions. What do i wanna research, why do i wanna research it, and how do i wanna research it.
+First I asked myself 3 questions. What do I want to research, why do I want to research it, and how do I want to research it.
 
 **What**: I want to research how I can protect my URLs against DDoS attacks.
 
-**Why**: If i don't protect the URLs, people can DDoS attack my services, which slow down my application or can even take it down.
+**Why**: If I don't protect the URLs, people can DDoS attack my services, which slow down my application or can even take it down.
 
 **How**: Trying to understand what all the risks are of not protecting the URLs, and finding out how to protect the URLs making use of reliable sources and validation.
 
@@ -1583,22 +1584,22 @@ I've put the document with the research in it in my portfolio.
 Here I'll explain everything that went good in this semester.
 
 ### Asking feedback
-This semester I tried to get atleast once a week feedback. The next week I would implement the feedback, and show my implemented feedback to the teacher. The last 3 weeks we got 2 teachers instead of 1, so I tried asking both of them for feedback once a week. 
+This semester I tried to get at least once a week feedback. The next week I would implement the feedback, and show my implemented feedback to the teacher. The last 3 weeks we got 2 teachers instead of 1, so I tried asking both of them for feedback once a week.
 
 ### Documentation
-This semester I found out documentating can be pretty fun. If you look at Reverse Hangman Online Documentation, I documented an entire game I was making. Further on I tried to add documentation to all the side projects I included to this portfolio. Also did I translate our GP decisions to English and did I wrote a documentation for the restaurant system. Also do I like my portfolio, it's a bit on the long side, but if you use the links in Table of Contents correctly you can navigate anywhere you want, and find anything ou want.
+This semester I found out documenting can be pretty fun. If you look at Reverse Hangman Online Documentation, I documented an entire game I was making. Further on I tried to add documentation to all the side projects I included to this portfolio. Also did I translate our GP decisions to English and did I wrote a documentation for the restaurant system. Also do I like my portfolio, it's a bit on the long side, but if you use the links in Table of Contents correctly you can navigate anywhere you want, and find anything you want.
 
 ### Focus on a subject
-Multiple times this semester I had to work on something I had 0 experience at. For example, TypeScript, Java, React, Docker. But everytime I just ignored every other aspect of my project, and focused on that one subject. This worked so good for learning anything. For example in our group project I was a total React-TypeScript noob. I spend a day learning the basics and returned pretty experienced.
+Multiple times this semester I had to work on something I had 0 experience at. For example, TypeScript, Java, React, Docker. But every time I just ignored every other aspect of my project, and focused on that one subject. This worked so good for learning anything. For example in our group project I was a total React-TypeScript noob. I spend a day learning the basics and returned pretty experienced. This focussing on a subject is also called a ‘Spike’. My teacher Leon recommended it and it worked out really good.
 
 ### Researches
-A lot went wrong in the researches but I felt like I was doing a good job, ecspecially in the URL DDoS research. I'ts straigther to the point than the db research. I'm curious what the teachers will think of it.
+A lot went wrong in the researches but I felt like I was doing a good job, especially in the URL DDoS research. It’s straighter to the point than the database research. I'm curious what the teachers will think of it.
 
 ### Working tempo in GP
-In the IP i wasn't using my weeks too efficient, this will be explained later on. But in the group project I was usually working or helping others. We also noticed that the tinier the group got, the more efficient we worked.
+In the IP I wasn't using my weeks too efficient, this will be explained later on. But in the group project I was usually working or helping others. We also noticed that the tinier the group got, the more efficient we worked.
 
 ### Testing
-Now that i think about it, I actually did write tests whenever I needed them. I just didn't really focus the learning outcome. I wrote tests wherever I needed them. If you look at the learning outcomes, my project lacks end-to-end testing, but right now, I could make an end-to-end test, but it wouldn't help me in any way, since the functionalities I want to test in the end-to-end tests aren't there yet. I did documentate the scenarios I would like to test in the future.
+Now that I think about it, I actually did write tests whenever I needed them wherever I needed them. I just didn't really focus the learning outcome. If you look at the learning outcomes, my project lacks end-to-end testing, but right now, I could make an end-to-end test, but it wouldn't help me in any way, since the functionalities I want to test in the end-to-end tests aren't there yet. I did document the scenarios I would like to test in the future.
 
 ### Presentations
 Our presentations weren't always prepared, but if we prepared the presentation for the sprint delivery, we were so good. Ecspecially the second last sprint delivery.
