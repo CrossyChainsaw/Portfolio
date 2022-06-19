@@ -109,7 +109,7 @@ I also planned a React spike, same concept as above, I just try to gather as muc
 ### Text Input
 It was surprisingly hard to get the text input value and put it in a variable for the first time. I managed to do this with a variable called word. This updates everytime the text input changes. the variable basically represents live what's in the text input. Also did I have a second variable, called permission. if you click the button permission becomes true, because the word gets permission to be checked on existence, get it? I've put the code down here so you can try to understand what i've done (I've left out parts of code that make it more complicated and irelevant for this topic).
 
-*parts of singleplayer.tsx*
+*parts of [singleplayer.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/master/src/components/singleplayer/singleplayer.tsx)*
 ```ts
 const [word, setWord] = useState<string>("");
 const [permission, setPermission] = useState<boolean>(false);
@@ -138,7 +138,7 @@ function OnCLick(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
 ### API Requests
 This was hard to get into, even when I did a request once. It stayed hard for a while. After doing it a few times API requests are a breeze. Here are some API request examples, these are the ones used in the code above.
 
-*parts of singleplayer.tsx*
+*parts of [singleplayer.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/6d7ac54681d1c25a1c2ac465a1e4ace7e49bef54/src/components/singleplayer/singleplayer.tsx#L65)*
 ```ts
 const GetLives = async () => {
     console.log("word: " + word);
@@ -236,6 +236,7 @@ To solve this problem I found a solution. If I do a request of the word 'Pirate'
 
 Important to note is that meta.id contains the word i did a request for. So the only thing I gotta do in my code is check if meta.id equals the word I did a request for. Here's my code for it. As you see I've put it in a try catch, since the json object isn't guaranteed to have data for meta.id. Because as you saw in the 'Birate' request we didn't have meta nor did we have id. This is the way I filter away words that don't exist.
 
+*Part of [WordResource.java](https://github.com/Epic-Chainsaw-Massacre/Word-Service/blob/1d19e80132950c192d5cdc68a4d6a404f9fe74f1/src/main/java/EpicChainsawMassacre/reversehangmanonlinebackend/resources/WordResource.java#L66)*
 ```java
 String wordString;
 try {
