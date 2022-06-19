@@ -502,22 +502,6 @@ public class LivesTest
 
 ``` 
 
-In my frontend I haven't written any unit tests, since my frontend only shows values on the page that get calculated by other services. 
-
-In my API wrapper (word-service) I wrote two unit tests, I'll start with the basic one. Again a parameterized test since this just saves writing multiple tests that lookalike. I have 2 testcases. First I test a word that actually exists `help`, so it should output `true`. Next I input a non-existing word `asgfkjas`, this should output `false`. The test itself pretty much speaks for itself. We test the method `wordExists()` to test if a word exists. 
-
-```java 
-
-@ParameterizedTest 
-@CsvSource({"help,true", "ksgujfudg,false"}) 
-//@ValueSource(strings = {"help", "asgfkjas"}, booleans = {true, false}) 
-void checkWordExistance(String word, Boolean exists) { 
-   WordResource wordResource = new WordResource(); 
-   assertTrue(wordResource.wordExists(word) == exists); 
-}  
-
-``` 
-
 The other test I made in my API wrapper is to test the functionality of Bucket4j. I wrote tests to check if I understand how Bucket4j works. With Bucket4j I've created a rate limit for the Merriam-Webster external dictionary API. 
 
 ```java  
@@ -542,10 +526,47 @@ void apiBucket(){
 }  
 
 ``` 
-### Integration Testing
-Same for unit testing, integration testing tests multiple units. From my understanding, since I use a microservice architecture, this means I test multiple micro services together. I couldn't image how this would go. Since I would have to write tests that would have to make use of another application. For me that sounds impossible, so I went looking for tools
 
-As I mentioned before, I don't have that many unit tests. Mainly because there is barely logic in my application. 
+In my frontend I haven't written any unit tests, since my frontend only shows values on the page that get calculated by other services. In my Game-Statistics-Service nothing happens, the project is pretty much blank.
+
+### Integration Testing
+Same for unit testing, integration testing tests multiple units. From my understanding, since I use a microservice architecture, this means I test multiple micro services together.
+
+Here's the integration test in my word-service. Again a parameterized test since this just saves writing multiple tests that lookalike. I have 2 testcases. First I test a word that actually exists `help`, so it should output `true`. Next I input a non-existing word `asgfkjas`, this should output `false`. The test itself pretty much speaks for itself. We test the method `wordExists()` to test if a word exists. `wordExists()` makes use of the external Merriam-Webster dictionary API. So we test the communication between my service and the external service. 
+
+*Integration Test with external API*
+```java 
+
+@ParameterizedTest 
+@CsvSource({"help,true", "ksgujfudg,false"}) 
+//@ValueSource(strings = {"help", "asgfkjas"}, booleans = {true, false}) 
+void checkWordExistance(String word, Boolean exists) { 
+   WordResource wordResource = new WordResource(); 
+   assertTrue(wordResource.wordExists(word) == exists); 
+}  
+```
+*Method that gets used in integration test*
+```java
+    public boolean wordExists(String word){
+            RestTemplate restTemplate = new RestTemplate();
+            String jsonResult = restTemplate.getForObject("https://dictionaryapi.com/api/v3/references/sd2/json/" + word + System.getenv("API_KEY"), String.class);
+            JSONArray json = new JSONArray(jsonResult);
+            System.out.println("Result: " + jsonResult);
+            String wordString;
+            try {
+                wordString = json.getJSONObject(0).getJSONObject("meta").getString("id");
+            }
+            catch (Exception e) {
+                return false;
+            }
+            System.out.println("Result2: " + wordString);
+            if (wordString.contains(":")) {
+                wordString = wordString.substring(0, wordString.length() - 2);
+            }
+            System.out.println("Result3: " + wordString);
+            return wordString.contains(word);
+    }
+    ```
 
 ### Regression Testing
 As regressiion testing, I test all my unit tests where i specifically test logic. For example, I test the way lives get calculated everytime i pull request to master. In my continious integration pipelines I don't only build my application, but I also test them. I've added links to all my CI pipelines so you can check them out yourself. Here's a quick example what it looks like in my pipeline. Somewhere in the middle I have an action named `Test` that's where the tests happen.
