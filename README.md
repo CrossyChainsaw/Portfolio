@@ -1034,7 +1034,7 @@ I also still wanted to make a background looking something like the image down b
 ### UX-Testing
 If you are looking for UX-Testing check out.
 
-[Learning Outcome 1: Web Application (IP)](#learning-outcome-1-web-application-ip)
+[UX-Testing](#ux-testing)
 
 # Learning Outcome 8: Professional (IP)
 *You act in a **professional manner** during software development and learning.*
@@ -1045,17 +1045,17 @@ Clarification:
 You choose and substantiate solutions for a given problem.
 
 ## Feedback
-This semester started off with [Leon van Bokhorst](https://github.com/leonvanbokhorst). I asked him weekly feedback, sadly you won't be able to find it all back in my FeedPulse PDF Report, since sometimes my teacher forgot to open a feedpulse session. Leon has motivated me a lot throughout the semester, and definitely turned this boring documentation focussed semester into a fun semester. Later in the semester, the last 3 weeks, i got 2 new teachers, [Jean-Paul Ligthart](https://github.com/jpligthart) and [Timo Hermans](https://github.com/timohermans). I also tried to speak both of them once a week.
+This semester started off with the teacher [Leon van Bokhorst](https://github.com/leonvanbokhorst). I asked him weekly feedback, sadly you won't be able to find it all back in my FeedPulse PDF Report, since sometimes my teacher forgot to open a feedpulse session. Leon has motivated me a lot throughout the semester, and definitely turned this boring documentation focussed semester into a fun semester. Later in the semester, the last 3 weeks, I got 2 new teachers, [Jean-Paul Ligthart](https://github.com/jpligthart) and [Timo Hermans](https://github.com/timohermans). I also tried to speak both of them once a week.
 
 [FeedPulse PDF Report](https://github.com/CrossyChainsaw/Portfolio/tree/master/FeedPulse%20Report)
 
 ## Researches
-Researches are mentioned in the bottom of the document, click on the click to teleport there.
+Researches are mentioned in the bottom of the document, click on the link to teleport there.
 
-[Research](#research)
+[/tp Research](#research)
 
 # Restaurant Ordering System
-The Restaurant Ordering System was my group project this semester. I made it together with [Mike van den Hoef](https://github.com/Headoros), [Tim Meijvogel](https://github.com/Timsel1), [Cas Esselink](https://github.com/CasEsselink) and [David Chang](https://github.com/Davidchang24). Everything about our Group Project can be found at it's documentation
+The Restaurant Ordering System was my group project this semester. I made it together with [Mike van den Hoef](https://github.com/Headoros), [Tim Meijvogel](https://github.com/Timsel1), [Cas Esselink](https://github.com/CasEsselink) and [David Chang](https://github.com/Davidchang24). Everything about our Group Project can be found at its documentation
 
 [Restaurant Ordering System Documentation](https://github.com/fontys-group3)
 
@@ -1069,26 +1069,26 @@ Clarification:
 **Full-stack**: You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
 
 ## Front-end (ROS)
-The front-ends has been mainly made by Me, Mike, Tim and David. We coded it in React-TypeScript. Me and David worked on the same repo, Tim had its own and Mike also had its own. We had different repositories since we used a microservice structure.
+The front-ends have been mainly made by Me, Mike, Tim and David. We coded it in React-TypeScript. Me and David worked on the same repo, Tim had its own and Mike also had its own. We had different repositories since we used a microservice structure.
 
 ## Back-end (ROS)
-The application has multiple backends. The backends have been made by Me, Mike, David and Cas. The only language we used in our backend is Java. Me and David worked on the same backend. After a while when me and David got some processes working between the front-end and back-end we decided that I would mainly focus on the front-end and he would focus on the back-end, since it was pretty annoying to both work on both. But on the other hand, since we've setup everything together we both exactly knew how each others' application worked.
+The application has multiple backends. The backends have been made by Me, Mike, David and Cas. The only language we used in our backend is Java. Me and David worked on the same backend. After a while when me and David got some processes working between the front-end and back-end, we decided that I would mainly focus on the front-end and he would focus on the back-end, since it was pretty annoying to both work on both. But on the other hand, since we've setup everything together we both exactly knew how each other’s application worked. This came in pretty handy, since David decided to stop in the middle of the semester. Because I knew how the backend worked this didn’t affect our group project.
 
 ## My Tasks
 I'll slowly take you through everything I was responsible for.
 
 ### Menu Logic
-Me and David have worked on everything behind the scenes of our menu. We came across such a hard problem that I couldn't even describe it to look it up. I also couldn't do it in C#. I was completely lost, since usually, logic wise, nothing is impossible to me in C#. The problem we had was sorting our products into categories. So that all deserts get sorted together, all  main dishes would get sorted together etcetera. In the end of the day Mike or David solved it some how. Pretty funny, I found the message back where I'm saying "_design is going good but I have no idea how to get them sorted right_".
+Me and David have worked on everything behind the scenes of our menu. We came across such a hard problem that I couldn't even describe it to look it up. I also couldn't do it in C#. I was completely lost, since usually, logic wise, nothing is impossible to me in C#. The problem we had was sorting our products into categories. So that all deserts get sorted together, all main dishes would get sorted together etcetera. In the end of the day Mike or David solved it somehow. Pretty funny, I found the message back where I'm saying "_design is going good but I have no idea how to get them sorted right_".
 
 ![image](https://user-images.githubusercontent.com/74303221/173420101-f96a85ce-5683-4cd9-a557-19a143107225.png)
 
 ### Menu Design
-Also did i work on the design in the first sprint. The menu looked a bit prototype-ish, so Mike gave it a big make over. Here is the old design I made in sprint 1.
+As you just saw, I alo worked on the design but only in the first sprint. The menu looked a bit prototype-ish, so Mike gave it a big make over. Here is the old design I made in sprint 1.
 
 ![image](https://user-images.githubusercontent.com/74303221/173419259-bc31c838-1cdb-48e7-b750-2cf27c51535b.png)
 
 ### Inventory
-My latest task was about making the inventory in our menu. I made the inventory so that when you click on a product, it check in the database how much there's left for the item. If there's more than 0 left, one gets removed from the database. Why do we use a database for this you'd ask? Since you can also save everything on the page. We used to save in on the page, but the problem then was that it wouldn't share data between different clients. If a product is out of stock it gets grayed out like down below.
+My latest task was about making the inventory in our menu. I made the inventory so that when you click on a product, it check in the database how much there's left for that item. If there's more than 0 left, one gets removed from the database. Why do we use a database for this you'd ask? Since you can also save everything on the page. We used to save in on the page, but the problem then was that it wouldn't share data between different clients. If a product is out of stock it gets greyed out like down below.
 
 ![image](https://user-images.githubusercontent.com/74303221/173433824-06d00ee3-5066-4b5b-b48a-bf28efb75f90.png)
 
@@ -1100,7 +1100,7 @@ Clarification:
 **Agile** method: You are aware of most popular agile methods and their underlying agile principles. You are able to implement the process of your software project according to a chosen methodology.
 
 ## Scrum
-For our group project we used the agile method scrum. We chose Scrum after the result of a research one of our group members did, sadly he stopped and I can't find it back. In our project we have one scrum master every sprint. The scrum master would lead the stand-ups and standdowns. Furthermore, the scrum master in our project didn't have too much meaning. For example, usually the contact person in the group is the scrum master. But we found it easier to make that role static and give it to a group member (me). It kind of felt like we were all the scrum master, this way of working didn't really give any problems. 
+For our group project we used the agile method scrum. We chose Scrum after the result of a research one of our group members did, sadly he stopped and I can't find it back. In our project we have one scrum master every sprint. The scrum master would lead the stand-ups and standdowns. Furthermore, the scrum master role in our project didn't have too much meaning to it. For example, usually the contact person in the group is the scrum master. But we found it easier to make that role static and give it to a group member (me). It kind of felt like we were all the scrum master, this way of working didn't really give any problems.
 
 I did a small research to the other agile methods, I did this by searching multiple resources online. Usually about 3 to 6 websites.
 
@@ -1108,7 +1108,7 @@ I did a small research to the other agile methods, I did this by searching multi
 I'll go briefly through the practises of the Kanban methodology. 
 
 ### Visualize your work
-When starting a kanban project its important to visualize your work in a kanban board. Kanban boards can look very differently, in the image below you see the most basic exmaple.
+When starting a Kanban project it’s important to visualize your work in a Kanban board. Kanban boards can look very differently, in the image below you see the most basic example.
 
 ![image](https://user-images.githubusercontent.com/74303221/173593181-bc1769a5-fd60-4637-94d6-afcce31bfab1.png)
 
@@ -1117,40 +1117,40 @@ Some people tend to add extra tabs to it, or make it their own. That's all depen
 ![image](https://user-images.githubusercontent.com/74303221/173593650-26a8a1b3-d3a0-4df8-a903-176a243b90cd.png)
 
 ### Limit Work in Progress
-This basically means as a group you set a limit to the 'in progress' tab. I took the example I just showed and drew a red line at the bottom of the in progress tab. This way the work in progress tab stays clean. The work in progress limit depends on how big your group is. For example if you have a group of five people you want to have arround 6/10 tasks.
+This basically means as a group you set a limit to the 'in progress' tab. I took the example I just showed and drew a red line at the bottom of the in progress tab. This way the work-in-progress tab stays clean. The work-in-progress limit depends on how big your group is. For example if you have a group of five people you want to have around 6/10 tasks.
 
 ![image](https://user-images.githubusercontent.com/74303221/173594939-4a81c8eb-25bc-40ed-a2c3-3610b2294112.png)
 
 ### Manage Flow
-Through the process you check how your requirements go through the kanban board. If there are requirements stuck on in progress for a while you might reconsider if the requirement is setup right.
+Through the process you check how your requirements go through the Kanban board. If there are requirements stuck on in progress for a while you might reconsider if the requirement is setup right.
 
 ### Define when a requirement is done
-When working on a requirement you might just keep going on forever not knowing when to stop. That's why you should add definition of done's to yourr requirements. This way you can check you checklist and know when a requirement is done.
+When working on a requirement you might just keep going on forever not knowing when to stop. That's why you should add definition-of-done’s to your requirements. This way you can check you checklist and know when a requirement is done.
 
 ### Apply Feedback
-It's important to ask and apply feedback within the group, within the group members and also with the product owner. You can setup feedback loops you do every x time, where you discuss a list of things or for example do code reviews. 
+It's important to ask and apply feedback within the group, within the group members and also with the product owner. You can setup feedback loops, for example every Monday, where you discuss a list of things, or for example do code reviews.
 
 ### Improvement
-It's important to keep improving throughout the process. You don't just make you're requirements, setup the board and just work till then end. Whenever you can improve something in the project, its important to improve it.
+It's important to keep improving throughout the process. You don't just make you're requirements, setup the board and just work till then end. Whenever you can improve something in the project, it’s important to improve it.
 
 ## Extreme Programming
-Extreme programming, also known as XP, exists of short developement cycles wherin you define the requirements and assign them, its as if you set up a sprint right before it starts if you compare it to Scrum. Just like any other agile methodology, XP comes with some practises, 12 to be exact. Since 12 is quite a lot we'll split them in 4 groups.
+Extreme programming, also known as XP, exists of short development cycles wherein you define the requirements and assign them. It’s as if, if you compare it to Scrum, you set up a sprint right before it starts. Just like any other agile methodology, XP comes with some practises, 12 to be exact. Since 12 is quite a lot we'll split them in 4 groups.
 
 ![image](https://user-images.githubusercontent.com/74303221/173691785-a12e36de-e21f-44d2-8e9a-b12ff6729b6e.png)
 
 ### Fine-scale feedback
-Pair programming is one of the practises, that means when 2 people team up on one device. One of the 2 writes the code also called the 'Driver' while the other observes the code also called 'observer' or 'navigator'. The goal is that the observer gives feedback to the driver. Usually the roles get switched frequently. Another practise is the planning, you should plan together with the product owners when which products should be released, also should you guys as a team plan who works on what and when. In the second phase the product owner isn't evolved. Writing tests is also a practise pretty straight forward, write tests for your code. At last the product owner should always be contactable during the working process.
+Pair programming is one of the practises. Pair Programming is when 2 people team up on one device. One of the 2 writes the code also called the 'Driver' while the other observes the code also called 'observer' or 'navigator'. The goal is that the observer gives feedback to the driver. Usually the roles get switched frequently. Another practise is the planning, you should plan together with the product owners when which products should be released, also should you guys as a team plan who works on what and when. In the second phase the product owner isn't evolved. Writing tests is also a practise pretty straight forward, write tests for your code. At last the product owner should always be contactable for feedback during the working process.
 
 ![image](https://user-images.githubusercontent.com/74303221/173691621-c0645897-1322-4b2e-b1f2-c3feff1aca6d.png)
 
 ### Continuous process
-in this section falls the practise the have everyone code on the same shared space and merge the code several times a day. Refactoring is also a part of all this. This means you improve the code without adding or removing functionality. As last its important to have releases thoughout the project. Small releases so that the product owner knows the current state of the project. Its also important that the code isnt from someone, the code is from the entire team. Everyone is allowed to make changes to the code. Everything should be writtin as simple as possible, if you have a funtionality with 100 lines of code that could be writtin in 60 lines of code you should shorten it. As last its important that everyone can read the code, inclusing people that don't code. Tou can achieve this be giving everything names that explain them selves as good as possible, for exmaple good variable names, good class names, good method names etcetera. 
+in this section falls the practise to have everyone code on the same shared space and merge the code several times a day. Refactoring is also a part of all this. This means you improve the code without adding or removing functionality. As last it’s important to have releases throughout the project. Small releases so that the product owner knows the current state of the project. It’s also important that the code isn’t from someone, the code is from the entire team. Everyone is allowed to make changes to the code. Everything should be written as simple as possible, if you have a functionality with 100 lines of code that could be written in 60 lines of code, you should shorten it. As last it’s important that everyone can read the code, including people that don't code. You can achieve this be giving everything names that explain themselves as good as possible, for example good variable names, good class names, good method names and comments where necessary.
 
 ### Shared understanding
-Use the same coding standards for exmaple code in the same language like dutch, english, german, im not talking about same coding language, altough that would also be pretty important if you work on the same piece lol. For another example lets look at C#, its pretty well known in C# that you do pascal casing on methods and start private fields with an underscore. 
+Use the same coding standards for example code in the same language like Dutch, English, German, I’m not talking about same coding language, although that would also be pretty important if you work on the same piece lol. For another example let’s look at C#, it’s pretty well known in C# that you do pascal casing on methods and start private fields with an underscore.
 
 ### Programmer welfare
-its important that the developers dont work more than 40 hours a week. if there happens to be overtime one week it doesnt mean you can skip the overtime you did in the next week. Because XP consists of small processes. If you dont work for a while you can miss alot since the processes are so small.
+it’s important that the developers don’t work more than 40 hours a week. If there happens to be overtime one week it doesn’t mean you can skip the overtime you did in the next week. Because XP consists of small processes. If you don’t work for a while you can miss a lot since the processes are so small.
 
 ## Waterfall
 Just like lots of other agile methodologies, waterfall exists of making requirements, design (models), implementation, verification or testing and deployment and maintenance in this order. I'll explain them all briefly.
