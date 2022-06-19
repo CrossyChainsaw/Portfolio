@@ -80,7 +80,7 @@ This semester I had to realise all the learning outcomes of semester 3. Per prod
 
 [Learning Outcomes S3](https://fhict.instructure.com/courses/12078/outcomes) (You need a Fontys account to see the page, don't worry I will also explain them in my document)
 
-[List of requirements Individual Project](https://fhict.instructure.com/courses/12078/pages/what-should-be-covered-in-my-individual-project?module_item_id=749928)
+[List of requirements Individual Project](https://github.com/CrossyChainsaw/Portfolio/blob/master/School%20Sources/What%20should%20be%20covered%20in%20my%20individual%20project.pdf)
 
 # Reverse Hangman Online
 Reverse Hangman Online is a game I made for my individual project. I will explain per learning outcome how I realised it with my individual project. Everything about Reverse Hangman Online itself can be found in its documentation.
