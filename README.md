@@ -1419,6 +1419,9 @@ A lot went wrong in the researches but I felt like I was doing a good job, ecspe
 ### Working tempo in GP
 In the IP i wasn't using my weeks too efficient, this will be explained later on. But in the group project I was usually working or helping others. We also noticed that the tinier the group got, the more efficient we worked.
 
+### Testing
+Now that i think about it, I actually did write tests whenever I needed them. I just didn't really focus the learning outcome. I wrote tests wherever I needed them. If you look at the learning outcomes, my project lacks end-to-end testing, but right now, I could make an end-to-end test, but it wouldn't help me in any way, since the functionalities I want to test in the end-to-end tests aren't there yet. I did documentate the scenarios I would like to test in the future.
+
 ### Presentations
 Our presentations weren't always prepared, but if we prepared the presentation for the sprint delivery, we were so good. Ecspecially the second last sprint delivery.
 
