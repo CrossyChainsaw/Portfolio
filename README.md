@@ -1545,6 +1545,7 @@ Here are a few of my favourite memes.
 [![image](https://user-images.githubusercontent.com/74303221/174412423-5b6d0471-9ec9-4a55-a268-0d4999c7213b.png)](https://www.youtube.com/watch?v=yQQNZTEnl6o)
 
 *video of people spamming the meme command in the discord*
+
 https://user-images.githubusercontent.com/74303221/174500941-de0e02e8-d26c-4c31-b080-6efe39dcdbe2.mp4
 
 Every time I want to add a meme I have to edit the code, I tried to import Imgur in my python code, so that I only have to add a meme to Imgur and my application would automatically pull the image, but no success sadly. Bot was made to mock a discord server called Money Squadron. But the hype came to an end. Bot is still up though. For more information check out the documentation.
