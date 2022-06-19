@@ -109,18 +109,23 @@ I also planned a React spike, same concept as above, I just try to gather as muc
 ### Text Input
 It was surprisingly hard to get the text input value and put it in a variable for the first time. I managed to do this with a variable called word. This updates everytime the text input changes. the variable basically represents live what's in the text input. Also did I have a second variable, called permission. if you click the button permission becomes true, because the word gets permission to be checked on existence, get it? I've put the code down here so you can try to understand what i've done (I've left out parts of code that make it more complicated and irelevant for this topic).
 
-*parts of [singleplayer.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/master/src/components/singleplayer/singleplayer.tsx)*
+*part of [singleplayer.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/f2870b7617e50c506adc7046fd8fcfd63dbf2874/src/components/singleplayer/singleplayer.tsx#L59)*
 ```ts
-const [word, setWord] = useState<string>("");
-const [permission, setPermission] = useState<boolean>(false);
-
+// start game
 useEffect(() => {
     if (word.length > 3 && permission) {
-        //send word to backend
-        GetGoal();
-        GetLives();
-        GetGuessLine();
-        setVisibilityClass('not-hidden')
+        const GetFromBackend = async () => {
+            setLives(await GetLives(word));
+            setGoal(await GetGoal(word));
+            setGuessline(await GetGuessLine(word));
+        };
+        if (notInitialRender3.current) {
+            GetFromBackend();
+            setVisibilityClass('not-hidden')
+        }
+        else {
+            notInitialRender3.current = true;
+        }
     }
 }, [gameStarted, word, permission])
 
@@ -138,28 +143,32 @@ function OnCLick(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
 ### API Requests
 This was hard to get into, even when I did a request once. It stayed hard for a while. After doing it a few times API requests are a breeze. Here are some API request examples, these are the ones used in the code above.
 
-*parts of [singleplayer.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/6d7ac54681d1c25a1c2ac465a1e4ace7e49bef54/src/components/singleplayer/singleplayer.tsx#L65)*
+*part of [api.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/master/src/components/api/api.tsx)*
 ```ts
-const GetLives = async () => {
+const REVERSE_HANGMAN_BACKEND_ONLINE_PORT: string = "7071";
+
+export const GetLives = async (word: string) => {
     console.log("word: " + word);
-    const apiUrl = "https://localhost:7071/Lives?word=" + word;
+    const apiUrl = "https://localhost:" + REVERSE_HANGMAN_BACKEND_ONLINE_PORT + "/Lives?word=" + word;
     const data = await fetch(apiUrl);
     const jsonData = await data.json();
-    setLives(jsonData)
+    return await (jsonData)
 };
-const GetGoal = async () => {
+
+export const GetGoal = async (word: string) => {
     console.log("word: " + word);
-    const apiUrl = "https://localhost:7071/Goal?word=" + word;
+    const apiUrl = "https://localhost:" + REVERSE_HANGMAN_BACKEND_ONLINE_PORT + "/Goal?word=" + word;
     const data = await fetch(apiUrl);
     const jsonData = await data.json();
-    setGoal(jsonData)
+    return await (jsonData)
 };
-const GetGuessLine = async () => {
+
+export const GetGuessLine = async (word: string) => {
     console.log("word: " + word);
-    const apiUrl = "https://localhost:7071/GuessLine?word=" + word;
+    const apiUrl = "https://localhost:" + REVERSE_HANGMAN_BACKEND_ONLINE_PORT + "/GuessLine?word=" + word;
     const data = await fetch(apiUrl);
     const jsonData = await data.json(); // Error
-    setGuessline(jsonData)
+    return await (jsonData)
 };
 ```
 
@@ -255,6 +264,7 @@ So as you might know, I made an application in WinForms called ReverseHangmanDes
 ### Communicate with Front-end
 Communicating with the frontend was a mystery at the start, I looked op tutorials how you make a C# service that can talk with a React frontend. It looked all super vague to me, I even tried to build a controller in WinForms haha don't do that. I did manage to call API requests from a WinForms application, that was actually pretty funny. But I was wasting time. Finally I went in visual studio and wrote API ASP.NET something like that. I clciked the one with ASP.NET Core. It was all a very random process. Maybe I also used a guide I can't remember it too well. But when I got in the project I got an auto-generated example with WeatherForecast that returned an array with some extra's. I just simplified that auto-generated endpoint and created the following.
 
+*part of [Program.cs](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/blob/7d29db75f1619feae6fbcd069dc75f676db0a3f4/Reverse-Hangman-Online-Backend/Program.cs#L63)*
 ```cs
 app.MapGet("/Lives", ([FromUri] string word) =>
 {
@@ -353,8 +363,8 @@ I didn't make too many unit tests. This is because I don’t have that many logi
 
 First of all, I will show the two unit tests in my backend. Here is the first one. This test tests if the goal in the game gets calculated right. Since the formula used to calculate the formula I've put a comment above the test explaining the test. Also can you see I used a parameterized test. This way I can test even and odd numbers since the formula works differently on even and odd numbers. 
 
+*[GoalTest.cs](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/blob/master/Test/GoalTest.cs)*
 ```cs 
-
 public class GoalTest 
 
     { 
@@ -419,6 +429,7 @@ public class GoalTest
 
 In the next test I calculate the amount of lives the player should have. It is very similar to the first test. A formula calculates the amount of lives and the formula is explained above the test. Again, I used a parameterized test, this way I can test multiple test cases. 
 
+*[LivesTest.cs](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/blob/master/Test/LivesTest.cs)*
 ```cs 
 
 public class LivesTest 
@@ -505,6 +516,7 @@ public class LivesTest
 
 In my API wrapper I wrote a test to test the functionality of Bucket4j. The purpose is to see if I understand how to use Bucket4j. After I understood how Bucket4j worked, I created a rate limit for the Merriam-Webster external dictionary API. 
 
+*part of [ReverseHangmanOnlineBackendApplicationTests.java](https://github.com/Epic-Chainsaw-Massacre/Word-Service/blob/1d19e80132950c192d5cdc68a4d6a404f9fe74f1/src/test/java/EpicChainsawMassacre/reversehangmanonlinebackend/ReverseHangmanOnlineBackendApplicationTests.java#L30)*
 ```java  
  
 @Test 
@@ -535,7 +547,7 @@ Same for unit testing, integration testing tests multiple units. From my underst
 
 Here's the integration test in my word-service. Again a parameterized test since this just saves writing multiple tests that lookalike. I have 2 testcases. First I test a word that actually exists `help`, so it should output `true`. Next I input a non-existing word `asgfkjas`, this should output `false`. The test speaks pretty much for itself. We test the method `wordExists()` to test if a word exists. `wordExists()` makes use of the external Merriam-Webster dictionary API. So we test the communication between my service and the external service. 
 
-*Integration Test with external API*
+*part of [ReverseHangmanOnlineBackendApplicationTests.java](https://github.com/Epic-Chainsaw-Massacre/Word-Service/blob/1d19e80132950c192d5cdc68a4d6a404f9fe74f1/src/test/java/EpicChainsawMassacre/reversehangmanonlinebackend/ReverseHangmanOnlineBackendApplicationTests.java#L22), Integration Test with external API*
 ```java 
 
 @ParameterizedTest 
@@ -546,7 +558,7 @@ void checkWordExistance(String word, Boolean exists) {
    assertTrue(wordResource.wordExists(word) == exists); 
 }  
 ```
-*Method that gets used in integration test*
+*part of [WordResource.java](https://github.com/Epic-Chainsaw-Massacre/Word-Service/blob/1d19e80132950c192d5cdc68a4d6a404f9fe74f1/src/main/java/EpicChainsawMassacre/reversehangmanonlinebackend/resources/WordResource.java#L61)Method that gets used in integration test*
 ```java
     public boolean wordExists(String word){
             RestTemplate restTemplate = new RestTemplate();
@@ -571,7 +583,7 @@ void checkWordExistance(String word, Boolean exists) {
 
 Next up the integration tests in my frontend. I'll mention a few things, CheckWord is the API request to my API wrapper (word-service). You can find this method underneath the test codeblock. I send a word to word-service, word-service checks the word at external API, gets something back, and sends it back to the frontend. Few importantn things to mention, To execute this test, the external API and my word-service both have to be running. Since the external API runs 24/7 i didnt mention it in the comment above the test. Another thing, as you might know, I buildt a API rate limit for the external API, this rate limit sits at 1 request per 5 seconds for more details about the rate limit, i added it below the `CheckWord()` codeblock. You might see the problem, I do 2 tests rapidly after each other, so how can i prevent hitting this API rate limit? I did this by putting delay in my test. `jest.setTimeout(10000)` means the max amount of ms a test gets. with `    await new Promise((r) => setTimeout(r, 5000));` i think i make a fake request that just takes 5000 ms, this way the tests do work.
 
-*word-service.test.tsx*
+*[word-service.test.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/master/src/test/word-service.test.tsx)*
 ```ts
 import "@testing-library/jest-dom/extend-expect";
 import { useState } from "react";
@@ -610,17 +622,19 @@ test("Check Word (Exists)", async () => {
 });
 ```
 
-*CheckWord()*
+*CheckWord() from [api.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/f2870b7617e50c506adc7046fd8fcfd63dbf2874/src/components/api/api.tsx#L4)*
 ```ts
-export const CheckWord = async (word: string,) => {
-    const apiUrl = "http://localhost:8080/word/check?word=" + word;
+const WORD_SERVICE_PORT: string = "8080";
+
+export const CheckWord = async (word: string) => {
+    const apiUrl = "http://localhost:" + WORD_SERVICE_PORT + "/word/check?word=" + word;
     const data = await fetch(apiUrl);
     const jsonData = await data.json();
     return await jsonData
 };
 ```
 
-*part of WordResource.java*
+*here you see the rate limit I build for seconds, hours and days. part of [WordResource.java](https://github.com/Epic-Chainsaw-Massacre/Word-Service/blob/1d19e80132950c192d5cdc68a4d6a404f9fe74f1/src/main/java/EpicChainsawMassacre/reversehangmanonlinebackend/resources/WordResource.java#L21)*
 ```java
 // this means
     Refill refillSeconds = Refill.intervally(1, Duration.ofSeconds(5)); // refill back to 1 token every 5 seconds
@@ -638,7 +652,7 @@ export const CheckWord = async (word: string,) => {
 ### Regression Testing
 As regressiion testing, I test all my unit tests where i specifically test logic. For example, I test the way lives get calculated everytime i pull request to master. In my continious integration pipelines I don't only build my application, but I also test them. I've added links to all my CI pipelines so you can check them out yourself. Here's a quick example what it looks like in my pipeline. Somewhere in the middle I have an action named `Test` that's where the tests happen.
 
-*A regression test I execute when a pull request occurs to master*
+*A regression test I execute when a pull request occurs to master, [LivesTest.cs](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/blob/master/Test/LivesTest.cs)*
 ```cs 
 
 public class LivesTest 
@@ -723,7 +737,7 @@ public class LivesTest
 
 ``` 
 
-*reverse-hangman-backend-online dotnet.yml file*
+*reverse-hangman-backend-online CI/CD pipeline, [dotnet.yml](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/blob/master/.github/workflows/dotnet.yml)*
 ```yml
 name: .NET
 
@@ -816,7 +830,7 @@ Clarification:
 **Design and implement**: You design a release process and implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker).
 
 ## Continuous Integration
-I've setup continuous integration pipelines in all my applications. The pipelines build the application and run all the unit tests I've written. I did all of this using the GitHub actions section. GitHub actions provides lots of templates which make it very easy to setup a pipeline. For my front-end, back-end, game-statistics-service and word-service I used a Node.js, .NET template another .NET template and a Java maven template respectively. 
+I've setup continuous integration pipelines in all my applications. The pipelines build the application and run all the tests I've written, except for reverse-hangman-online-frontend. This service doesn't get tested automatically. The reason for that is because there are only integration tests in the frontend that depend on my backend service. I can't test these automatically since my backend has to be running. I did all of this using the GitHub actions section. GitHub actions provides lots of templates which make it very easy to setup a pipeline. For my front-end, back-end, game-statistics-service and word-service I used a Node.js, .NET template another .NET template and a Java maven template respectively. 
 
 Here's an example where I the pipeline actually helped me improve my code. I kept getting build errors, but my project itself would just run normally so without the pipeline I would't notice. I did get a few messages in my IDE but I always ignored them, I only noticed it when they were gone.
 
@@ -936,8 +950,7 @@ You choose and substantiate solutions for a given problem.
 ## Feedback
 This semester started off with [Leon van Bokhorst](https://github.com/leonvanbokhorst). I asked him weekly feedback, sadly you won't be able to find it all back in my FeedPulse PDF Report, since sometimes my teacher forgot to open a feedpulse session. Leon has motivated me a lot throughout the semester, and definitely turned this boring documentation focussed semester into a fun semester. Later in the semester, the last 3 weeks, i got 2 new teachers, [Jean-Paul Ligthart](https://github.com/jpligthart) and [Timo Hermans](https://github.com/timohermans). I also tried to speak both of them once a week.
 
-blank v
-[FeedPulse PDF Report](#blank)
+[FeedPulse PDF Report](https://github.com/CrossyChainsaw/Portfolio/tree/master/FeedPulse%20Report)
 
 ## Researches
 Researches are mentioned in the bottom of the document, click on the click to teleport there.
@@ -1289,7 +1302,7 @@ https://user-images.githubusercontent.com/74303221/174434117-c3e4e20b-d2b3-49ed-
 
 The hard thing I did to make choosing your own fighter possible is making use of override methods. Since i can't just call the method of a child class from the base class. Here is the code that made it possible to override child classes their methods over the base classes their methods.
 
-*NeoFigther.cs, the base class, I have left out irrelevant pieces of code from the NeoFighter class*
+*part of [NeoFigther.cs](https://github.com/CrossyChainsaw/BattleSim/blob/4137a43cfe3dcd59abff1c677d4b00b13275fbf4/BattleSim/Logic/NeoFighter.cs#L53), the base class*
 
 ```cs
     abstract public class NeoFighter
@@ -1300,7 +1313,7 @@ The hard thing I did to make choosing your own fighter possible is making use of
     }
 ```
 
-*Blumaroo.cs, still in developement*
+*[Blumaroo.cs](https://github.com/CrossyChainsaw/BattleSim/blob/create-abilities/BattleSim/Logic/NeoFighters/Blumaroo.cs), child class, still in developement*
 ```cs
 public class Blumaroo : NeoFighter
     {
@@ -1333,7 +1346,7 @@ public class Blumaroo : NeoFighter
     }
 ```
 
-*Korbat.cs, done for now*
+*[Korbat.cs](https://github.com/CrossyChainsaw/BattleSim/blob/create-abilities/BattleSim/Logic/NeoFighters/Korbat.cs), done for now*
 ```cs
 public class Korbat : NeoFighter
     {
