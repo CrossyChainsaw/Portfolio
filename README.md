@@ -101,13 +101,13 @@ In this section I'll show some parts of my frontend, the bigger milestones. The 
 [Reverse Hangman Online Frontend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend)
 
 ### TypeScript
-Making a start with React TypeScript was very hard, without any experience I hopped in vscode and tried to do anything. This didn't work out at all. Everything I tried failed. My classmate [Mike van den Hoef](https://github.com/Headoros) was always willing to help me but still, It wouldn't work out this way. I decided to plan a TypeScript spike. In this spike I gathered information from the [W3schools TypeScript tutorial](https://www.w3schools.com/typescript/index.php) and at the same time i practised everything I was learning in a test project. TypeScript is such an awesome languange.
+Making a start with React TypeScript was very hard, without any experience I hopped in VScode and tried to do anything. This didn't work out at all. Everything I tried failed. My classmate Mike van den Hoef was always willing to help me but still, It wouldn't work out this way. I decided to plan a TypeScript spike. In this spike I gathered information from the W3schools TypeScript tutorial and at the same time I practised everything I was learning in a test project.
 
 ### React
 I also planned a React spike, same concept as above, I just try to gather as much information about React and try to implement it. I really like this type of learning and it always works out for me. For React I used the [W3schools React tutorial](https://www.w3schools.com/REACT/default.asp). In my opinion W3schools has the best tutorials to learn the basics.
 
 ### Text Input
-It was surprisingly hard to get the text input value and put it in a variable for the first time. I managed to do this with a variable called word. This updates everytime the text input changes. the variable basically represents live what's in the text input. Also did I have a second variable, called permission. if you click the button permission becomes true, because the word gets permission to be checked on existence, get it? I've put the code down here so you can try to understand what i've done (I've left out parts of code that make it more complicated and irelevant for this topic).
+It was surprisingly hard to get the text input value and put it in a variable for the first time. I managed to do this with a variable called word. This updates every time the text input changes. the variable basically represents live what's in the text input. Also did I have a second variable, called permission. if you click the button, permission becomes true, because the word gets permission to be checked on existence, get it? I've put the code down here so you can try to understand what I’ve done (I've left out parts of code that make it more complicated and are irrelevant for this topic).
 
 *part of [singleplayer.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/f2870b7617e50c506adc7046fd8fcfd63dbf2874/src/components/singleplayer/singleplayer.tsx#L59)*
 ```ts
@@ -141,7 +141,7 @@ function OnCLick(e: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
 ```
 
 ### API Requests
-This was hard to get into, even when I did a request once. It stayed hard for a while. After doing it a few times API requests are a breeze. Here are some API request examples, these are the ones used in the code above.
+This was hard to get into, even when I did a request once. It stayed hard for a while. After doing it a few times API requests became a breeze. Here are some API request examples, these are the ones used in the code above.
 
 *part of [api.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/master/src/components/api/api.tsx)*
 ```ts
@@ -173,7 +173,7 @@ export const GetGuessLine = async (word: string) => {
 ```
 
 ## Back-end (RHO)
-Just like the front-end section, I'll show some of the milestones, more noticeable events that occured in my backend. The back-end has partially been made in C# .NET and partially in Java Spring. You can check the code in my repositories.
+Just like the front-end section, I'll show some of the milestones, more noticeable events that occurred in my backend. The back-end has partially been made in C# .NET and partially in Java Spring. You can check the code in my repositories.
 
 [Reverse Hangman Online Backend Repository](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend)
 
@@ -182,9 +182,9 @@ Just like the front-end section, I'll show some of the milestones, more noticeab
 [Word Service Repository](https://github.com/Epic-Chainsaw-Massacre/Word-Service)
 
 ### External API
-I've heard of it so many times, yet did I never use it. External API's, had 0 experience going into this. As you should already know, I'm making a hangman-like game. Since there will be used words in my game, they should get checked on existance. To check a word on existance I've build a very, very vague process. So my backend does an API request to Miryam Webster (dictionary API I use). If the word exists, Miryam Webster returns me values, so now you would say, if tha API returns anything it's good right? WRONG, this is where it gets interesting. Miryam Webster's dictionary API uses fuzzy search, this means that if I do ana API request with 'Birate'. It will return me lots of different words that are almost the same as 'Birate', for example 'Pirate'. See example.
+I've heard of it so many times, yet did I never use it. External API's, had 0 experience going into this. As you should already know, I'm making a hangman-like game. Since there will be words in my game, they should get checked on existence. To check a word on existence I've build a process in my word-service. So my backend does an API request to Merriam-Webster (dictionary API I use). If the word exists, Merriam-Webster returns me values, so now you would say, if the API returns anything it's good right? WRONG, this is where it gets interesting. Merriam-Websters dictionary API uses fuzzy search, this means that if I do an API request with the word 'Birate'. It will return me lots of different words that are almost the same as 'Birate', for example 'Pirate'. See example.
 
-![image](https://user-images.githubusercontent.com/74303221/173444601-1bbfd695-1937-41d2-bdfa-2f0d5724679a.png)
+![image](https://user-images.githubusercontent.com/74303221/174489523-7a7b9d36-4929-4357-a894-9d594fd76ecf.png)
 
 To solve this problem I found a solution. If I do a request of the word 'Pirate', this is the JSON result I get.
 
