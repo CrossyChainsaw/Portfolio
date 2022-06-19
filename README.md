@@ -622,7 +622,7 @@ test("Check Word (Exists)", async () => {
 });
 ```
 
-*CheckWord() from [api.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/f2870b7617e50c506adc7046fd8fcfd63dbf2874/src/components/api/api.tsx#L4)*
+*`CheckWord()` from [api.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/f2870b7617e50c506adc7046fd8fcfd63dbf2874/src/components/api/api.tsx#L4)*
 ```ts
 const WORD_SERVICE_PORT: string = "8080";
 
