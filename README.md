@@ -348,7 +348,7 @@ In this semester I have to make use of 4 types of tests, unit, integration, regr
 ### Unit Testing 
 In a unit test you test a single unit. The meaning of a unit is very vague on the internet. Some say it's a function, some say it’s a class, and some say it’s a service. Since I use a microservice architecture, I would say a unit test tests a single service. Having that said let's look at my unit tests. 
 
-I decided not to make too much unit tests, this is because I don’t have that many logic in my application. My application consists mainly of services talking to each other, so the integration tests will be more interesting. 
+I didn't make too many unit tests. This is because I don’t have that many logic in my application. My application consists mainly of services talking to each other, so the integration tests will be more interesting. 
 
 First of all, I will show the two unit tests in my backend. Here is the first one. This test tests if the goal in the game gets calculated right. Since the formula used to calculate the formula I've put a comment above the test explaining the test. Also can you see I used a parameterized test. This way I can test even and odd numbers since the formula works differently on even and odd numbers. 
 
@@ -416,7 +416,7 @@ public class GoalTest
 
 ``` 
 
-In the next test I calculate the amount of lives the player should have. It is very similar to the first test. A formula calculates the amount of lives, and the formula is explained above the test. Again, I used a parameterized test, this way I can test multiple test cases. 
+In the next test I calculate the amount of lives the player should have. It is very similar to the first test. A formula calculates the amount of lives and the formula is explained above the test. Again, I used a parameterized test, this way I can test multiple test cases. 
 
 ```cs 
 
@@ -502,7 +502,7 @@ public class LivesTest
 
 ``` 
 
-The other test I made in my API wrapper is to test the functionality of Bucket4j. I wrote tests to check if I understand how Bucket4j works. With Bucket4j I've created a rate limit for the Merriam-Webster external dictionary API. 
+In my API wrapper I wrote a test to test the functionality of Bucket4j. The purpose is to see if I understand how to use Bucket4j. After I understood how Bucket4j worked, I created a rate limit for the Merriam-Webster external dictionary API. 
 
 ```java  
  
@@ -527,12 +527,12 @@ void apiBucket(){
 
 ``` 
 
-In my frontend I haven't written any unit tests, since my frontend only shows values on the page that get calculated by other services. In my Game-Statistics-Service nothing happens, the project is pretty much blank.
+In my frontend I haven't written any unit tests, since my frontend only shows values on the page that get calculated by other services. I could test for example that it shows `REVERSE HANGMAN` in my menu screen, but if the project build succesfully this already guaranteeds the page loads correctly, so no need in my opinion. In my Game-Statistics-Service nothing happens, the project is pretty much blank.
 
 ### Integration Testing
 Same for unit testing, integration testing tests multiple units. From my understanding, since I use a microservice architecture, this means I test multiple micro services together.
 
-Here's the integration test in my word-service. Again a parameterized test since this just saves writing multiple tests that lookalike. I have 2 testcases. First I test a word that actually exists `help`, so it should output `true`. Next I input a non-existing word `asgfkjas`, this should output `false`. The test itself pretty much speaks for itself. We test the method `wordExists()` to test if a word exists. `wordExists()` makes use of the external Merriam-Webster dictionary API. So we test the communication between my service and the external service. 
+Here's the integration test in my word-service. Again a parameterized test since this just saves writing multiple tests that lookalike. I have 2 testcases. First I test a word that actually exists `help`, so it should output `true`. Next I input a non-existing word `asgfkjas`, this should output `false`. The test speaks pretty much for itself. We test the method `wordExists()` to test if a word exists. `wordExists()` makes use of the external Merriam-Webster dictionary API. So we test the communication between my service and the external service. 
 
 *Integration Test with external API*
 ```java 
@@ -566,7 +566,7 @@ void checkWordExistance(String word, Boolean exists) {
             System.out.println("Result3: " + wordString);
             return wordString.contains(word);
     }
-    ```
+```
 
 ### Regression Testing
 As regressiion testing, I test all my unit tests where i specifically test logic. For example, I test the way lives get calculated everytime i pull request to master. In my continious integration pipelines I don't only build my application, but I also test them. I've added links to all my CI pipelines so you can check them out yourself. Here's a quick example what it looks like in my pipeline. Somewhere in the middle I have an action named `Test` that's where the tests happen.
