@@ -78,7 +78,7 @@ Whilst reading you might encounter certain terms like IP, GP and S3, these refer
 # Products
 This semester I had to realise all the learning outcomes of semester 3. Per product I will explain how I realised the corresponding learning outcome. Here's a list with all the learning outcomes. I'll also include a list of requirements I have to realise this semester in my individual project.
 
-[Learning Outcomes S3](https://fhict.instructure.com/courses/12078/outcomes) (You need a Fontys account to see the page, don't worry I will also explain them in my document)
+[Learning Outcomes S3](https://github.com/CrossyChainsaw/Portfolio/blob/master/School%20Sources/Learning%20Outcomes%20S3.pdf)
 
 [List of requirements Individual Project](https://github.com/CrossyChainsaw/Portfolio/blob/master/School%20Sources/What%20should%20be%20covered%20in%20my%20individual%20project.pdf)
 
