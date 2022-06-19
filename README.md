@@ -568,7 +568,7 @@ void checkWordExistance(String word, Boolean exists) {
     }
 ```
 
-Next up the integration tests in my frontend. I'll mention a few things, CheckWord is the API request to my API wrapper (word-service). You can find this method underneath the test codeblock. I send a word to word-service, word-service checks the word at external API, gets something back, and sends it back to the frontend. Few importantn things to mention, To execute this test, the external API and my word-service both have to be running. Since the external API runs 24/7 i didnt mention it in the comment above the test. Another thing, as you might know, I buildt a API rate limit for the external API, this rate limit sits at 1 request per 5 seconds for more details about the rate limit, i added it below the `CheckWord()` codeblock. You might see the problem, I do 2 tests rapidly after each other, so how can i prevent hitting this API rate limit? I did this by putting delay in my test.
+Next up the integration tests in my frontend. I'll mention a few things, CheckWord is the API request to my API wrapper (word-service). You can find this method underneath the test codeblock. I send a word to word-service, word-service checks the word at external API, gets something back, and sends it back to the frontend. Few importantn things to mention, To execute this test, the external API and my word-service both have to be running. Since the external API runs 24/7 i didnt mention it in the comment above the test. Another thing, as you might know, I buildt a API rate limit for the external API, this rate limit sits at 1 request per 5 seconds for more details about the rate limit, i added it below the `CheckWord()` codeblock. You might see the problem, I do 2 tests rapidly after each other, so how can i prevent hitting this API rate limit? I did this by putting delay in my test. `jest.setTimeout(10000)` means the max amount of ms a test gets. with `    await new Promise((r) => setTimeout(r, 5000));` i think i make a fake request that just takes 5000 ms, this way the tests do work.
 
 *word-service.test.tsx*
 ```ts
@@ -619,6 +619,21 @@ export const CheckWord = async (word: string,) => {
 };
 ```
 
+*part of WordResource.java*
+```java
+// this means
+    Refill refillSeconds = Refill.intervally(1, Duration.ofSeconds(5)); // refill back to 1 token every 5 seconds
+    Refill refillHours = Refill.intervally(50, Duration.ofHours(1)); // refill back to 50 tokens every 1 hour
+    Refill refillDays = Refill.intervally(1000, Duration.ofDays(1)); // refill back to 1000 tokens every 1 day
+    Bandwidth limitSeconds = Bandwidth.classic(1, refillSeconds); // every 5 seconds max 1 request
+    Bandwidth limitHours = Bandwidth.classic(50, refillHours); // every 1 hour max 50 requests
+    Bandwidth limitDays = Bandwidth.classic(1000, refillDays); // every 1 day max 1000 requests
+    Bucket bucket = Bucket4j.builder()
+            .addLimit(limitSeconds)
+            .addLimit(limitHours)
+            .addLimit(limitDays)
+            .build();
+```
 ### Regression Testing
 As regressiion testing, I test all my unit tests where i specifically test logic. For example, I test the way lives get calculated everytime i pull request to master. In my continious integration pipelines I don't only build my application, but I also test them. I've added links to all my CI pipelines so you can check them out yourself. Here's a quick example what it looks like in my pipeline. Somewhere in the middle I have an action named `Test` that's where the tests happen.
 
