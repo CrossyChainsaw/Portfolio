@@ -361,7 +361,7 @@ In a unit test you test a single unit. The meaning of a unit is very vague on th
 
 I didn't make too many unit tests. This is because I don’t have that many logic in my application. My application consists mainly of services talking to each other, so the integration tests will be more interesting. 
 
-First of all, I will show the two unit tests in my backend. Here is the first one. This test tests if the goal in the game gets calculated right. Since the formula used to calculate the formula I've put a comment above the test explaining the test. Also can you see I used a parameterized test. This way I can test even and odd numbers since the formula works differently on even and odd numbers. 
+First of all, I will show the two unit tests in my backend. For these tests I used the NUnit testing framework. I didn't really think before choosing honestly, I just casually wrote a test with the framework i used in semester 2. But here is the first test. This test tests if the goal in the game gets calculated right. Since the formula used to calculate the formula I've put a comment above the test explaining the test. Also can you see I used a parameterized test. This way I can test even and odd numbers since the formula works differently on even and odd numbers. 
 
 *[GoalTest.cs](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/blob/master/Test/GoalTest.cs)*
 ```cs 
@@ -514,7 +514,7 @@ public class LivesTest
 
 ``` 
 
-In my API wrapper I wrote a test to test the functionality of Bucket4j. The purpose is to see if I understand how to use Bucket4j. After I understood how Bucket4j worked, I created a rate limit for the Merriam-Webster external dictionary API. 
+In my API wrapper I wrote a test to test the functionality of Bucket4j. I used the junit testing library for testing in Java. Again i didnt really realize the choice of my testing libraries were all that important. The purpose in this test is to see if I understand how to use Bucket4j. After I understood how Bucket4j worked, I created a rate limit for the Merriam-Webster external dictionary API. 
 
 *part of [ReverseHangmanOnlineBackendApplicationTests.java](https://github.com/Epic-Chainsaw-Massacre/Word-Service/blob/1d19e80132950c192d5cdc68a4d6a404f9fe74f1/src/test/java/EpicChainsawMassacre/reversehangmanonlinebackend/ReverseHangmanOnlineBackendApplicationTests.java#L30)*
 ```java  
@@ -581,7 +581,9 @@ void checkWordExistance(String word, Boolean exists) {
     }
 ```
 
-Next up the integration tests in my frontend. I'll mention a few things, CheckWord is the API request to my API wrapper (word-service). You can find this method underneath the test codeblock. I send a word to word-service, word-service checks the word at external API, gets something back, and sends it back to the frontend. Few importantn things to mention, To execute this test, the external API and my word-service both have to be running. Since the external API runs 24/7 i didnt mention it in the comment above the test. Another thing, as you might know, I buildt a API rate limit for the external API, this rate limit sits at 1 request per 5 seconds for more details about the rate limit, i added it below the `CheckWord()` codeblock. You might see the problem, I do 2 tests rapidly after each other, so how can i prevent hitting this API rate limit? I did this by putting delay in my test. `jest.setTimeout(10000)` means the max amount of ms a test gets. with `    await new Promise((r) => setTimeout(r, 5000));` i think i make a fake request that just takes 5000 ms, this way the tests do work.
+Next up the integration tests in my frontend. In my frontend i used jest-dom testing library. I choose this library because we also used it in our group project. This was a fatal choice, you'll read in a bit why *(Exiting)*. I'll mention a few things about my tests first, `CheckWord()` is the API request to my API wrapper (word-service). You can find this method underneath the test codeblock. I send a word to word-service, word-service checks the word at external API, gets something back, and sends it back to the frontend. Few importantn things to mention, To execute this test, the external API and my word-service both have to be running. Since the external API runs 24/7 i didnt mention it in the comment above the test. 
+
+Another thing, as you might know, I buildt a API rate limit for the external API, this rate limit sits at 1 request per 5 seconds for more details about the rate limit, i added it below the `CheckWord()` codeblock. You might see the problem, I do 2 tests rapidly after each other, so how can i prevent hitting this API rate limit? I did this by putting delay in my test. `jest.setTimeout(10000)` means the max amount of ms a test gets. with `    await new Promise((r) => setTimeout(r, 5000));` I make a request that takes 5000 ms, this way the tests prevent hitting my own rate limit.
 
 *[word-service.test.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/master/src/test/word-service.test.tsx)*
 ```ts
@@ -634,7 +636,7 @@ export const CheckWord = async (word: string) => {
 };
 ```
 
-*here you see the rate limit I build for seconds, hours and days. part of [WordResource.java](https://github.com/Epic-Chainsaw-Massacre/Word-Service/blob/1d19e80132950c192d5cdc68a4d6a404f9fe74f1/src/main/java/EpicChainsawMassacre/reversehangmanonlinebackend/resources/WordResource.java#L21)*
+*here you see the rate limit I build for the external API in seconds, hours and days. part of [WordResource.java](https://github.com/Epic-Chainsaw-Massacre/Word-Service/blob/1d19e80132950c192d5cdc68a4d6a404f9fe74f1/src/main/java/EpicChainsawMassacre/reversehangmanonlinebackend/resources/WordResource.java#L21)*
 ```java
 // this means
     Refill refillSeconds = Refill.intervally(1, Duration.ofSeconds(5)); // refill back to 1 token every 5 seconds
@@ -649,6 +651,55 @@ export const CheckWord = async (word: string) => {
             .addLimit(limitDays)
             .build();
 ```
+
+I also tried to write tests for the connection between my frontend and backend. For some reason this was the only thing i kept testing myself by starting up my application, so unlike the others this test has been made after the functionality already worked. But still it's usefull in the end, because if I'm able to test it, i dont have to run my app 1000 times a day.
+
+In the following test I want to test if my frontend correctly gets the goal from the backend. I do that with 3 seperate tests. I don't use parameterized tests since jest-dom doesn't support parameterized testing. Also doesn't jest-dom support disabling CORS policy, this makes the entire test useless. This was a very good lesson for me to make a thoughtful choice when choosing a testing library.
+
+*[GetGoal.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/master/src/test/rho-backend/GetGoal.tsx), this test should actually be named `GetGoal.test.tsx` but since it doesn't work I had to remove it from my tests*
+```ts
+// JEST-DOM DOESN'T SUPPORT DISABLING CORS POLICY, THEREFORE THESE TESTS ARE USELESS FOR NOW
+
+// Prerequisite: For this test reverse-hangman-online-backend has to be running
+test("Get Goal (even: 4))", async () => {
+    // Arrange
+    let word: string = "help";
+    let goal: string;
+
+    // Act
+    goal = await GetGoal(word);
+
+    // Assert
+    expect(goal).toEqual("8");
+});
+
+// Prerequisite: For this test reverse-hangman-online-backend has to be running
+test("Get Goal (odd: 5))", async () => {
+    // Arrange
+    let word: string = "horse";
+    let goal: number;
+
+    // Act
+    goal = await GetGoal(word);
+
+    // Assert
+    expect(goal).toEqual(10);
+});
+
+// Prerequisite: For this test reverse-hangman-online-backend has to be running
+test("Get Goal (even: 6))", async () => {
+    // Arrange
+    let word: string = "clover";
+    let goal: number;
+
+    // Act
+    goal = await GetGoal(word);
+
+    // Assert
+    expect(goal).toEqual(12);
+});
+```
+
 ### Regression Testing
 As regressiion testing, I test all my unit tests where i specifically test logic. For example, I test the way lives get calculated everytime i pull request to master. In my continious integration pipelines I don't only build my application, but I also test them. I've added links to all my CI pipelines so you can check them out yourself. Here's a quick example what it looks like in my pipeline. Somewhere in the middle I have an action named `Test` that's where the tests happen.
 
