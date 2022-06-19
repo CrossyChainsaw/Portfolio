@@ -558,7 +558,7 @@ void checkWordExistance(String word, Boolean exists) {
    assertTrue(wordResource.wordExists(word) == exists); 
 }  
 ```
-*part of [WordResource.java](https://github.com/Epic-Chainsaw-Massacre/Word-Service/blob/1d19e80132950c192d5cdc68a4d6a404f9fe74f1/src/main/java/EpicChainsawMassacre/reversehangmanonlinebackend/resources/WordResource.java#L61)Method that gets used in integration test*
+*part of [WordResource.java](https://github.com/Epic-Chainsaw-Massacre/Word-Service/blob/1d19e80132950c192d5cdc68a4d6a404f9fe74f1/src/main/java/EpicChainsawMassacre/reversehangmanonlinebackend/resources/WordResource.java#L61), method that gets used in integration test*
 ```java
     public boolean wordExists(String word){
             RestTemplate restTemplate = new RestTemplate();
