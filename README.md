@@ -927,9 +927,9 @@ Clarification:
 **Design and implement**: You design a release process and implement a continuous integration and deployment solution (using e.g. Gitlab CI and Docker).
 
 ## Continuous Integration
-I've setup continuous integration pipelines in all my applications. The pipelines build the application and run all the tests I've written, except for reverse-hangman-online-frontend. This service doesn't get tested automatically. The reason for that is because there are only integration tests in the frontend that depend on my backend service. I can't test these automatically since my backend has to be running. I did all of this using the GitHub actions section. GitHub actions provides lots of templates which make it very easy to setup a pipeline. For my front-end, back-end, game-statistics-service and word-service I used a Node.js, .NET template another .NET template and a Java maven template respectively. 
+I've setup continuous integration pipelines in all my applications. The pipelines build the application and run all the tests I've written, except for reverse-hangman-online-frontend. This service doesn't get tested automatically. The reason for that is because there are only integration tests in the frontend that depend on my backend or word service. I can't test these automatically since my service has to be running. I did all of this using the GitHub actions section. GitHub actions provides lots of templates which make it very easy to setup a pipeline. For my front-end, back-end, game-statistics-service and word-service I used a Node.js, .NET template another .NET template and a Java maven template respectively. 
 
-Here's an example where I the pipeline actually helped me improve my code. I kept getting build errors, but my project itself would just run normally so without the pipeline I would't notice. I did get a few messages in my IDE but I always ignored them, I only noticed it when they were gone.
+Here's an example where the pipeline actually helped me improve my code. I kept getting build errors, but my project itself would run normally so without the pipeline I wouldn’t notice the errors. I did get a few messages in my IDE but I always ignored them, I only started to notice the IDE errors when they were gone.
 
 ![image](https://user-images.githubusercontent.com/74303221/173389942-39ad0666-73b5-41bd-9837-1a12e6ed8b8f.png)
 
@@ -942,18 +942,18 @@ Here's an example where I the pipeline actually helped me improve my code. I kep
 [Word Service CI/CD](https://github.com/Epic-Chainsaw-Massacre/Word-Service/actions/workflows/maven.yml)
 
 ## Continuous Deployment
-I also added Continous Delivery to all of my repositories. This means that, after a pull request on the master everything gets deployed on dockerhub. From Docker desktop if I go to remote repositories I can indeed see that the images have been pushed to dockerhub.
+I also added Continuous Delivery to all of my repositories. This means that, after a pull request on the master everything gets deployed on docker hub. In Docker desktop, if I go to remote repositories, I can indeed see that the images have been pushed to docker hub.
 
 ![image](https://user-images.githubusercontent.com/74303221/173250305-8d6d2b01-faec-4ed3-bb0f-29a94ca0c52b.png)
 
-But huge issue, they weren't getting deployed. To deploy all my applications I copy pasted the Dockerfile of a classmate of mine. This made 2/5 images actually run, but 3/5 weren't running. 
+But huge issue, they weren't getting deployed. To deploy all my applications I copy pasted the Docker file of a classmate of mine. This made 2/5 images actually run, but 3/5 weren't running. 
 
 ![image](https://user-images.githubusercontent.com/74303221/174109810-dde544a6-52ed-4f4e-a856-3ec8ac65bd68.png)
 
-To fix this i probably have to change something in my dockerfile, one issue, since I copy pasted everything, I have no idea what's happening. I know why it stop's running. But I don't know how to fix it. So I decided to put a hard focus on learning docker.
+To fix this I probably have to change something in my docker file, one issue, since I copy pasted everything, I have no idea what's happening. I know why it stop's running. But I don't know how to fix it. So I decided to put a hard focus on learning docker.
 
 ### Learning Docker
-To learn docker I followed the [tutorial on Docker's website](https://docs.docker.com/get-started/). After learning the basics there about docker, I wanted to focus my actual problem. I didn't know how to setup a dockerfile. I tried looking up tutorials but everyone just breezes through the dockerfile without explaining it. Then I realized something. The docker error I got was always exactly the same. No matter what I did. If my dockerfile looked like the following
+To learn docker I followed the tutorial on Docker's website. After learning the basics about docker, I wanted to focus on my actual problem. I didn't know how to setup a docker file. I tried looking up tutorials but everyone just breezes through the docker file without explaining it. Then I realized something. The docker error I got was always exactly the same. No matter what I did. If my docker file looked like the following
 ```dockerfile
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
 WORKDIR /src
@@ -975,7 +975,7 @@ COPY --from=build /app ./
 
 ENTRYPOINT ["dotnet", "GameStatisticsService.dll"] 
 ```
-I got the same error. That made me realize, I wasnt updating my local docker images. everything kept getting pushed to dockerhub, but if I ran them locally I kept running the 4 line dockerfile. Once i realized that everything was pretty easy to setup. Just look up for dockerfiles, copy paste, and everything runs in a compose file.
+I got the same error. That made me realize, I wasn’t updating my local docker images. everything kept getting pushed to docker hub, but if I ran them locally I kept running the 4 line docker file. Once I realized that everything was pretty easy to setup. Just look up for docker files, copy paste, and everything runs in a compose file.
 
 *Evidence of everything running*
 
@@ -988,9 +988,9 @@ Everything runs, great, but the api requests between my applications don't work.
 # Learning Outcome 6: Design
 *You translate (non-functional) requirements to extend existing (architectural) designs and can validate them using **multiple types of test techniques**.*
 
-I've split this learning outcome into 2 parts. In this section I'll focuss more on the design. If you are looking for the requirements part of this learning outcome, have a look at the GP version of this learning outcome.
+I've split this learning outcome into 2 parts. In this section I'll focus more on the design. If you are looking for the requirements part of this learning outcome, have a look at the GP version of this learning outcome.
 
-[Learning Outcome 6: Design](#learning-outcome-6-design)
+[Learning Outcome 6: Requirements](#learning-outcome-6-requirements)
 
 ## Architecture
 Looking for architecture? Click on the link below.
@@ -998,17 +998,17 @@ Looking for architecture? Click on the link below.
 [Reverse Hangman Online Documentation - Architecture](https://github.com/Epic-Chainsaw-Massacre#architecture)
 
 ## Design Origin
-At first glance it all might looked like I was building a random interface and hoping for the best. Actually what I was doing all this time is trying to recreate my application I made earlier, ReverseHangmanDesktop. This is was ReverseHangmanDesktop looks like (if you've read Reverse Hangman Online Documentation this might look furmilair).
+At first glance it all might looked like I was building a random interface and hoping for the best. Actually what I was doing all this time is trying to recreate my application I made earlier, ReverseHangmanDesktop. This is was ReverseHangmanDesktop looks like (if you've read Reverse Hangman Online Documentation this might look familiar).
 
 ![image](https://user-images.githubusercontent.com/74303221/173570455-621c2a54-a43f-4498-80e6-6f570801afb1.png)
 
 ![image](https://user-images.githubusercontent.com/74303221/173570820-9ee24450-4e26-46ab-9e69-7cb9e7e419ea.png)
 
 ### Comic Sans MS
-But how did I come up with this design you're asking? As you might know, Comic Sans MS is the real meme font. ReverseHangmanDesktop itself was a meme that slowly became reality. So I wanted to make the application for it a big meme. This also perfectly fits that it has been made in WinForms.
+But how did I come up with this design you're asking? As you might know, Comic Sans MS is the real meme font. ReverseHangmanDesktop itself was a meme that slowly became reality. So I wanted to make the application for a big meme. This also perfectly fits that it has been made in WinForms.
 
 ### Black and White
-The colors black and white haven't been chosen randomly. I wanted to create a page that gives a 'grim ominous' vibe. I'm not sure if thats the corerct words I'm trying to say 'een kille en nare vibe'. Having a black screen gives this dead and cold vibe. For a long time I was also looking for scary fonts like these.
+The colours black and white haven't been chosen randomly. I wanted to create a page that gives a 'grim ominous' vibe. I'm not sure if that’s the correct words I'm trying to say 'een kille en nare vibe'. Having a black screen gives this dead and cold vibe. For a long time I was also looking for scary fonts like these.
 
 ![image](https://user-images.githubusercontent.com/74303221/173572160-33f7eccf-f126-4236-8559-78cf226fd0b8.png)
 
@@ -1017,7 +1017,7 @@ The colors black and white haven't been chosen randomly. I wanted to create a pa
 But usually they costed money or I didn't like them, after like 30 minutes of searching for a good font I just decided to roll with the meme.
 
 ### User Interface
-For the UI I just wanted to keep it simple and clean. I don't want people to stare all day to the screen trying to understand what it all says. That's why i tried to sctructure the app. Down below you can again see ReverseHangmanDesktop.
+For the UI I just wanted to keep it simple and clean. I don't want people to stare all day to the screen trying to understand what it all says. That's why I tried to structure the app. Down below you can again see ReverseHangmanDesktop.
 
 ![image](https://user-images.githubusercontent.com/74303221/173572547-f1828901-a42d-4e0b-82f7-2724134b4567.png)
 
@@ -1025,7 +1025,7 @@ The idea is again to replicate this onto my project. Currently it looks like thi
 
 ![image](https://user-images.githubusercontent.com/74303221/173572977-84aa2916-a58a-4712-bd0e-58bf1c2bd9b6.png)
 
-I also still wanted to make a background looking something like this. This also adds up to the spooky vibe of the application. Here are some skechtes, this is NOT how the applciation looks like now. just ideas.
+I also still wanted to make a background looking something like the image down below. This also adds up to the spooky vibe of the application. Here are some sketches, this is NOT how the application looks like now. just ideas.
 
 ![image](https://user-images.githubusercontent.com/74303221/173578807-efd02e2c-b314-4269-b9e9-e2da0d06e798.png)
 
