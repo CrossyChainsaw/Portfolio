@@ -1192,22 +1192,22 @@ Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Et
 For this section I will answer 5 questions.
 
 ### What is culture? 
-Culture is shortly, activities, behaviour and practises of a group. For example the dutch are very direct. Its important to take this into account, since usually they don't try to be mean but it sounds like they try to be mean a lot. but thats just how they are. Another example of culture is that the turkish people organize a big party if they marry.
+Culture is shortly, activities, behaviour and practises of a group. For example the Dutch are very direct. It’s important to take this into account, since usually they don't try to be mean but it sounds like they try to be mean a lot. but that’s just how they are. Another example of culture is that the Turkish people organize a big party if they marry.
 
 ### Which are well-known dimensions on cultural differences? 
 the 4 dimensions are power distance (PDI), individualism (IDV), uncertainty avoidance (UAI) and masculinity (MAS). I'll describe them down here.
 
 #### Power Distance (PDI)
-Power distance is the degree a society accept or rejects unequal power distribution. For example in the netherlands everyone behaves another equally. But for example in Japan they show lots of respect for older people, people with a higher status and people with titles. You can already see how this could go wrong. If a young dutch developer, and an older japanese developer work together. The dutch might behave unrespetfull in the eyes of the japanese man. This is why its important to understand each others' culture.
+Power distance is the degree a society accept or rejects unequal power distribution. For example in the Netherlands everyone behaves another equally. But for example in Japan they show lots of respect for older people, people with a higher status and people with titles. You can already see how this could go wrong. If a young Dutch direct developer, and an older Japanese developer work together. The Dutch might behave unrespect full in the eyes of the Japanese man. This is why it’s important to understand each other’s culture. 
 
-*In this image you see the differences between japanase bows, these get mixed up a lot. Usuaully people think there is just one bow, but there are multiple.*
+*In this image you see the differences between Japanase bows, these get mixed up a lot. Usually people think there is just one bow, but there are multiple.*
 ![image](https://user-images.githubusercontent.com/74303221/173791109-7a9a2b23-c718-443a-9434-920864cb93a3.png)
 
 #### Individualism (IDV)
-Individualism is the degree a human prioritizes his own, indivual accomplishments. the counterpart is collectivism, this is that you care more about the group accomplishments
+Individualism is the degree a human prioritizes his own, induvial accomplishments. the counterpart is collectivism, this is that you care more about the group accomplishments
 
 #### Uncertainty Avoidance (UAI)
-Uncertainty Avoidance is the degree a society tolerates risks. An example of a country with a high uncertainty avoidance culture is France. this means that if you have a french worker in your group, he will expect structure and predictability.
+Uncertainty Avoidance is the degree a society tolerates risks. An example of a country with a high uncertainty avoidance culture is France. this means that if you have a French worker in your group, he will expect structure and predictability to possible risks.
 
 #### Masculinity-Femininity (MAS)
 Masculinity-Femininity is the degree a society values assertiveness and materialism versus feelings, relationships, and quality of life. I found an interesting table where they put masculinity against feminity. This table explains it better than me so have a look.
@@ -1215,13 +1215,13 @@ Masculinity-Femininity is the degree a society values assertiveness and material
 ![image](https://user-images.githubusercontent.com/74303221/173784309-b9497c83-48c9-418b-9be4-d79cdc288d2c.png)
 
 #### Can you give examples for cultural differences that you have experienced in your study or life? How do you explain these differences?
-Actually, no. I have never really experienced these cultural differences at work nor did I experience them at school. This is probably because im very integrated in the dutch culture. The only really difference i noticed that i take into account, is that sometimes people with autism get on my nerves. But I try to ignore it since they can't do a thing about it. And till now its going pretty good, but that's not a cultural difference, maybe i have autism too.
+Actually, no. I have never really experienced these cultural differences at work nor did I experience them at school. This is probably because I’m very integrated in the Dutch culture. The only really difference I noticed that I take into account, is that sometimes I find people annoying and they get on my nerves. But I try to ignore it and respect them since they can't do a thing about it. And till now it’s going pretty good, but that's not a cultural difference.
 
 #### What is your culture?
-My culture in short consists of a few practises and norms. Every friday i try to go to the mosque for my religion. I have respect for everyone, doesn't matter if its a kid that's 4 years old or an elder, i threat them both the same most respectful way i can. Justice is somthing i find very important, threat others with justice. Threat others like you want to be threated, thats like on of the most important sentence in life for me. I like a good structure, i'm **usually** good at planning. I dont like it if theres no structure. i can tell more and give more examples, but everything i want to write down ends up with 'threat others like you want to be threated'. for example, if i dont help my sis with moving out. I wouldn't expect her to help me moving out. And at last parents come before anything.
+My culture in short consists of a few practises and norms. Every Friday I try to go to the mosque for my religion. I have respect for everyone, doesn't matter if it’s a kid that's 4 years old or an elder, I threat them both the same most respectful way I can. Justice is something I find very important, threat others with justice. Threat others like you want to be threated, that’s like one of the most important sentence in life for me. I like a good structure, I’m usually good at planning. I don’t like it if there’s no structure. I can tell more and give more examples, but everything I want to write down ends up with 'threat others like you want to be threated'. for example, if I don’t help my sis with moving out. I wouldn't expect her to help me moving out. And at last parents come before anything.
 
 #### What did you  do to improve the group communications with respect to cultural differences? 
-Since i cant give examples in the group project ill take examples of real life. If i see a family member i always try to start the conversation by saying 'salaam wa alaikum'. Its just a respectfull way to greet muslims. If someone says it to you, you respond with 'Wa alaykumu s-salam'. A huge cultural difference I'm confronted with in the netherlands is going out to party and drinking beer and all that. I don't drink, I have no interest in it and its also forbidden in my religion. going out to a club looks very wrong to me so i always pass. Just the stories you hear the videos you see. To me it all feels very wrong and it doesnt fit into my culture.
+Since I can’t give examples in the group project I will take examples of real life. If I see a family member I always try to start the conversation by saying 'salaam wa alaikum'. It’s just a respectful way to greet Muslims. If someone says it to you, you respond with 'Wa alaykumu s-salam'. A huge cultural difference I'm confronted with in the Netherlands is going out to party and drinking beer and all that. I don't drink, I have no interest in it and its also forbidden in my religion. going out to a club looks very wrong to me so I always pass. Just the stories you hear the videos you see. To me it all feels very wrong and it doesn’t fit into my culture.
 
 ## Ethics
 I've split this section up in 7 questions.
