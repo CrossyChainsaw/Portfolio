@@ -387,11 +387,13 @@ Clarification:
 In this semester I have to make use of 4 types of tests, unit, integration, regression and system tests. If i have a good explanation for it I may decide to not use certain types of tests.
 
 ### Unit Testing 
-In a unit test you test a single unit. The meaning of a unit is very vague on the internet. Some say it's a function, some say it’s a class, and some say it’s a service. Since I use a microservice architecture, I would say a unit test tests a single service. Having that said let's look at my unit tests. 
+In a unit test you test a single unit. The meaning of a unit is very vague on the internet. Some say it's a function, some say it’s a class, and some say it’s a service. Since I use a microservice architecture, I would say a unit test tests a single service. Having that said let's look at my unit tests.
 
-I didn't make too many unit tests. This is because I don’t have that many logic in my application. My application consists mainly of services talking to each other, so the integration tests will be more interesting. 
+I didn't make too many unit tests. This is because I don’t have that many logic in my application. My application consists mainly of services talking to each other, so the integration tests will be more interesting.
 
-First of all, I will show the two unit tests in my backend. For these tests I used the NUnit testing framework. I didn't really think before choosing honestly, I just casually wrote a test with the framework i used in semester 2. But here is the first test. This test tests if the goal in the game gets calculated right. Since the formula used to calculate the formula I've put a comment above the test explaining the test. Also can you see I used a parameterized test. This way I can test even and odd numbers since the formula works differently on even and odd numbers. 
+#### Unit testing Reverse-Hangman-Online-Backend with NUnit
+First of all, I will show the two unit tests in my backend. For these tests I used the NUnit testing framework. I didn't really think before choosing honestly, I just casually wrote a test with the framework I used in semester 2. But here is the first test. This test tests if the goal in the game gets calculated right. Since the formula I used to calculate the goal is complicated, I've put a comment above the test explaining the test. Also can you see I used a parameterized test. This way I can test even and odd numbers with the same test, since the formula works differently on even and odd numbers.
+
 
 *[GoalTest.cs](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/blob/master/Test/GoalTest.cs)*
 ```cs 
@@ -544,7 +546,8 @@ public class LivesTest
 
 ``` 
 
-In my API wrapper I wrote a test to test the functionality of Bucket4j. I used the junit testing library for testing in Java. Again i didnt really realize the choice of my testing libraries were all that important. The purpose in this test is to see if I understand how to use Bucket4j. After I understood how Bucket4j worked, I created a rate limit for the Merriam-Webster external dictionary API. 
+#### Unit testing Word-Service with junit 
+In my API wrapper (word-service) I wrote a test to test the functionality of Bucket4j. I used the junit testing library for testing in Java. Again I didn’t really realize the choice of my testing libraries were all that important. The purpose in this test is to see if I understand how to use Bucket4j. After I understood how Bucket4j worked, I created a rate limit for the Merriam-Webster external dictionary API.
 
 *part of [ReverseHangmanOnlineBackendApplicationTests.java](https://github.com/Epic-Chainsaw-Massacre/Word-Service/blob/1d19e80132950c192d5cdc68a4d6a404f9fe74f1/src/test/java/EpicChainsawMassacre/reversehangmanonlinebackend/ReverseHangmanOnlineBackendApplicationTests.java#L30)*
 ```java  
@@ -570,12 +573,13 @@ void apiBucket(){
 
 ``` 
 
-In my frontend I haven't written any unit tests, since my frontend only shows values on the page that get calculated by other services. I could test for example that it shows `REVERSE HANGMAN` in my menu screen, but if the project build succesfully this already guaranteeds the page loads correctly, so no need in my opinion. In my Game-Statistics-Service nothing happens, the project is pretty much blank.
+In my frontend I haven't written any unit tests, since my frontend only shows values on the page that get calculated by other services. I could test for example that it shows `REVERSE HANGMAN` in my menu screen, but if the project build successfully this already guarantee’s the page loads correctly, so no need in my opinion. In my Game-Statistics-Service nothing happens, the project is pretty much blank.
 
 ### Integration Testing
-Same for unit testing, integration testing tests multiple units. From my understanding, since I use a microservice architecture, this means I test multiple micro services together.
+An integration test, tests multiple units. From my understanding, since I use a microservice architecture, this means I test multiple micro services together.
 
-Here's the integration test in my word-service. Again a parameterized test since this just saves writing multiple tests that lookalike. I have 2 testcases. First I test a word that actually exists `help`, so it should output `true`. Next I input a non-existing word `asgfkjas`, this should output `false`. The test speaks pretty much for itself. We test the method `wordExists()` to test if a word exists. `wordExists()` makes use of the external Merriam-Webster dictionary API. So we test the communication between my service and the external service. 
+#### Integration testing Word-Service and External API with junit
+Here's the integration test in my word-service. Again a parameterized test since this just saves writing multiple tests that lookalike. I have 2 testcases. First I test a word that actually exists `help`, so it should output `true`. Next I input a non-existing word `asgfkjas`, this should output `false`. The test speaks pretty much for itself. We test the method `wordExists()` to test if a word exists. `wordExists()` makes use of the external Merriam-Webster dictionary API. So the end, we test the communication between my service and the external service. 
 
 *part of [ReverseHangmanOnlineBackendApplicationTests.java](https://github.com/Epic-Chainsaw-Massacre/Word-Service/blob/1d19e80132950c192d5cdc68a4d6a404f9fe74f1/src/test/java/EpicChainsawMassacre/reversehangmanonlinebackend/ReverseHangmanOnlineBackendApplicationTests.java#L22), Integration Test with external API*
 ```java 
@@ -611,9 +615,10 @@ void checkWordExistance(String word, Boolean exists) {
     }
 ```
 
-Next up the integration tests in my frontend. In my frontend i used jest-dom testing library. I choose this library because we also used it in our group project. This was a fatal choice, you'll read in a bit why *(Exiting)*. I'll mention a few things about my tests first, `CheckWord()` is the API request to my API wrapper (word-service). You can find this method underneath the test codeblock. I send a word to word-service, word-service checks the word at external API, gets something back, and sends it back to the frontend. Few importantn things to mention, To execute this test, the external API and my word-service both have to be running. Since the external API runs 24/7 i didnt mention it in the comment above the test. 
+#### Integration testing Reverse-Hangman-Online-Frontend and Word-Service with jest-dom
+Next up the integration tests in my frontend. In my frontend I used the jest-dom testing library. I choose this library because we also used it in our group project. This was a fatal choice, you'll read in a bit why *(Exiting)*. I'll mention a few things about my tests first, `CheckWord()` is the API request to my API wrapper (word-service). You can find this method underneath the test code block. I send a word to word-service, word-service checks the word at external API, gets something back, and sends it back to the frontend. Few important things to mention, To execute this test, the external API and my word-service both have to be running. Since the external API runs 24/7 I didn't mention it in the comment above the test. 
 
-Another thing, as you might know, I buildt a API rate limit for the external API, this rate limit sits at 1 request per 5 seconds for more details about the rate limit, i added it below the `CheckWord()` codeblock. You might see the problem, I do 2 tests rapidly after each other, so how can i prevent hitting this API rate limit? I did this by putting delay in my test. `jest.setTimeout(10000)` means the max amount of ms a test gets. with `    await new Promise((r) => setTimeout(r, 5000));` I make a request that takes 5000 ms, this way the tests prevent hitting my own rate limit.
+Another thing, as you might know, I built an API rate limit for the external API, this rate limit sits at 1 request per 5 seconds for more details about the rate limit, I added it below the `CheckWord()` code block. You might see the problem, I do 2 tests rapidly after each other, so how can I prevent hitting this API rate limit? I did this by putting delay in my test. `jest.setTimeout(10000)` means the max amount of milliseconds a test gets, so if the test takes longer than 10 seconds it stops. with `await new Promise((r) => setTimeout(r, 5000));` I make a request that takes 5000 milliseconds, this way the tests prevents hitting my own rate limit.
 
 *[word-service.test.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/master/src/test/word-service.test.tsx)*
 ```ts
@@ -682,9 +687,10 @@ export const CheckWord = async (word: string) => {
             .build();
 ```
 
-I also tried to write tests for the connection between my frontend and backend. For some reason this was the only thing i kept testing myself by starting up my application, so unlike the others this test has been made after the functionality already worked. But still it's usefull in the end, because if I'm able to test it, i dont have to run my app 1000 times a day.
+#### Integration testing Reverse-Hangman-Online-Frontend and Reverse-Hangman-Online-Backend with jest-dom
+I also tried to write tests for the connection between my frontend and backend. For some reason, this was the only thing I kept testing myself by starting up my application, so unlike the other tests, this test has been made after the functionality already worked. But still, in the end it's useful, because if I'm able to test it with some code, I don’t have to run my app 1000 times a day and test it myself.
 
-In the following test I want to test if my frontend correctly gets the goal from the backend. I do that with 3 seperate tests. I don't use parameterized tests since jest-dom doesn't support parameterized testing. Also doesn't jest-dom support disabling CORS policy, this makes the entire test useless. This was a very good lesson for me to make a thoughtful choice when choosing a testing library.
+In the following test I want to test if my frontend correctly gets the goal from the backend. I do that with 3 separate tests. I don't use parameterized tests since jest-dom doesn't support parameterized testing. Also doesn't jest-*dom* support disabling CORS policy, this makes the entire test useless. This was a very good lesson for me to make a thoughtful choice when choosing a testing library.
 
 *[GetGoal.tsx](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/blob/master/src/test/rho-backend/GetGoal.tsx), this test should actually be named `GetGoal.test.tsx` but since it doesn't work I had to remove it from my tests*
 ```ts
@@ -731,7 +737,46 @@ test("Get Goal (even: 6))", async () => {
 ```
 
 ### Regression Testing
-As regressiion testing, I test all my unit tests where i specifically test logic. For example, I test the way lives get calculated everytime i pull request to master. In my continious integration pipelines I don't only build my application, but I also test them. I've added links to all my CI pipelines so you can check them out yourself. Here's a quick example what it looks like in my pipeline. Somewhere in the middle I have an action named `Test` that's where the tests happen.
+As regression testing, I test all my unit tests where I specifically test logic. For example, I test the way lives get calculated every time I pull request to master. In my continuous integration pipelines I don't only build my application, but I also test them. I've added links to all my CI/CD pipelines so you can check them out yourself. Here's one of my pipelines, somewhere in the middle I have an action named `Test` that's where the tests happen.
+
+
+*reverse-hangman-backend-online CI/CD pipeline, [dotnet.yml](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/blob/master/.github/workflows/dotnet.yml)*
+```yml
+name: .NET
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
+    - name: Docker Build & Push Action
+      uses: mr-smithers-excellent/docker-build-push@v5.6
+      with:
+        image: crossychainsaw/reverse-hangman-online-backend
+        tags: latest
+        registry: docker.io
+        dockerfile: Dockerfile
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+```
 
 *A regression test I execute when a pull request occurs to master, [LivesTest.cs](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/blob/master/Test/LivesTest.cs)*
 ```cs 
@@ -817,44 +862,6 @@ public class LivesTest
     }  
 
 ``` 
-
-*reverse-hangman-backend-online CI/CD pipeline, [dotnet.yml](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-backend/blob/master/.github/workflows/dotnet.yml)*
-```yml
-name: .NET
-
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v3
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v2
-      with:
-        dotnet-version: 6.0.x
-    - name: Restore dependencies
-      run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
-    - name: Docker Build & Push Action
-      uses: mr-smithers-excellent/docker-build-push@v5.6
-      with:
-        image: crossychainsaw/reverse-hangman-online-backend
-        tags: latest
-        registry: docker.io
-        dockerfile: Dockerfile
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
-```
 *Links to my CI/CD pipelines*
 
 [Reverse Hangman Online Frontend CI/CD](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/actions/workflows/node.js.yml)
@@ -869,26 +876,24 @@ jobs:
 In a system test you test a walkthrough from one point to another. For example, in my web game that would be from start page, to playing a full round of the game. Or from start of the game to the rules section. Or from the rules section all the way to play a full round of the game. This concept I just explained also goes as End-to-End testing.
 
 #### End-to-End Testing
-In my current application end-to-end testing could be very interesting, why you would ask? Well, basically my entire project consists of user inputs. The user chooses what word to guess and the user chooses a letter to guess. Further on in the game, the user has to choose if he wants to gamble his points for double or nothing. After a full round of playing, the Game-Statistics-Service should save all the results to the database. Since there is so much user input involved, there can be many different outcomes. It takes a while to test this all myself everytime. Sadly it's not possible yet to play a full round in my game, neither does the saving to a database work. Therefore i can't build the test yet. 
+In my current application end-to-end testing could be very interesting. Why you would ask? Well, basically my entire project consists of user inputs. The user chooses what word to guess and the user chooses a letter to guess. Further on in the game, the user has to choose if he wants to gamble his points for double or nothing. After a full round of playing, the Game-Statistics-Service should save all the results to the database. Since the user can choose the word they want and guess any letter in any order, there can be many different outcomes. It takes a while to test this all myself. Especially if I have to do this multiple times. Sadly it's not possible yet to play a full round in my game, neither does the saving to a database work. Therefore I can't build the test yet.
 
-I did prepare by writing out the end-to-end scenarios i want to test. You can find them back here.
+I did prepare by writing out the end-to-end scenarios I want to test. You can find them back here.
 
 [US25: End-to-End testing, walkthrough entire project](https://github.com/Epic-Chainsaw-Massacre/reverse-hangman-online-frontend/issues/16)
 
 
 ## Static Code Analysis
-For code analysis i've made use of SonarCloud. I chose SonarCloud since a classmate of mine told me it is pretty easy to setup via SonarCloud. After a pull request to master, the SonarCloud code analysis get executed. Using code analysis i can easily find vulnerabilities in my code.
+For code analysis I’ve made use of SonarCloud. I chose SonarCloud since a classmate of mine told me it is pretty easy to setup via SonarCloud. After a pull request to master, the SonarCloud code analysis get executed. Using code analysis I can easily find vulnerabilities in my code.
 
 ![image](https://user-images.githubusercontent.com/74303221/173247608-e802e311-4316-4a2a-96d0-318d8b2dcf75.png)
-
-Right now I only got the SonarCloud code analysis working on 2 out of 4 repositories. My goal is to have code analysis in every repository, so all of my repositories will have better code. Update, I got it working on all 4 :D
 
 ### Code Smells
 Currently SonarCloud doesn't detect any bugs or vulnerabilities in my services, except the backend. It also detects a few code smells.  
 
 ![image](https://user-images.githubusercontent.com/74303221/174443500-266b7595-c670-4e03-a0cb-f43086a77162.png)
 
-The backend bug is no surprise. The entire code is such a mess so no surprise.
+The backend bug is no surprise. It refers to that I have multiple classes in a namespace, and honestly the entire code is such a mess so no surprise.
 
 *Backend bug*
 
@@ -901,7 +906,18 @@ The backend bug is no surprise. The entire code is such a mess so no surprise.
 My goal with SonarCloud is to review the code smells and bugs, and fix them. If SonarCloud notifies me that there are problems I will solve them first before merging my pull request.
 
 ## Code Reviews
-Inside the group project we didn't have structured moment where we would review each others' code. We have done [Pair Programming](https://en.wikipedia.org/wiki/Pair_programming) often online and on location. When Pair Programming, one person codes and the others observes it, giving real time feedback. Examples were that one of our group members was coding in Dutch while the others were programming in English, so we told him it would be better if he also coded in English. Another example is that one of my group members advised me to pull out all API requests out of the code, and put it in a seperate file. This way the API requests are all together and is it easier to find them and edit them. Also did my classmate multiplpe times tell me I shouldn't use classes over functions in React-TypeScript, and I kept telling him he should use functions over classes, but neither of us had a good argumentation why. So we had some forms of code reviews but we didn't take code reviews that seriously.
+Inside the group project we didn't have structured moment where we would review each others' code. We have done [Pair Programming](https://en.wikipedia.org/wiki/Pair_programming) often online and on location. When Pair Programming, one person codes and the others observes it, giving real time feedback. Here are some code review examples. 
+
+### Coding language
+One of our group members was coding in Dutch while the others were programming in English, so we told him it would be better if he also coded in English. 
+
+### API requests 
+Another example is that one of my group members advised me to pull out all API requests out of the code, and put it in a separate file. This way the API requests are all together and is it easier to find them and edit them.
+
+### Classes vs Functions
+Also did my classmate multiple times tell me I should use classes over functions in React-TypeScript, and I kept telling him he should use functions over classes, but neither of us had a good argumentation why. 
+
+So in the end, we had some forms of code reviews but we didn't take code reviews too seriously.
 
 # Learning Outcome 4: CI/CD
 *You **design and implement** a (semi)automated software release process that matches the needs of the project context.*
