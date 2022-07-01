@@ -1048,7 +1048,7 @@ You choose and substantiate solutions for a given problem.
 ## Feedback
 This semester started off with the teacher [Leon van Bokhorst](https://github.com/leonvanbokhorst). I asked him weekly feedback, sadly you won't be able to find it all back in my FeedPulse PDF Report, since sometimes my teacher forgot to open a feedpulse session. Leon has motivated me a lot throughout the semester, and definitely turned this boring documentation focussed semester into a fun semester. Later in the semester, the last 3 weeks, I got 2 new teachers, [Jean-Paul Ligthart](https://github.com/jpligthart) and [Timo Hermans](https://github.com/timohermans). I also tried to speak both of them once a week.
 
-[FeedPulse PDF Report](https://github.com/CrossyChainsaw/Portfolio/tree/master/FeedPulse%20Report)
+[FeedPulse PDF Report](https://github.com/CrossyChainsaw/Portfolio/tree/master/Semester%203%20-%20Software/FeedPulse%20Report)
 
 ## Researches
 Researches are mentioned in the bottom of the document, click on the link to teleport there.
@@ -1565,7 +1565,7 @@ For this research I made use of the [DOT framework](https://ictresearchmethods.n
 
 I've put the document with the research in it in my portfolio, Because it's so big you have to download it.
 
-[Database Research](https://github.com/CrossyChainsaw/Portfolio/tree/master/Database%20Research)
+[Database Research](https://github.com/CrossyChainsaw/Portfolio/tree/master/Semester%203%20-%20Software/Database%20Research)
 
 ## How do I protect the URLs my microservices use to communicate against DDoS attacks?
 First I asked myself 3 questions. What do I want to research, why do I want to research it, and how do I want to research it.
@@ -1578,7 +1578,7 @@ First I asked myself 3 questions. What do I want to research, why do I want to r
 
 I've put the document with the research in it in my portfolio.
 
-[Security Research](https://github.com/CrossyChainsaw/Portfolio/blob/master/Security%20Research/DDoS%20URL%20Research.pdf)
+[Security Research](https://github.com/CrossyChainsaw/Portfolio/tree/master/Semester%203%20-%20Software/Security%20Research)
 
 # Reflection
 
