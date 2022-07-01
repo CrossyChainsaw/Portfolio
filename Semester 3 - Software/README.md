@@ -78,9 +78,9 @@ Whilst reading you might encounter certain terms like IP, GP and S3, these refer
 # Products
 This semester I had to realise all the learning outcomes of semester 3. Per product I will explain how I realised the corresponding learning outcome. Here's a list with all the learning outcomes. I'll also include a list of requirements I have to realise this semester in my individual project.
 
-[Learning Outcomes S3](https://github.com/CrossyChainsaw/Portfolio/blob/master/School%20Vault/Learning%20Outcomes%20S3.pdf)
+[Learning Outcomes S3](https://github.com/CrossyChainsaw/Portfolio/blob/master/Semester%203%20-%20Software/School%20Vault/Learning%20Outcomes%20S3.pdf)
 
-[List of requirements Individual Project](https://github.com/CrossyChainsaw/Portfolio/blob/master/School%20Vault/What%20should%20be%20covered%20in%20my%20individual%20project.pdf)
+[List of requirements Individual Project](https://github.com/CrossyChainsaw/Portfolio/blob/master/Semester%203%20-%20Software/School%20Vault/What%20should%20be%20covered%20in%20my%20individual%20project.pdf)
 
 # Reverse Hangman Online
 Reverse Hangman Online is a game I made for my individual project. I will explain per learning outcome how I realised it with my individual project. Everything about Reverse Hangman Online itself can be found in its documentation.
