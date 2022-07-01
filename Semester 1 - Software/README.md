@@ -1,4 +1,4 @@
 # Semester 1 - Software
-Here I present all products i worked on in semester 1 software.
+Here I showcase all products I made this semester.
 
-w.i.p.
+*Work in progress*
